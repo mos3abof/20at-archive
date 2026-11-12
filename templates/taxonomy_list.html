@@ -21,7 +21,8 @@
   </header>
   <ul class="ar-author-grid" role="list" data-writer-list>
     {%- for term in terms | sort(attribute="page_count") | reverse %}
-    {%- set a = ad | get(key=term.name, default={}) %}
+    {%- set a = ad | default(value={}) | get(key=term.name, default={}) %}
+  
     <li style="--ct: {{ a.colour | default(value='#666666') }}">
       <a class="ar-author-card" href="{{ term.permalink | safe }}">
         <span class="ar-author-card__initial" aria-hidden="true">{{ a.initial | default(value=term.name | truncate(length=1, end="")) }}</span>
