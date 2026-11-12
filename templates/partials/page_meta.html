@@ -11,11 +11,11 @@
   {#- 20at archive: the article's section, if it has one, as its coloured 2009 tag linked to its page
       (colours from config.extra.twenty2009_sections / _editions; styled in css/twenty2009.css). #}
   {%- if p.taxonomies.sections is defined and p.taxonomies.sections | length > 0 %}
-  {%- set sname = p.taxonomies.sections[0] %}
-  {%- set_global scolour = "#888888" %}
-  {%- for s in config.extra.twenty2009_sections %}{% if s.name == sname %}{% set_global scolour = s.colour %}{% endif %}{% endfor %}
-  {%- for s in config.extra.twenty2009_editions %}{% if s.name == sname %}{% set_global scolour = s.colour %}{% endif %}{% endfor %}
-  {%- set sec_url = get_taxonomy_url(kind="sections", name=sname, lang=lang, required=false) %}
+  {%- set sslug = p.taxonomies.sections[0] %}
+  {%- set sname = p.extra.section_name | default(value=sslug) %}
+  {%- set scolour = p.extra.section_colour | default(value="#888888") %}
+  {%- if not scolour %}{% set scolour = "#888888" %}{% endif %}
+  {%- set sec_url = get_taxonomy_url(kind="sections", name=sslug, lang=lang, required=false) %}
   <span class="t9-label t9-label--inline" style="--t9-label: {{ scolour }}">{% if sec_url %}<a href="{{ sec_url | safe }}"><span>{{ sname }}</span></a>{% else %}<span>{{ sname }}</span>{% endif %}</span>
   {%- endif %}
   {%- if show_time %}<span>{% set rt = <ar.num value={p.reading_time} /> %}{{ t.reading_time | replace(from="%n", to="<bdi>" ~ rt ~ "</bdi>") | safe }}</span>{% endif %}

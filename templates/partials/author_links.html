@@ -1,6 +1,9 @@
-{#- The authors of `p`, each a link to their page in the `authors` taxonomy when there is one. -#}
+{#- The authors of `p`, each a link to their page in the `authors` taxonomy when there is one. 20at archive:
+    p.authors are the names shown; p.taxonomies.authors the matching URL slugs (pipeline/slugs.py), same order. -#}
+{%- set slugs = p.taxonomies.authors | default(value=[]) -%}
 {%- for a in p.authors | default(value=[]) -%}
-{%- set a_url = get_taxonomy_url(kind="authors", name=a, lang=lang, required=false) -%}
+{%- set a_url = "" -%}
+{%- if loop.index0 < slugs | length %}{% set a_url = get_taxonomy_url(kind="authors", name=slugs[loop.index0], lang=lang, required=false) %}{% endif -%}
 {%- if a_url %}<a class="ar-author" href="{{ a_url | safe }}">{{ a }}</a>{% else %}{{ a }}{% endif -%}
 {%- if not loop.last %}{{ t.list_sep }}{% endif -%}
 {%- endfor -%}

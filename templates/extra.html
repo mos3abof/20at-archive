@@ -1,0 +1,17 @@
+{#- 20at archive: one of a special site's own pages (pipeline/extras.py, content/sites/): a team profile, the
+    visitors' messages, the observers' reports, a statement… Under the site's name and colour (from
+    data/sections.json), with a link back to the site and to the original page. -#}
+{%- extends "base.html" -%}
+{%- block main %}
+{%- set sd = load_data(path="data/sections.json", required=false) | default(value={}, boolean=true) %}
+{%- set s = sd | get(key=page.extra.site, default={}) %}
+<div class="al-page zt-main ar-extra" id="main" style="--ct: {{ s.colour | default(value='#666666') }}">
+  <header class="ar-extra__head">
+    <p class="ar-extra__kicker"><a class="hv-tag" href="{{ get_url(path='sections/' ~ page.extra.site ~ '/', trailing_slash=true) | safe }}">{{ s.name | default(value=page.extra.site) }}</a>
+      {%- if page.extra.kind %} <span>{{ page.extra.kind | replace(from="team", to="المنتخبات") | replace(from="messages", to="رسائل الزوّار") | replace(from="observers", to="تقارير المراقبين") | replace(from="events", to="أجندة") | replace(from="page", to="صفحة خاصة") }}</span>{% endif %}</p>
+    <h1 class="ar-extra__title">{{ page.title }}</h1>
+  </header>
+  <div class="al-prose zt-prose ar-extra__body">{{ page.content | safe }}</div>
+  <p class="ar-extra__source">من الموقع الأصلي: <a href="https://web.archive.org/web/{{ page.extra.archived | default(value='2010') }}/{{ page.extra.original_url }}" rel="noopener" target="_blank"><bdi>{{ page.extra.original_url }}</bdi></a> ↗</p>
+</div>
+{%- endblock main %}

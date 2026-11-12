@@ -1,0 +1,17 @@
+{#- 20at archive: one card of the sections index (taxonomy_list.html): `tm` is the term, `s` its entry in
+    data/sections.json. -#}
+{%- set s = sd | get(key=tm.name, default={}) %}
+<li class="ar-sec-card" style="--ct: {{ s.colour | default(value='#666666') }}">
+  <a class="ar-sec-card__name" href="{{ tm.permalink | safe }}">{{ s.name | default(value=tm.name) }}</a>
+  <p class="ar-sec-card__stats"><b><bdi>{{ <ar.num value={tm.pages | length} /> }}</bdi></b> {% if tm.pages | length == 1 %}مقال{% else %}مقالًا{% endif %}
+    {%- if s.first %} · <bdi>{{ s.first }}{% if s.last != s.first %}–{{ s.last }}{% endif %}</bdi>{% endif %}
+    {%- if s.n_writers %} · <bdi>{{ <ar.num value={s.n_writers} /> }}</bdi> كاتبًا{% endif %}</p>
+  {%- if s.bars %}
+  <div class="ar-sec-card__bars" role="img" aria-label="المقالات في كل سنة: {% for b in s.bars %}{{ b.year }}: {{ <ar.num value={b.count} /> }}{% if not loop.last %}، {% endif %}{% endfor %}">
+    {%- for b in s.bars %}<span title="{{ b.year }}: {{ <ar.num value={b.count} /> }}"><i style="block-size: {{ b.pct }}%"></i><small>{{ b.short }}</small></span>{% endfor %}
+  </div>
+  {%- endif %}
+  {%- if s.latest %}
+  <p class="ar-sec-card__latest"><span>الأحدث:</span> <a href="{{ get_url(path=s.latest.url, trailing_slash=true) | safe }}">{{ s.latest.title }}</a> <small>{{ s.latest.date }}</small></p>
+  {%- endif %}
+</li>

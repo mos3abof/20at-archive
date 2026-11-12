@@ -31,6 +31,8 @@
 {% include "partials/footer.html" %}
 <a class="al-back-to-top" href="#top" data-after="{{ config.extra.page.back_to_top_after }}">{{ <zt.icon name="arrow-up" /> }}{{ t.back_to_top }}</a>
 {% include "partials/scripts.html" %}
+<script src="{{ get_url(path='js/header.js', cachebust=true) }}" defer></script>
+<script src="{{ get_url(path='js/search.js', cachebust=true) }}" defer></script>
 {%- block scripts %}{% endblock scripts %}
 </body>
 </html>

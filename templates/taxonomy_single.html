@@ -4,7 +4,9 @@
 {#- One term: the pages that have it, newest first, a page of them at a
     time when the taxonomy is paginated. -#}
 
-{%- block title %}{{ term.name }} · {{ config.title }}{% endblock title -%}
+{#- 20at archive: term.name is the URL slug (pipeline/slugs.py); the name shown comes from data/authors.json or
+    data/sections.json (keyed by slug). -#}
+{%- block title %}{% set td = load_data(path="data/" ~ taxonomy.name ~ ".json", required=false) | default(value={}, boolean=true) %}{{ td | get(key=term.name, default={}) | get(key="name", default=term.name) }} · {{ config.title }}{% endblock title -%}
 
 {%- block main %}
 {%- set name = t | get(key="taxonomy_" ~ taxonomy.name, default=taxonomy.name | capitalize) %}
@@ -15,12 +17,12 @@
 {%- set ad = load_data(path="data/authors.json", required=false) | default(value={}, boolean=true) %}
 {%- set a = ad | default(value={}, boolean=true) | get(key=term.name, default={}) %}
 {%- set date_fmt = t.date_format | replace(from=" y", to="") %}
-<div class="al-page zt-main ar-author" id="main" style="--ct: {{ a.colour | default(value='#666666') }}">
+<div class="al-page zt-main ar-writer" id="main" style="--ct: {{ a.colour | default(value='#666666') }}">
   <header class="ar-author__head">
-    <span class="ar-author__initial" aria-hidden="true">{{ a.initial | default(value=term.name | truncate(length=1, end="")) }}</span>
+    <span class="ar-author__initial" aria-hidden="true">{{ a.initial | default(value="•") }}</span>
     <div class="ar-author__intro">
       <p class="ar-author__kicker"><a href="{{ get_url(path='authors/', trailing_slash=true) | safe }}">{{ name }}</a></p>
-      <h1 class="ar-author__name">{{ term.name }}</h1>
+      <h1 class="ar-author__name">{{ a.name | default(value=term.name) }}</h1>
       <ul class="ar-author__stats" role="list">
         <li><b><bdi>{{ <ar.num value={term.pages | length} /> }}</bdi></b> {% if term.pages | length == 1 %}مقال{% else %}مقالًا{% endif %}</li>
         {%- if a.first %}<li><b><bdi>{{ a.first }}{% if a.last != a.first %}–{{ a.last }}{% endif %}</bdi></b> سنوات الكتابة</li>{% endif %}
@@ -29,7 +31,7 @@
       {%- if a.sections | default(value=[]) | length > 0 %}
       <ul class="ar-author__sections" role="list" aria-label="الأقسام">
         {%- for sx in a.sections %}
-        {%- set sx_url = get_taxonomy_url(kind="sections", name=sx.name, lang=lang, required=false) %}
+        {%- set sx_url = get_taxonomy_url(kind="sections", name=sx.slug, lang=lang, required=false) %}
         <li><a class="hv-tag" style="--ct: {{ sx.colour }}" href="{{ sx_url | default(value='#') | safe }}">{{ sx.name }} <bdi>{{ <ar.num value={sx.count} /> }}</bdi></a></li>
         {%- endfor %}
       </ul>
@@ -54,7 +56,7 @@
         <div class="ar-author__item">
           <a class="ar-author__title" href="{{ p.permalink | safe }}">{{ p.title }}</a>
           {%- if p.taxonomies.sections is defined and p.taxonomies.sections | length > 0 %}
-          {%- set sname = p.taxonomies.sections[0] %}
+          {%- set sname = p.extra.section_name | default(value=p.taxonomies.sections[0]) %}
           {%- set_global scolour = "#888888" %}
           {%- for sx in a.sections | default(value=[]) %}{% if sx.name == sname %}{% set_global scolour = sx.colour %}{% endif %}{% endfor %}
           <span class="hv-tag hv-tag--sm" style="--ct: {{ scolour }}">{{ sname }}</span>
@@ -67,6 +69,108 @@
     </ol>
   </section>
   {%- endif %}
+</div>
+{%- elif taxonomy.name == "sections" %}
+{#- 20at archive: a section's page: a header in the section's 2009 colour (its numbers and most frequent
+    writers), its most commented articles, a filter, then every article by year, newest first, with a
+    bar of years to jump to. Details from data/sections.json (pipeline/site.py, write_sections_data);
+    the filter is js/sections.js. #}
+{%- set sd = load_data(path="data/sections.json", required=false) | default(value={}, boolean=true) %}
+{%- set s = sd | default(value={}, boolean=true) | get(key=term.name, default={}) %}
+{%- set date_fmt = t.date_format | replace(from=" y", to="") %}
+<div class="al-page zt-main ar-section" id="main" style="--ct: {{ s.colour | default(value='#666666') }}">
+  <header class="ar-section__head">
+    <p class="ar-section__kicker"><a href="{{ get_url(path='sections/', trailing_slash=true) | safe }}">{{ name }}</a></p>
+    <h1 class="ar-section__name">{{ s.name | default(value=term.name) }}</h1>
+    <ul class="ar-author__stats" role="list">
+      <li><b><bdi>{{ <ar.num value={term.pages | length} /> }}</bdi></b> {% if term.pages | length == 1 %}مقال{% else %}مقالًا{% endif %}</li>
+      {%- if s.first %}<li><b><bdi>{{ s.first }}{% if s.last != s.first %}–{{ s.last }}{% endif %}</bdi></b> سنوات النشر</li>{% endif %}
+      {%- if s.n_writers %}<li><b><bdi>{{ <ar.num value={s.n_writers} /> }}</bdi></b> كاتبًا</li>{% endif %}
+      {%- if s.comments %}<li><b><bdi>{{ <ar.num value={s.comments} /> }}</bdi></b> تعليقًا من القرّاء</li>{% endif %}
+    </ul>
+    {%- if s.writers | default(value=[]) | length > 0 %}
+    <p class="ar-section__writers"><span>أكثر من كتب فيه:</span>
+      {%- for w in s.writers %}
+      {%- set w_url = get_taxonomy_url(kind="authors", name=w.slug, lang=lang, required=false) %}
+      <a href="{{ w_url | default(value='#') | safe }}">{{ w.name }} <bdi>({{ <ar.num value={w.count} /> }})</bdi></a>{% if not loop.last %}<span aria-hidden="true">·</span>{% endif %}
+      {%- endfor %}
+    </p>
+    {%- endif %}
+  </header>
+
+  {#- a special site's front page: what it was, its own pages, its recordings (pipeline/extras.py) #}
+  {%- if s.about %}<p class="ar-section__about">{{ s.about }}</p>{% endif %}
+  {%- if s.own | default(value=[]) | length > 0 or s.recordings | default(value=0) > 0 %}
+  <section class="ar-section__own" aria-labelledby="ar-own">
+    <h2 id="ar-own">من صفحات الموقع</h2>
+    <ul class="ar-own" role="list">
+      {%- for o in s.own | default(value=[]) %}
+      <li><a href="{{ get_url(path=o.url, trailing_slash=true) | safe }}"><span class="ar-own__kind">{{ o.label }}</span>{{ o.title }}</a></li>
+      {%- endfor %}
+      {%- if s.recordings | default(value=0) > 0 %}
+      <li><a href="{{ get_url(path='recordings/', trailing_slash=true) | safe }}"><span class="ar-own__kind">التسجيلات</span><bdi>{{ <ar.num value={s.recordings} /> }}</bdi> تسجيلًا صوتيًا ومرئيًا</a></li>
+      {%- endif %}
+    </ul>
+  </section>
+  {%- endif %}
+
+  {%- if s.best | default(value=[]) | length > 0 %}
+  <section class="ar-section__best" aria-labelledby="ar-best">
+    <h2 id="ar-best">الأكثر تعليقًا</h2>
+    <ol role="list">
+      {%- for b in s.best %}
+      <li><a href="{{ get_url(path=b.url, trailing_slash=true) | safe }}">{{ b.title }}</a>
+        <span class="ar-section__meta">{{ b.date }} · <bdi>{{ <ar.num value={b.n_comments} /> }}</bdi> تعليقًا</span></li>
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endif %}
+
+  <div class="ar-section__tools">
+    <label class="ar-sr" for="ar-section-filter">ابحث في {{ s.name | default(value=term.name) }}</label>
+    <input class="al-input ar-section__filter" id="ar-section-filter" type="search" placeholder="ابحث في العناوين والكتّاب…" autocomplete="off" data-section-filter>
+    <p class="ar-section__count" data-section-count aria-live="polite" hidden></p>
+    {%- if s.years | default(value=[]) | length > 1 %}
+    <nav class="ar-section__years" aria-label="السنوات">
+      {%- for y in s.years %}<a href="#ar-y-{{ y.year }}" data-year-link="{{ y.year }}">{{ y.label }} <bdi>{{ <ar.num value={y.count} /> }}</bdi></a>{% endfor %}
+    </nav>
+    {%- endif %}
+  </div>
+
+  <div data-section-list>
+  {%- set_global current_year = 0 %}
+  {%- for p in term.pages | sort(attribute="date") | reverse %}
+  {%- if p.year != current_year %}
+  {%- if current_year != 0 %}
+    </ol>
+  </section>
+  {%- endif %}
+  {%- set_global current_year = p.year %}
+  <section class="ar-author__year" id="ar-y-{{ p.year }}" data-year="{{ p.year }}">
+    <h2 class="ar-author__year-title"><bdi>{{ <ar.num value={p.year} /> }}</bdi></h2>
+    <ol class="ar-author__list ar-section__list" role="list">
+  {%- endif %}
+      <li>
+        <time class="ar-author__date" datetime="{{ p.date }}">{{ p.date | date(format=date_fmt, locale=t.date_locale) }}</time>
+        <div class="ar-author__item">
+          <a class="ar-author__title" href="{{ p.permalink | safe }}">{{ p.title }}</a>
+          <p class="ar-section__meta">
+            {%- if p.authors | default(value=[]) | length > 0 %}
+            {%- for au in p.authors %}<span class="ar-section__by">{{ au }}</span>{% if not loop.last %}، {% endif %}{% endfor %}
+            {%- endif %}
+            {%- if p.extra.n_comments and p.extra.n_comments > 0 %}<span class="ar-section__cm"><bdi>{{ <ar.num value={p.extra.n_comments} /> }}</bdi> تعليقًا</span>{% endif %}
+          </p>
+          {%- if p.extra.summary %}<p class="ar-author__summary">{{ p.extra.summary | truncate(length=170) }}</p>{% endif %}
+        </div>
+        {%- if p.extra.thumb %}<img class="ar-section__thumb" src="{{ get_url(path=p.extra.thumb) | safe }}" alt="" loading="lazy">{% endif %}
+      </li>
+  {%- endfor %}
+  {%- if current_year != 0 %}
+    </ol>
+  </section>
+  {%- endif %}
+  </div>
+  <p class="ar-authors-none" data-section-none hidden>لا توجد مقالات تطابق البحث.</p>
 </div>
 {%- else %}
 <div class="al-page zt-main">
@@ -83,3 +187,4 @@
 </div>
 {%- endif %}
 {%- endblock main %}
+{%- block scripts %}{% if taxonomy.name == "sections" %}<script src="{{ get_url(path='js/sections.js', cachebust=true) }}" defer></script>{% endif %}{% endblock scripts %}

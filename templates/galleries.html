@@ -1,0 +1,23 @@
+{#- 20at archive: the photo galleries (data/galleries.json, pipeline/extras.py): what survived of each. -#}
+{%- extends "base.html" -%}
+{%- block main %}
+{%- set rows = load_data(path="data/galleries.json", required=false) | default(value=[], boolean=true) %}
+<div class="al-page zt-main ar-extra" id="main">
+  <header class="ar-authors-head">
+    <h1>{{ section.title }} <span class="ar-authors-head__count"><bdi>{{ <ar.num value={rows | length} /> }}</bdi> ألبومًا</span></h1>
+    <p class="ar-authors-head__lede">{{ section.description }} لم يحفظ الأرشيف معظم الصور؛ يظهر هنا ما بقي منها.</p>
+  </header>
+  <ul class="ar-galleries" role="list">
+    {%- for g in rows %}
+    <li class="ar-gallery">
+      <h2 class="ar-gallery__title">{{ g.title }}</h2>
+      {%- if g.text %}<p class="ar-gallery__text">{{ g.text }}</p>{% endif %}
+      {%- if g.photos | length > 0 %}
+      <div class="ar-gallery__photos">{% for ph in g.photos %}<a href="{{ ph | safe }}"><img src="{{ ph | safe }}" alt="" loading="lazy"></a>{% endfor %}</div>
+      {%- else %}<p class="ar-gallery__lost">(لم تُحفظ صور هذا الألبوم)</p>{% endif %}
+      <p class="ar-gallery__src"><a href="https://web.archive.org/web/{{ g.year }}/{{ g.original }}" rel="noopener" target="_blank">الألبوم في موقع الأرشيف ↗</a></p>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>
+{%- endblock main %}
