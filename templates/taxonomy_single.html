@@ -12,8 +12,8 @@
 {#- 20at archive: a writer's page: a profile (initial in the colour of the section they wrote most for,
     their numbers, the sections they wrote for), then all their articles by year, newest first.
     Their details come from data/authors.json (pipeline/site.py, write_authors_data). #}
-{%- set ad = load_data(path="data/authors.json", required=false) | default(value={}) %}
-{%- set a = ad | get(key=term.name, default={}) %}
+{%- set ad = load_data(path="data/authors.json", required=false) | default(value={}, boolean=true) %}
+{%- set a = ad | default(value={}, boolean=true) | get(key=term.name, default={}) %}
 {%- set date_fmt = t.date_format | replace(from=" y", to="") %}
 <div class="al-page zt-main ar-author" id="main" style="--ct: {{ a.colour | default(value='#666666') }}">
   <header class="ar-author__head">

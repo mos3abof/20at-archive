@@ -12,7 +12,7 @@
   {%- if taxonomy.name == "authors" and terms | length > 0 %}
   {#- 20at archive: the writers as cards, most articles first, with a filter (js/authors.js);
       their details come from data/authors.json (pipeline/site.py, write_authors_data). #}
-  {%- set ad = load_data(path="data/authors.json", required=false) | default(value={}) %}
+  {%- set ad = load_data(path="data/authors.json", required=false) | default(value={}, boolean=true) %}
   <header class="ar-authors-head">
     <h1>{{ name }} <span class="ar-authors-head__count"><bdi>{{ <ar.num value={terms | length} /> }}</bdi> كاتبًا</span></h1>
     <p class="ar-authors-head__lede">كل من كتب في عشرينات، من الأكثر كتابةً إلى الأقل.</p>
@@ -21,7 +21,7 @@
   </header>
   <ul class="ar-author-grid" role="list" data-writer-list>
     {%- for term in terms | sort(attribute="page_count") | reverse %}
-    {%- set a = ad | default(value={}) | get(key=term.name, default={}) %}
+    {%- set a = ad | default(value={}, boolean=true) | get(key=term.name, default={}) %}
   
     <li style="--ct: {{ a.colour | default(value='#666666') }}">
       <a class="ar-author-card" href="{{ term.permalink | safe }}">
