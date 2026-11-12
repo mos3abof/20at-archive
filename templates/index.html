@@ -6,7 +6,7 @@
       2. a timeline: one bar per month, stacked by section colour, linking to the archive's years;
       3. the sections as shelves: count and years, the latest article, three headlines, "more";
       4. the writers, tinted with the section they wrote most for, 5. "on this day" as a ribbon
-      (js/home.js), 6. each section's five most commented articles.
+      (js/home.js), 6. each section's five most commented articles, 7. "on this day" as a ribbon (js/home.js).
     Its data is in content/_index.md's front matter (pipeline/site.py, home_data). Section
     colours as borders and bars are the 2009 ones; where white text sits on them, the text-safe
     shade (text_colour, WCAG AA) is used. Styled in css/home-v2.css, which also slims the header on
@@ -19,53 +19,55 @@
 {%- set archive_url = get_url(path="@/archive.md") %}
 <div class="al-page zt-main hv-home" id="main">
 
-  {#- 1 and 2 side by side: the archive at a glance, and the timeline (stacked on narrow screens) #}
-  <div class="hv-top">
-  {#- 1. the archive at a glance #}
-  <section class="hv-intro" aria-labelledby="hv-title">
-    <h1 class="hv-intro__title" id="hv-title">{{ e.heading | default(value=section.title) }}</h1>
-    <p class="hv-intro__lede">موقع الشباب العربي، من <bdi>{{ <ar.num value={e.first} /> }}</bdi> إلى <bdi>{{ <ar.num value={e.last} /> }}</bdi>، كما حفظه أرشيف الإنترنت.</p>
-    <ul class="hv-stats" role="list">
-      <li><a href="{{ get_url(path='@/articles/_index.md') | safe }}"><b><bdi>{{ <ar.num value={e.n_articles} /> }}</bdi></b> مقالًا</a></li>
-      <li><a href="{{ get_url(path='authors/', trailing_slash=true) | safe }}"><b><bdi>{{ <ar.num value={e.n_writers} /> }}</bdi></b> كاتبًا</a></li>
-      <li><a href="{{ archive_url | safe }}"><b><bdi>{{ <ar.num value={e.n_years} /> }}</bdi></b> سنوات</a></li>
-      <li><b><bdi>{{ <ar.num value={e.n_comments} /> }}</bdi></b> تعليقًا</li>
-    </ul>
-  </section>
-
-  {#- 2. the timeline #}
-  <section class="hv-block hv-timeline" aria-labelledby="hv-tl-title">
-    <h2 class="hv-block__title" id="hv-tl-title">عشرينات شهرًا بشهر</h2>
-    <div class="hv-tl" role="list">
-      {%- for y in e.years %}
-      <div class="hv-tl__year" role="listitem">
-        <div class="hv-tl__bars">
-          {%- for m in y.months %}
-          <a class="hv-tl__bar" href="{{ archive_url | safe }}#zt-year-{{ y.year }}" style="--h: {{ m.pct }}%"
-             {% set tot = <ar.num value={m.total} /> %}title="{{ m.label }}: {{ tot }} مقالًا" aria-label="{{ m.label }}: {{ tot }} مقالًا">
-            {%- for sg in m.segs %}<span style="--c: {{ sg.colour }}; flex-grow: {{ sg.n }}"></span>{% endfor -%}
-          </a>
-          {%- endfor %}
-        </div>
-        <a class="hv-tl__label" href="{{ archive_url | safe }}#zt-year-{{ y.year }}"><bdi>{{ <ar.num value={y.year} /> }}</bdi> <span>({{ <ar.num value={y.count} /> }})</span></a>
+  {#- 1 and 2 merged into one full-width block: the archive at a glance (title, what it is, the numbers),
+      then the month-by-month timeline across the whole width, with its legend #}
+  <section class="hv-hero" aria-labelledby="hv-title">
+    <div class="hv-hero__head">
+      <div class="hv-hero__intro">
+        <h1 class="hv-hero__title" id="hv-title">{{ e.heading | default(value=section.title) }}</h1>
+        <p class="hv-hero__lede">من <bdi>{{ <ar.num value={e.first} /> }}</bdi> إلى <bdi>{{ <ar.num value={e.last} /> }}</bdi>، كما حفظه أرشيف الإنترنت.</p>
       </div>
-      {%- endfor %}
+      <ul class="hv-hero__stats" role="list">
+        <li><a href="{{ get_url(path='@/articles/_index.md') | safe }}"><b><bdi>{{ <ar.num value={e.n_articles} /> }}</bdi></b> مقالًا</a></li>
+        <li><a href="{{ get_url(path='authors/', trailing_slash=true) | safe }}"><b><bdi>{{ <ar.num value={e.n_writers} /> }}</bdi></b> كاتبًا</a></li>
+        <li><a href="{{ archive_url | safe }}"><b><bdi>{{ <ar.num value={e.n_years} /> }}</bdi></b> سنوات</a></li>
+        <li><span><b><bdi>{{ <ar.num value={e.n_comments} /> }}</bdi></b> تعليقًا</span></li>
+      </ul>
     </div>
-    <ul class="hv-legend" role="list" aria-label="الأقسام بالألوان">
-      {%- for s in config.extra.twenty2009_sections %}<li style="--c: {{ s.colour }}">{{ s.name }}</li>{% endfor %}
-      {%- for s in config.extra.twenty2009_editions %}<li style="--c: {{ s.colour }}">{{ s.name }}</li>{% endfor %}
-      <li style="--c: #BBBBBB">بلا قسم</li>
-    </ul>
+    <div class="hv-hero__chart">
+      {#- no visible heading (user's choice); the chart keeps its name for screen readers #}
+      <div class="hv-tl" role="list" aria-label="عشرينات شهرًا بشهر: كل عمود شهر، ملوّن بأقسامه">
+        {%- for y in e.years %}
+        <div class="hv-tl__year" role="listitem" style="--n: {{ y.months | length }}">
+          <div class="hv-tl__bars">
+            {%- for m in y.months %}
+            <a class="hv-tl__bar" href="{{ archive_url | safe }}#zt-year-{{ y.year }}" style="--h: {{ m.pct }}%"
+               {% set tot = <ar.num value={m.total} /> %}title="{{ m.label }}: {{ tot }} مقالًا" aria-label="{{ m.label }}: {{ tot }} مقالًا">
+              {%- for sg in m.segs %}<span style="--c: {{ sg.colour }}; flex-grow: {{ sg.n }}"></span>{% endfor -%}
+            </a>
+            {%- endfor %}
+          </div>
+          {#- a partial year (fewer than 6 months) is too narrow for its count: the year only, the count on hover #}
+          {%- set ycount = <ar.num value={y.count} /> %}
+          <a class="hv-tl__label{% if y.months | length < 6 %} hv-tl__label--short{% endif %}" href="{{ archive_url | safe }}#zt-year-{{ y.year }}" title="{{ ycount }} مقالًا"><bdi>{{ <ar.num value={y.year} /> }}</bdi>{% if y.months | length >= 6 %} <span>({{ ycount }})</span>{% endif %}</a>
+        </div>
+        {%- endfor %}
+      </div>
+      <ul class="hv-legend" role="list" aria-label="الأقسام بالألوان">
+        {%- for s in config.extra.twenty2009_sections %}<li style="--c: {{ s.colour }}">{{ s.name }}</li>{% endfor %}
+        {%- for s in config.extra.twenty2009_editions %}<li style="--c: {{ s.colour }}">{{ s.name }}</li>{% endfor %}
+        {%- for s in config.extra.twenty2009_special | default(value=[]) %}<li style="--c: {{ s.colour }}">{{ s.name }}</li>{% endfor %}
+        <li style="--c: #BBBBBB">أقسام أخرى وبلا قسم</li>
+      </ul>
+    </div>
   </section>
-
-  </div>
 
   {#- 3. the sections as shelves #}
   <section class="hv-block" aria-labelledby="hv-sec-title">
     <h2 class="hv-block__title" id="hv-sec-title">الأقسام</h2>
     <div class="hv-shelves">
-      {%- for s in config.extra.twenty2009_all_sections %}
-      {%- set term = get_taxonomy_term(kind="sections", term=s.name, lang=lang, required=false) %}
+      {%- for s in config.extra.twenty2009_home_sections %}
+      {%- set term = get_taxonomy_term(kind="sections", term=s.slug, lang=lang, required=false) %}
       {%- if term and term.pages | length > 0 %}
       {%- set pages = term.pages | sort(attribute="date") | reverse %}
       {%- set oldest = pages | last %}
@@ -95,15 +97,70 @@
     </div>
   </section>
 
-  {#- 4. on this day (filled in by js/home.js; hidden without it) #}
+  {#- 4. the media: a poll and a recording side by side, each a random one of several (js/home.js picks;
+      without JS the first shows); their own block, between the sections and the writers (user's choice) #}
+      {%- set polls = load_data(path="data/polls.json", required=false) | default(value=[], boolean=true) %}
+      {%- set recs = load_data(path="data/recordings.json", required=false) | default(value=[], boolean=true) %}
+      {%- if polls | length + recs | length > 0 %}
+  <section class="hv-block" aria-labelledby="hv-media-title">
+    <h2 class="hv-block__title" id="hv-media-title">الوسائط</h2>
+    <div class="hv-extras">
+        {%- if polls | length > 0 %}
+        {%- set polls_url = get_url(path='polls/', trailing_slash=true) %}
+        <article class="hv-shelf hv-mini" style="--c: #006699; --ct: #006699" data-pick aria-labelledby="hv-mini-poll">
+          <header class="hv-shelf__head">
+            <a class="hv-tag" id="hv-mini-poll" href="{{ polls_url | safe }}">استفتاء</a>
+            <button class="hv-linkbutton" type="button" data-pick-next>استفتاء آخر ↻</button>
+          </header>
+          {%- for p in polls | sort(attribute="total") | reverse %}{% if loop.index <= 40 %}{# the 40 most voted #}
+          <div class="hv-pick"{% if not loop.first %} hidden{% endif %}>
+            <p class="ar-poll__q">{{ p.question }}</p>
+            <p class="ar-poll__meta"><bdi>{{ <ar.num value={p.total} /> }}</bdi> صوتًا · <bdi>{{ <ar.num value={p.year} /> }}</bdi></p>
+            <ul class="ar-poll__options" role="list">
+              {%- for o in p.options %}
+              <li><span class="ar-poll__label">{{ o.label }}</span>
+                <span class="ar-poll__bar"><i style="inline-size: {{ o.pct }}%"></i></span>
+                <span class="ar-poll__pct"><bdi>{{ <ar.num value={o.pct | round(precision=0) | int} /> }}٪</bdi></span></li>
+              {%- endfor %}
+            </ul>
+          </div>
+          {%- endif %}{% endfor %}
+          <a class="hv-more" href="{{ polls_url | safe }}">كل الاستفتاءات (<bdi>{{ <ar.num value={polls | length} /> }}</bdi>) ←</a>
+        </article>
+        {%- endif %}
+        {%- if recs | length > 0 %}
+        {%- set recs_url = get_url(path='recordings/', trailing_slash=true) %}
+        <article class="hv-shelf hv-mini" style="--c: #006699; --ct: #006699" data-pick aria-labelledby="hv-mini-rec">
+          <header class="hv-shelf__head">
+            <a class="hv-tag" id="hv-mini-rec" href="{{ recs_url | safe }}">تسجيل</a>
+            <button class="hv-linkbutton" type="button" data-pick-next>تسجيل آخر ↻</button>
+          </header>
+          {%- set_global first = true %}
+          {%- for r in recs %}
+          {%- if r.play == "audio" and r.articles | length > 0 %}
+          <div class="hv-pick"{% if not first %} hidden{% endif %}>
+            {%- set_global first = false %}
+            <a class="hv-mini__title" href="{{ r.articles[0].url | safe }}">{{ r.articles[0].title | default(value="المقال") }}</a>
+            <p class="ar-recording__meta">{{ r.kind }} · <bdi>{{ r.title }}</bdi> · <bdi>{{ <ar.num value={r.year} /> }}</bdi></p>
+            <audio class="ar-recording__player" controls preload="none" src="{{ r.file | safe }}"></audio>
+          </div>
+          {%- endif %}
+          {%- endfor %}
+          <a class="hv-more" href="{{ recs_url | safe }}">كل التسجيلات (<bdi>{{ <ar.num value={recs | length} /> }}</bdi>) ←</a>
+        </article>
+        {%- endif %}
+    </div>
+  </section>
+  {%- endif %}
 
   {#- 5. the writers #}
-  {%- if e.writers | default(value=[]) | length > 0 %}
+  {%- if e.writers | default(value=[]) | length + e.more_writers | default(value=[]) | length > 0 %}
   <section class="hv-block" aria-labelledby="hv-writers-title">
     <h2 class="hv-block__title" id="hv-writers-title">كتّاب عشرينات</h2>
+    {%- if e.writers | default(value=[]) | length > 0 %}
     <ul class="hv-writers" role="list">
       {%- for w in e.writers %}
-      {%- set w_url = get_taxonomy_url(kind="authors", name=w.name, lang=lang, required=false) %}
+      {%- set w_url = get_taxonomy_url(kind="authors", name=w.slug, lang=lang, required=false) %}
       <li style="--ct: {{ w.colour }}">
         <a href="{{ w_url | default(value='#') | safe }}">
           <span class="hv-writer__initial" aria-hidden="true">{{ w.initial }}</span>
@@ -113,48 +170,14 @@
       </li>
       {%- endfor %}
     </ul>
-    {%- set more = e.more_writers | default(value=[]) %}
-    {%- set n_all = e.writers | length + more | length %}
+    {%- endif %}
+    {#- the search and the folded list of all writers are on the authors page (taxonomy_list.html) #}
     <div class="hv-writers-more">
-      {%- if more | length > 0 %}
-      <details class="hv-allwriters">
-        <summary class="hv-allwriters__toggle">
-          <span class="hv-allwriters__open">عرض كل الكتّاب <bdi>({{ <ar.num value={n_all} /> }})</bdi></span>
-          <span class="hv-allwriters__close">إخفاء القائمة</span>
-          <svg class="hv-allwriters__chevron" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="M5.5 9.5l6.5 6.5 6.5-6.5" fill="none" stroke="currentColor" stroke-width="1.75"/></svg>
-        </summary>
-        <div class="hv-allwriters__panel">
-          <label class="hv-sr" for="hv-writer-filter">ابحث عن كاتب</label>
-          <input class="al-input hv-allwriters__filter" id="hv-writer-filter" type="search" placeholder="ابحث عن كاتب…" autocomplete="off" data-writer-filter>
-          <ul class="hv-allwriters__list" role="list" data-writer-list>
-            {%- for w in e.writers %}
-            {%- set w_url = get_taxonomy_url(kind="authors", name=w.name, lang=lang, required=false) %}
-            <li>{% if w_url %}<a href="{{ w_url | safe }}">{{ w.name }}</a>{% else %}{{ w.name }}{% endif %} <span class="hv-date"><bdi>{{ <ar.num value={w.count} /> }}</bdi></span></li>
-            {%- endfor %}
-            {%- for w in more %}
-            {%- set w_url = get_taxonomy_url(kind="authors", name=w.name, lang=lang, required=false) %}
-            <li>{% if w_url %}<a href="{{ w_url | safe }}">{{ w.name }}</a>{% else %}{{ w.name }}{% endif %} <span class="hv-date"><bdi>{{ <ar.num value={w.count} /> }}</bdi></span></li>
-            {%- endfor %}
-          </ul>
-          <p class="hv-allwriters__none" data-writer-none hidden>لا يوجد كاتب بهذا الاسم.</p>
-        </div>
-      </details>
-      {%- endif %}
       <a class="hv-button-outline" href="{{ get_url(path='authors/', trailing_slash=true) | safe }}">صفحة الكتّاب ←</a>
     </div>
   </section>
   {%- endif %}
 
-  {#- one random article per year, published on (or near) today's date; see js/home.js #}
-  <section class="hv-block hv-otd" aria-labelledby="hv-otd-title" data-otd data-src="{{ get_url(path='data/articles.json') | safe }}" hidden>
-    <h2 class="hv-block__title" id="hv-otd-title">في مثل هذا اليوم <span class="t9-otd__day"></span></h2>
-    <div class="hv-ribbon-wrap">
-      <button class="hv-ribbon__nav hv-ribbon__nav--back" type="button" data-ribbon="back" aria-label="السابق" title="السابق"><svg class="hv-ribbon__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M9.5 5.5l6.5 6.5-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.75"/></svg></button>
-      <ul class="hv-ribbon" role="list" tabindex="0" aria-label="مقالات من هذا اليوم في كل عام"></ul>
-      <button class="hv-ribbon__nav hv-ribbon__nav--next" type="button" data-ribbon="next" aria-label="التالي" title="التالي"><svg class="hv-ribbon__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M14.5 5.5l-6.5 6.5 6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.75"/></svg></button>
-    </div>
-    <p class="hv-block__foot"><button class="hv-linkbutton" type="button" data-reshuffle>اختيار آخر ↻</button> · <a href="#" data-random>مقال عشوائي من الأرشيف</a></p>
-  </section>
   {#- 6. each section's five most commented articles; the articles without a section (2004-06) last #}
   {%- if e.best | default(value=[]) | length > 0 %}
   <section class="hv-block" aria-labelledby="hv-best-title">
@@ -164,7 +187,7 @@
       <section class="hv-best__box" style="--ct: {{ b.colour }}" aria-label="{{ b.section }}">
         <h3 class="hv-best__head">
           {%- if b.has_section %}
-          {%- set b_url = get_taxonomy_url(kind="sections", name=b.section, lang=lang, required=false) %}
+          {%- set b_url = get_taxonomy_url(kind="sections", name=b.slug, lang=lang, required=false) %}
           <a class="hv-tag" href="{{ b_url | default(value='#') | safe }}">{{ b.section }}</a>
           {%- else %}<span class="hv-tag">{{ b.section }}</span>{% endif %}
         </h3>
@@ -184,6 +207,17 @@
     </div>
   </section>
   {%- endif %}
+
+  {#- 7. on this day: one random article per year, published on (or near) today's date; see js/home.js #}
+  <section class="hv-block hv-otd" aria-labelledby="hv-otd-title" data-otd data-src="{{ get_url(path='data/articles.json') | safe }}" hidden>
+    <h2 class="hv-block__title" id="hv-otd-title">في مثل هذا اليوم <span class="t9-otd__day"></span></h2>
+    <div class="hv-ribbon-wrap">
+      <button class="hv-ribbon__nav hv-ribbon__nav--back" type="button" data-ribbon="back" aria-label="السابق" title="السابق"><svg class="hv-ribbon__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M9.5 5.5l6.5 6.5-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.75"/></svg></button>
+      <ul class="hv-ribbon" role="list" tabindex="0" aria-label="مقالات من هذا اليوم في كل عام"></ul>
+      <button class="hv-ribbon__nav hv-ribbon__nav--next" type="button" data-ribbon="next" aria-label="التالي" title="التالي"><svg class="hv-ribbon__icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M14.5 5.5l-6.5 6.5 6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.75"/></svg></button>
+    </div>
+    <p class="hv-block__foot"><button class="hv-linkbutton" type="button" data-reshuffle>اختيار آخر ↻</button> · <a href="#" data-random>مقال عشوائي من الأرشيف</a></p>
+  </section>
 </div>
 {%- endblock main %}
 

@@ -1,26 +1,37 @@
-{#- 20at archive: the site header (overrides the theme's), a compact redesign in the 2009 colours:
-      - a thin stripe of the section colours across the top;
-      - the bar: the 20@ logo, the site's name and what it is (config.extra.tagline), the search field,
-        and the archive's links (config.extra.menu);
-      - the section bar (config.extra.twenty2009_menu, then "باقي الأقسام"), which stays at the top as the
-        page scrolls; each section underlined in its own colour when hovered or current.
-    The section bar sits after </header> so it can stick for the whole page. No script needed.
-    Styled in css/twenty2009.css ("header"). The 2009 banner header is partials/header_2009.html. -#}
-{%- set menu = config.extra.menu | get(key=lang, default=[]) -%}
+{#- 20at archive: the site header (overrides the theme's), in the 2009 colours. Three rows, one job each
+    (user's choice, 2026-11-13):
+      1. the bar: the 20@ logo and the site's name; the search, which suggests writers, sections, years,
+         pages and article titles as you type (js/search.js, static/search/); a random article (🎲);
+         on phones, ☰ opens row 2 as a drawer;
+      2. what kind of content (.t9-types): المقالات, الأقسام ▾ (every section, in groups, with its colour
+         and count), الكتّاب, الأرشيف ▾ (years, on this day, random), الوسائط ▾ (polls, recordings,
+         albums), ملفات خاصة ▾ (the special sites and their own pages), عن الأرشيف;
+      3. which section: the 2009 section bar (config.extra.twenty2009_menu), which stays at the top as the
+         page scrolls; each section underlined in its own colour when hovered or current.
+    The menus are native <details> (keyboard and touch friendly without a script); js/header.js only
+    closes the others when one opens, and on Esc or a click outside, and works the phone drawer.
+    Styled in css/twenty2009.css ("header") and css/header.css. The 2009 banner header is
+    partials/header_2009.html. -#}
 {%- set search_page = config.extra.search.page -%}
+{%- set here = current_path | default(value="") -%}
 {%- set active_section = "" -%}
 {%- if page is defined and page.taxonomies.sections is defined and page.taxonomies.sections | length > 0 -%}
   {%- set active_section = page.taxonomies.sections[0] -%}
 {%- elif term is defined and taxonomy is defined and taxonomy.name == "sections" -%}
-  {%- set active_section = term.name -%}
+  {%- set active_section = term.slug -%}
 {%- endif -%}
-<header class="t9h">
+{%- set secdata = load_data(path="data/sections.json", required=false) | default(value={}, boolean=true) -%}
+{%- set special = config.extra.twenty2009_special | default(value=[]) -%}
+{%- set_global special_active = false -%}{%- if "/sites/" in here %}{% set_global special_active = true %}{% endif -%}
+{%- for sx in special %}{% if sx.slug == active_section %}{% set_global special_active = true %}{% endif %}{% endfor -%}
+{%- set chevron = '<svg class="t9-drop__chevron" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false"><path d="M5.5 9.5l6.5 6.5 6.5-6.5" fill="none" stroke="currentColor" stroke-width="2"/></svg>' -%}
+<header class="t9h" data-t9h>
   <a class="al-skip-link" href="#main">{{ t.skip }}</a>
   <div class="t9h__stripe" aria-hidden="true">
     {%- for s in config.extra.twenty2009_sections %}<span style="--c: {{ s.colour }}"></span>{% endfor -%}
   </div>
   <div class="t9h__bar">
-    <a class="t9h__brand" href="{{ home_url | safe }}"{% if current_url is defined and current_url == home_url %} aria-current="page"{% endif %}>
+    <a class="t9h__brand" href="{{ home_url | safe }}"{% if here == "/" %} aria-current="page"{% endif %}>
       <img class="t9h__logo" src="{{ get_url(path='2009/logo.gif') }}" width="152" height="104" alt="">
       <span class="t9h__words">
         <span class="t9h__name">{{ config.title }}</span>
@@ -29,34 +40,139 @@
     </a>
     {%- if search_page %}
     {%- set search_url = <zt.url path={search_page} /> %}
-    <form class="t9h__search" role="search" action="{{ search_url | safe }}" method="get">
+    <form class="t9h__search" role="search" action="{{ search_url | safe }}" method="get" data-suggest
+          data-quick="{{ get_url(path='search/quick.json') | safe }}" data-articles="{{ get_url(path='search/articles.json') | safe }}">
       <label class="t9h__sr" for="t9h-q">{{ t.search_label }}</label>
-      <input class="t9h__input" id="t9h-q" name="q" type="search" placeholder="ابحث في {% if config.extra.n_articles %}{{ <ar.num value={config.extra.n_articles} /> }} مقالًا{% else %}الأرشيف{% endif %}…" autocomplete="off">
+      <input class="t9h__input" id="t9h-q" name="q" type="search" placeholder="ابحث في المقالات والكتّاب والأقسام…" autocomplete="off"
+             role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="t9h-suggest">
       <button class="t9h__go" type="submit" aria-label="{{ t.search }}" title="{{ t.search }}">{{ <zt.icon name="search" class="al-icon--sm" /> }}</button>
+      <ul class="t9h__suggest" id="t9h-suggest" role="listbox" aria-label="اقتراحات" hidden></ul>
     </form>
     {%- endif %}
-    {%- if menu | length > 0 %}
-    <nav class="t9h__util" aria-label="{{ t.footer_nav }}"><ul role="list">{% include "partials/menu_items.html" %}</ul></nav>
-    {%- endif %}
+    <a class="t9h__icon" href="{{ get_url(path='@/archive.md') | safe }}" data-random data-src="{{ get_url(path='data/articles.json') | safe }}" title="مقال عشوائي" aria-label="مقال عشوائي">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><rect x="3.5" y="3.5" width="17" height="17" rx="3" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="8.5" cy="8.5" r="1.4" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.4" fill="currentColor"/><circle cx="12" cy="12" r="1.4" fill="currentColor"/><circle cx="15.5" cy="8.5" r="1.4" fill="currentColor"/><circle cx="8.5" cy="15.5" r="1.4" fill="currentColor"/></svg>
+    </a>
+    <button class="t9h__icon t9h__menu" type="button" aria-expanded="false" aria-controls="t9-types" hidden data-menu-toggle>
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      <span class="t9h__sr">القائمة</span>
+    </button>
   </div>
+
+  <nav class="t9-types" id="t9-types" aria-label="محتوى الأرشيف">
+    <ul class="t9-types__list" role="list">
+      <li class="t9-types__home{% if here == '/' %} active{% endif %}"><a href="{{ home_url | safe }}" aria-label="{{ t.home }}" title="{{ t.home }}"{% if here == "/" %} aria-current="page"{% endif %}><svg class="t9-home-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false"><path d="M3.5 11 12 4l8.5 7M6 9.5V20h4.5v-5.5h3V20H18V9.5" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/></svg><span class="t9-types__phone">{{ t.home }}</span></a></li>
+
+      {%- set u = get_url(path="@/articles/_index.md") %}
+      {%- set on = false %}{% if "/articles/" in here %}{% set on = true %}{% endif %}
+      <li{% if on %} class="active"{% endif %}><a href="{{ u | safe }}"{% if here == "/articles/" %} aria-current="page"{% endif %}>المقالات</a></li>
+
+      {#- every section, in the groups of the sections page, each with its colour and article count #}
+      {%- set on = false %}{% if "/sections/" in here and not special_active %}{% set on = true %}{% endif %}
+      <li class="t9-types__drop{% if on %} active{% endif %}">
+        <details class="t9-drop" data-drop>
+          <summary class="t9-drop__toggle">الأقسام {{ chevron | safe }}</summary>
+          <div class="t9-drop__menu t9-mega">
+            {%- for grp in load_data(path="data/section_menu.json", required=false) | default(value=[], boolean=true) %}
+            <section class="t9-mega__group t9-mega__group--{{ grp.key }}">
+              {%- if grp.title %}<h2 class="t9-mega__title">{{ grp.title }}</h2>{% endif %}
+              <ul role="list">
+                {%- for r in grp.items %}
+                <li class="t9-mega__item{% if r.slug == active_section %} active{% endif %}" style="--t9-tab: {{ r.colour }}"><a href="{{ get_url(path='sections/' ~ r.slug ~ '/') | safe }}"{% if r.slug == active_section %} aria-current="page"{% endif %}>{{ r.name }} <bdi class="t9-mega__n">{{ <ar.num value={r.count} /> }}</bdi></a></li>
+                {%- endfor %}
+              </ul>
+            </section>
+            {%- endfor %}
+            <a class="t9-mega__all" href="{{ get_url(path='sections/', trailing_slash=true) | safe }}">صفحة الأقسام ←</a>
+          </div>
+        </details>
+      </li>
+
+      {%- set u = get_url(path="authors/", trailing_slash=true) %}
+      {%- set on = false %}{% if "/authors/" in here %}{% set on = true %}{% endif %}
+      <li{% if on %} class="active"{% endif %}><a href="{{ u | safe }}"{% if here == "/authors/" %} aria-current="page"{% endif %}>الكتّاب</a></li>
+
+      {%- set archive_url = get_url(path="@/archive.md") %}
+      {%- set on = false %}{% if "/archive/" in here %}{% set on = true %}{% endif %}
+      <li class="t9-types__drop{% if on %} active{% endif %}">
+        <details class="t9-drop" data-drop>
+          <summary class="t9-drop__toggle">الأرشيف {{ chevron | safe }}</summary>
+          <div class="t9-drop__menu">
+            <ul class="t9-drop__years" role="list">
+              {%- for y in config.extra.years | default(value=[]) %}<li><a href="{{ archive_url | safe }}#zt-year-{{ y }}"><bdi>{{ <ar.num value={y} /> }}</bdi></a></li>{% endfor %}
+            </ul>
+            <ul class="t9-drop__links" role="list">
+              <li><a href="{{ archive_url | safe }}">كل السنوات</a></li>
+              <li><a href="{{ home_url | safe }}#hv-otd-title">في مثل هذا اليوم</a></li>
+              <li><a href="{{ archive_url | safe }}" data-random data-src="{{ get_url(path='data/articles.json') | safe }}">مقال عشوائي</a></li>
+            </ul>
+          </div>
+        </details>
+      </li>
+
+      {%- set n_polls = load_data(path="data/polls.json", required=false) | default(value=[], boolean=true) | length %}
+      {%- set n_recs = load_data(path="data/recordings.json", required=false) | default(value=[], boolean=true) | length %}
+      {%- set n_gals = load_data(path="data/galleries.json", required=false) | default(value=[], boolean=true) | length %}
+      {%- set on = false %}{% if "/polls/" in here or "/recordings/" in here or "/galleries/" in here %}{% set on = true %}{% endif %}
+      <li class="t9-types__drop{% if on %} active{% endif %}">
+        <details class="t9-drop" data-drop>
+          <summary class="t9-drop__toggle">الوسائط {{ chevron | safe }}</summary>
+          <ul class="t9-drop__menu t9-drop__links" role="list">
+            {%- for m in [["polls/", "الاستفتاءات", n_polls], ["recordings/", "التسجيلات", n_recs], ["galleries/", "ألبومات الصور", n_gals]] %}
+            {%- set mu = get_url(path=m[0], trailing_slash=true) %}
+            <li{% if here == "/" ~ m[0] %} class="active"{% endif %}><a href="{{ mu | safe }}"{% if here == "/" ~ m[0] %} aria-current="page"{% endif %}>{{ m[1] }} <bdi class="t9-mega__n">{{ <ar.num value={m[2]} /> }}</bdi></a></li>
+            {%- endfor %}
+          </ul>
+        </details>
+      </li>
+
+      {%- if special | length > 0 %}
+      <li class="t9-types__drop{% if special_active %} active{% endif %}">
+        <details class="t9-drop" data-drop>
+          <summary class="t9-drop__toggle">ملفات خاصة {{ chevron | safe }}</summary>
+          <div class="t9-drop__menu t9-mega t9-mega--sites">
+            {%- for sx in special %}
+            {%- set su = get_taxonomy_url(kind="sections", name=sx.slug, lang=lang, required=false) %}
+            {%- if su %}
+            {%- set sd = secdata | get(key=sx.slug, default={}) %}
+            <section class="t9-mega__group" style="--t9-tab: {{ sx.colour }}">
+              <h2 class="t9-mega__site{% if sx.slug == active_section %} active{% endif %}"><a href="{{ su | safe }}"{% if sx.slug == active_section %} aria-current="page"{% endif %}>{{ sx.name }}</a></h2>
+              {%- set own = sd.own | default(value=[]) %}
+              {%- if own | length > 0 %}
+              <ul role="list">
+                {%- set_global n_teams = 0 %}
+                {%- for o in own %}
+                {%- if o.kind == "team" %}{% set_global n_teams = n_teams + 1 %}
+                {%- else %}<li{% if here == o.url %} class="active"{% endif %}><a href="{{ o.url | safe }}"{% if here == o.url %} aria-current="page"{% endif %}>{{ o.title }}</a></li>{% endif %}
+                {%- endfor %}
+                {%- if n_teams > 0 %}<li><a href="{{ su | safe }}#ar-own">المنتخبات <bdi class="t9-mega__n">{{ <ar.num value={n_teams} /> }}</bdi></a></li>{% endif %}
+              </ul>
+              {%- endif %}
+            </section>
+            {%- endif %}
+            {%- endfor %}
+          </div>
+        </details>
+      </li>
+      {%- endif %}
+
+      {%- set u = get_url(path="@/about.md") %}
+      <li class="t9-types__end{% if here == '/about/' %} active{% endif %}"><a href="{{ u | safe }}"{% if here == "/about/" %} aria-current="page"{% endif %}>عن الأرشيف</a></li>
+    </ul>
+  </nav>
 </header>
 <nav class="t9-subnav" aria-label="{{ t.sections }}">
   <div class="t9-subnav__inner">
     <ul class="t9-sections" role="list">
-      {%- set at_home = current_url is defined and current_url == home_url %}
-      <li{% if at_home %} class="active"{% endif %}><a href="{{ home_url | safe }}"{% if at_home %} aria-current="page"{% endif %}>{{ t.home }}</a></li>
       {%- for name in config.extra.twenty2009_menu %}
-      {%- set u = get_taxonomy_url(kind="sections", name=name, lang=lang, required=false) %}
       {%- set_global tab_colour = "#888888" %}
-      {%- for sx in config.extra.twenty2009_sections %}{% if sx.name == name %}{% set_global tab_colour = sx.colour %}{% endif %}{% endfor %}
-      {%- for sx in config.extra.twenty2009_editions %}{% if sx.name == name %}{% set_global tab_colour = sx.colour %}{% endif %}{% endfor %}
+      {%- set_global tab_slug = "" %}
+      {%- for sx in config.extra.twenty2009_sections %}{% if sx.name == name %}{% set_global tab_colour = sx.colour %}{% set_global tab_slug = sx.slug %}{% endif %}{% endfor %}
+      {%- for sx in config.extra.twenty2009_editions %}{% if sx.name == name %}{% set_global tab_colour = sx.colour %}{% set_global tab_slug = sx.slug %}{% endif %}{% endfor %}
+      {%- set u = get_taxonomy_url(kind="sections", name=tab_slug, lang=lang, required=false) %}
       {%- if u %}
-      <li class="t9-sections__sec{% if name == active_section %} active{% endif %}" style="--t9-tab: {{ tab_colour }}"><a href="{{ u | safe }}"{% if name == active_section %} aria-current="page"{% endif %}>{{ name }}</a></li>
+      <li class="t9-sections__sec{% if tab_slug == active_section %} active{% endif %}" style="--t9-tab: {{ tab_colour }}"><a href="{{ u | safe }}"{% if tab_slug == active_section %} aria-current="page"{% endif %}>{{ name }}</a></li>
       {%- endif %}
       {%- endfor %}
-      {%- set all_sections = get_url(path="sections/", trailing_slash=true) %}
-      {%- set at_all = current_url is defined and current_url == all_sections %}
-      <li{% if at_all %} class="active"{% endif %}><a href="{{ all_sections | safe }}"{% if at_all %} aria-current="page"{% endif %}>باقي الأقسام</a></li>
     </ul>
   </div>
 </nav>

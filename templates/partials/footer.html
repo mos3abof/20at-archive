@@ -1,39 +1,69 @@
-{#- 20at archive: the footer (overrides the theme's): on a light band, four columns — the site and
-    what this archive is; the sections, each with its colour; ways to browse; about the archive (the
-    feed, the original on the Wayback Machine) — then the stripe of section colours, as in the header.
-    Styled in css/twenty2009.css ("footer"). -#}
-{%- set footer = config.extra.footer -%}
-{%- set note = footer.text | get(key=lang, default="") -%}
+{#- 20at archive: the footer (overrides the theme's), on a light band:
+      - the site: the logo, what this archive is and its numbers, and a search field (on long pages it saves
+        the trip back up);
+      - the sections, each with its colour, and the special sites (ملفات خاصة);
+      - ways to browse, with a row of years straight into the archive;
+      - about the archive (how it was rebuilt, the original on the Wayback Machine, the feed);
+    then a bottom line (what this is and its cutoff; who made it; back to the top; no copyright or licence
+    lines, by the user's choice) and the stripe of
+    section colours, as in the header. Styled in css/twenty2009.css ("footer"). -#}
+{%- set archive_url = get_url(path="@/archive.md") -%}
 <footer class="t9f">
   <div class="t9f__inner">
     <div class="t9f__brand">
       <a class="t9f__lockup" href="{{ home_url | safe }}">
         <img src="{{ get_url(path='2009/logo.gif') }}" width="152" height="104" alt="" loading="lazy">
-        <!-- <span><strong>{{ config.title }}</strong>{% if config.extra.tagline %}<span>{{ config.extra.tagline }}</span>{% endif %}</span> -->
         <span><strong>{{ config.title }}</strong>{% if config.extra.tagline %}<span>{{ config.extra.tagline }}</span>{% endif %}</span>
       </a>
-      <!-- {%- if note %}<p class="t9f__note">{{ note | safe }}</p>{% endif %} -->
+      <p class="t9f__note">موقع شبابي عربي من القاهرة، كما حفظته لقطات أرشيف الإنترنت{% if config.extra.n_articles %}: <bdi>{{ <ar.num value={config.extra.n_articles} /> }}</bdi> مقالًا{% endif %}.</p>
+      {%- if config.extra.search.page %}
+      {%- set search_url = <zt.url path={config.extra.search.page} /> %}
+      <form class="t9f__search" role="search" action="{{ search_url | safe }}" method="get">
+        <label class="t9f__sr" for="t9f-q">{{ t.search_label }}</label>
+        <input class="t9f__input" id="t9f-q" name="q" type="search" placeholder="ابحث في الأرشيف…" autocomplete="off">
+        <button class="t9f__go" type="submit" aria-label="{{ t.search }}" title="{{ t.search }}">{{ <zt.icon name="search" class="al-icon--sm" /> }}</button>
+      </form>
+      {%- endif %}
     </div>
 
     <nav class="t9f__col" aria-labelledby="t9f-sections">
       <h2 class="t9f__title" id="t9f-sections">الأقسام</h2>
       <ul class="t9f__list t9f__list--sections" role="list">
         {%- for s in config.extra.twenty2009_all_sections %}
-        {%- set u = get_taxonomy_url(kind="sections", name=s.name, lang=lang, required=false) %}
+        {%- set u = get_taxonomy_url(kind="sections", name=s.slug, lang=lang, required=false) %}
         {%- if u %}<li style="--c: {{ s.colour }}"><a href="{{ u | safe }}">{{ s.name }}</a></li>{% endif %}
         {%- endfor %}
       </ul>
+      {%- set special = config.extra.twenty2009_special | default(value=[]) %}
+      {%- if special | length > 0 %}
+      <h3 class="t9f__subtitle">ملفات خاصة</h3>
+      <ul class="t9f__list t9f__list--sections" role="list">
+        {%- for s in special %}
+        {%- set u = get_taxonomy_url(kind="sections", name=s.slug, lang=lang, required=false) %}
+        {%- if u %}<li style="--c: {{ s.colour }}"><a href="{{ u | safe }}">{{ s.name }}</a></li>{% endif %}
+        {%- endfor %}
+      </ul>
+      {%- endif %}
     </nav>
 
     <nav class="t9f__col" aria-labelledby="t9f-browse">
       <h2 class="t9f__title" id="t9f-browse">تصفّح</h2>
       <ul class="t9f__list" role="list">
         <li><a href="{{ get_url(path='@/articles/_index.md') | safe }}">كل المقالات</a></li>
-        <li><a href="{{ get_url(path='@/archive.md') | safe }}">الأرشيف حسب السنة</a></li>
+        <li><a href="{{ archive_url | safe }}">الأرشيف حسب السنة</a></li>
         <li><a href="{{ get_url(path='authors/', trailing_slash=true) | safe }}">الكتّاب</a></li>
         <li><a href="{{ get_url(path='sections/', trailing_slash=true) | safe }}">كل الأقسام</a></li>
+        <li><a href="{{ get_url(path='recordings/', trailing_slash=true) | safe }}">التسجيلات</a></li>
+        <li><a href="{{ get_url(path='polls/', trailing_slash=true) | safe }}">الاستفتاءات</a></li>
+        <li><a href="{{ get_url(path='galleries/', trailing_slash=true) | safe }}">ألبومات الصور</a></li>
         {%- if config.extra.search.page %}<li><a href="{{ <zt.url path={config.extra.search.page} /> | safe }}">{{ t.search }}</a></li>{% endif %}
       </ul>
+      {%- if config.extra.years | default(value=[]) | length > 0 %}
+      <h3 class="t9f__subtitle">حسب السنة</h3>
+      <ul class="t9f__years" role="list">
+        {%- for y in config.extra.years %}<li><a href="{{ archive_url | safe }}#zt-year-{{ y }}"><bdi>{{ <ar.num value={y} /> }}</bdi></a></li>{% endfor %}
+      </ul>
+      {%- endif %}
     </nav>
 
     <nav class="t9f__col" aria-labelledby="t9f-about">
@@ -48,6 +78,13 @@
         {%- endif %}
       </ul>
     </nav>
+  </div>
+  <div class="t9f__bottom">
+    <div class="t9f__bottom-inner">
+      <p>أرشيف مستقل أُعيد بناؤه من لقطات أرشيف الإنترنت{% if config.extra.cutoff_label %} حتى <bdi>{{ config.extra.cutoff_label }}</bdi>{% endif %}.</p>
+      <p class="t9f__credit">صُنع بحب <span class="t9f__heart" aria-label="حب">♥</span> على يد <a href="https://mosab.co.uk/" rel="noopener">مصعب</a> في <a href="https://arabesquelabs.com/ar/" rel="noopener">معامل آرابيسك</a></p>
+      <a class="t9f__top" href="#">↑ أعلى الصفحة</a>
+    </div>
   </div>
   <div class="t9f__stripe" aria-hidden="true">
     {%- for s in config.extra.twenty2009_sections %}<span style="--c: {{ s.colour }}"></span>{% endfor -%}

@@ -1,0 +1,78 @@
+/* A section's page (templates/taxonomy_single.html, taxonomy "sections"; js/sections.js). --ct is the
+   section's 2009 colour, made text-safe (pipeline/site.py, write_sections_data). The article list reuses
+   the writer page's rows (css/authors.css). */
+.ar-section__head { margin-block: 24px 22px; padding: 22px 24px; background: var(--al-color-surface-sunk); border-block-start: 4px solid var(--ct); }
+.ar-section__kicker { margin: 0; font-size: 0.85em; }
+.ar-section__kicker a { color: var(--t9-color-text-faint); text-decoration: none; }
+.ar-section__kicker a:hover { color: var(--al-color-accent-hover); }
+.ar-section__name { display: inline-block; margin: 4px 0 12px; padding: 2px 14px; background: var(--ct); color: var(--al-color-on-accent);
+  font-size: 1.9em; font-weight: 700; line-height: 1.35; }
+.ar-section__writers { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 8px; margin: 14px 0 0; color: var(--t9-color-text-faint); font-size: 0.9em; }
+.ar-section__writers > span:first-child { color: var(--al-color-text-muted); }
+.ar-section__writers a { color: var(--al-color-accent); text-decoration: none; }
+.ar-section__writers a:hover { color: var(--al-color-accent-hover); text-decoration: underline; }
+.ar-section__writers bdi { color: var(--t9-color-text-faint); }
+
+.ar-section__best { margin-block-end: 26px; padding: 14px 18px; border: 1px solid var(--t9-color-line-soft); border-inline-start: 3px solid var(--ct); }
+.ar-section__best h2 { margin: 0 0 8px; color: var(--ct); font-size: 1.05em; font-weight: 700; }
+.ar-section__best ol { margin: 0; padding-inline-start: 1.4em; }
+.ar-section__best li { padding-block: 4px; }
+.ar-section__best li::marker { color: var(--ct); font-weight: 700; }
+.ar-section__best a { color: var(--al-color-accent); font-weight: 700; text-decoration: none; margin-inline-end: 8px; }
+.ar-section__best a:hover { color: var(--al-color-accent-hover); text-decoration: underline; }
+
+.ar-section__tools { position: sticky; inset-block-start: 0; z-index: 2; display: flex; flex-wrap: wrap; align-items: center;
+  gap: 10px 14px; margin-block-end: 18px; padding: 10px 0; background: var(--al-color-surface); border-block-end: 1px solid var(--t9-color-line-soft); }
+.ar-section__filter { flex: 1 1 16rem; max-inline-size: 24rem; }
+.ar-section__count { margin: 0; color: var(--al-color-text-muted); font-size: 0.9em; }
+.ar-section__years { display: flex; flex-wrap: wrap; gap: 6px; }
+.ar-section__years a { padding: 2px 10px; border: 1px solid var(--t9-color-line-soft); color: var(--al-color-text); font-size: 0.9em; text-decoration: none; }
+.ar-section__years a:hover { border-color: var(--ct); color: var(--ct); }
+.ar-section__years a[hidden] { display: none; }
+.ar-section__years bdi { color: var(--t9-color-text-faint); font-size: 0.85em; }
+.ar-section [data-year] { scroll-margin-block-start: 5rem; }
+.ar-section [data-year][hidden], .ar-section__list li[hidden] { display: none; }
+
+.ar-section__list li { grid-template-columns: 7rem minmax(0, 1fr) auto; }
+.ar-section__meta { margin: 2px 0 0; color: var(--t9-color-text-faint); font-size: 0.82em; }
+.ar-section__meta:empty { display: none; }
+.ar-section__by { color: var(--al-color-text-muted); }
+.ar-section__cm::before { content: "·"; margin-inline: 6px; }
+.ar-section__meta > .ar-section__cm:first-child::before { content: none; margin: 0; }
+.ar-section__thumb { inline-size: 5.5rem; block-size: 4rem; object-fit: cover; border: 1px solid var(--t9-color-line-soft); }
+
+@media (max-width: 52rem) {
+  .ar-section__head { padding: 18px; }
+  .ar-section__name { font-size: 1.5em; }
+  .ar-section__list li { grid-template-columns: minmax(0, 1fr); }
+  .ar-section__thumb { display: none; }
+  .ar-section__tools { position: static; }
+}
+
+/* ---- the sections index (templates/taxonomy_list.html) ---------------------------------------------- */
+.ar-sections__tier { margin-block: 8px 30px; }
+.ar-sections__tier-title { margin: 0 0 12px; padding-block-end: 6px; border-block-end: 1px solid var(--t9-color-line-soft); color: var(--t9-color-text-faint);
+  font-size: 1.15em; font-weight: 700; }
+.ar-sections__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.ar-sections__tier--other .ar-sections__grid { grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); }
+.ar-sec-card { display: flex; flex-direction: column; gap: 8px; padding: 14px 16px; border: 1px solid var(--t9-color-line-soft);
+  border-block-start: 4px solid var(--ct); background: var(--al-color-surface); }
+.ar-sec-card:hover { border-color: var(--al-color-line); border-block-start-color: var(--ct); }
+.ar-sec-card__name { align-self: flex-start; padding: 1px 10px; background: var(--ct); color: var(--al-color-on-accent); font-size: 1.2em;
+  font-weight: 700; text-decoration: none; }
+.ar-sec-card__name:hover { background: var(--al-color-accent); color: var(--al-color-on-accent); }
+.ar-sections__tier--other .ar-sec-card__name { padding: 0; background: none; color: var(--ct); font-size: 1.1em; }
+.ar-sections__tier--other .ar-sec-card__name:hover { background: none; color: var(--al-color-accent-hover); text-decoration: underline; }
+.ar-sec-card__stats { margin: 0; color: var(--t9-color-text-faint); font-size: 0.85em; }
+.ar-sec-card__stats b { color: var(--al-color-text); font-size: 1.1em; }
+.ar-sec-card__bars { display: flex; align-items: flex-end; gap: 4px; block-size: 3.2rem; }
+.ar-sec-card__bars span { flex: 1; display: flex; flex-direction: column; justify-content: flex-end; align-items: stretch;
+  block-size: 100%; }
+.ar-sec-card__bars i { display: block; min-block-size: 1px; background: var(--ct); opacity: 0.85; }
+.ar-sec-card__bars small { margin-block-start: 2px; color: var(--t9-color-text-fainter); font-size: 0.65em; line-height: 1; text-align: center; }
+.ar-sec-card__latest { margin: 0; color: var(--t9-color-text-faint); font-size: 0.85em; line-height: 1.5;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.ar-sec-card__latest a { color: var(--al-color-accent); text-decoration: none; }
+.ar-sec-card__latest a:hover { color: var(--al-color-accent-hover); text-decoration: underline; }
+.ar-sec-card__latest small { color: var(--t9-color-text-fainter); }
+.ar-sections__tier--none .ar-sections__grid { grid-template-columns: minmax(0, 24rem); }

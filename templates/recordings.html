@@ -1,0 +1,29 @@
+{#- 20at archive: every archived audio or video file (data/recordings.json, pipeline/extras.py): a player for
+    mp3, a download for the old formats (RealMedia, WMA, WMV, AVI, MPEG: browsers don't play them), and
+    the articles that link to each. -#}
+{%- extends "base.html" -%}
+{%- block main %}
+{%- set rows = load_data(path="data/recordings.json", required=false) | default(value=[], boolean=true) %}
+<div class="al-page zt-main ar-extra" id="main">
+  <header class="ar-authors-head">
+    <h1>{{ section.title }} <span class="ar-authors-head__count"><bdi>{{ <ar.num value={rows | length} /> }}</bdi> تسجيلًا</span></h1>
+    <p class="ar-authors-head__lede">{{ section.description }} صيغ RealMedia وWMA وWMV القديمة لا تعمل في المتصفحات: يمكن تنزيلها وتشغيلها ببرنامج مثل VLC.</p>
+  </header>
+  <ul class="ar-recordings" role="list">
+    {%- for r in rows %}
+    <li class="ar-recording">
+      <div class="ar-recording__head">
+        <span class="hv-tag hv-tag--sm" style="--ct: #006699">{{ r.kind }}</span>
+        <span class="ar-recording__title"><bdi>{{ r.title }}</bdi></span>
+        <span class="ar-recording__meta"><bdi>{{ r.ext | upper }}</bdi> · <bdi>{{ <ar.num value={r.year} /> }}</bdi></span>
+      </div>
+      {%- if r.play == "audio" %}
+      <audio class="ar-recording__player" controls preload="none" src="{{ r.file | safe }}"></audio>
+      {%- endif %}
+      <p class="ar-recording__links"><a href="{{ r.file | safe }}" download>تنزيل الملف</a>
+        {%- for a in r.articles %} · <a href="{{ a.url | safe }}">{{ a.title | default(value="المقال") }}</a>{% endfor %}</p>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>
+{%- endblock main %}

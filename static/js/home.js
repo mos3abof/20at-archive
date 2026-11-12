@@ -117,3 +117,21 @@
     if (none) none.hidden = shown > 0;
   });
 })();
+
+/* The poll and recording cards beside the last shelf: show a random one of each, "↻" for another. */
+(function () {
+  document.querySelectorAll("[data-pick]").forEach(function (box) {
+    var items = Array.prototype.slice.call(box.querySelectorAll(".hv-pick"));
+    if (!items.length) return;
+    var i = Math.floor(Math.random() * items.length);
+    function show() { items.forEach(function (el, j) { el.hidden = j !== i; }); }
+    show();
+    var next = box.querySelector("[data-pick-next]");
+    if (items.length < 2) { if (next) next.hidden = true; return; }
+    if (next) next.addEventListener("click", function () {
+      var a = items[i].querySelector("audio"); if (a) a.pause();
+      i = (i + 1 + Math.floor(Math.random() * (items.length - 1))) % items.length;
+      show();
+    });
+  });
+})();

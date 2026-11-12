@@ -1,0 +1,26 @@
+{#- 20at archive: the polls and their results (data/polls.json, pipeline/extras.py), newest first. -#}
+{%- extends "base.html" -%}
+{%- block main %}
+{%- set rows = load_data(path="data/polls.json", required=false) | default(value=[], boolean=true) %}
+<div class="al-page zt-main ar-extra" id="main">
+  <header class="ar-authors-head">
+    <h1>{{ section.title }} <span class="ar-authors-head__count"><bdi>{{ <ar.num value={rows | length} /> }}</bdi> استفتاءً</span></h1>
+    <p class="ar-authors-head__lede">{{ section.description }}</p>
+  </header>
+  <ul class="ar-polls" role="list">
+    {%- for p in rows %}
+    <li class="ar-poll">
+      <h2 class="ar-poll__q">{{ p.question }}</h2>
+      <p class="ar-poll__meta"><bdi>{{ <ar.num value={p.total} /> }}</bdi> صوتًا · <bdi>{{ <ar.num value={p.year} /> }}</bdi></p>
+      <ul class="ar-poll__options" role="list">
+        {%- for o in p.options %}
+        <li><span class="ar-poll__label">{{ o.label }}</span>
+          <span class="ar-poll__bar"><i style="inline-size: {{ o.pct }}%"></i></span>
+          <span class="ar-poll__pct"><bdi>{{ <ar.num value={o.pct | round(precision=0) | int} /> }}٪</bdi></span></li>
+        {%- endfor %}
+      </ul>
+    </li>
+    {%- endfor %}
+  </ul>
+</div>
+{%- endblock main %}
