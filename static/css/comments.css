@@ -1,0 +1,21 @@
+/* Readers' comments (templates/partials/comments.html). Copied from mos3abof.github.io static/css/components.css (display rules only; the form is not used). */
+.s-comments { margin-block-start: var(--al-space-12); padding-block-start: var(--al-space-8); border-block-start: var(--al-border-hairline) solid var(--al-color-line); font-family: var(--al-font-sans); }
+.s-comments__title { margin: 0 0 var(--al-space-4); font-family: var(--al-font-display); font-size: var(--al-text-2xl); font-weight: var(--al-weight-regular); letter-spacing: var(--al-tracking-tight); }
+/* The site's full stop, in the accent, after the titles. */
+.s-comments__title::after { content: "."; color: var(--al-color-accent); }
+.s-comments__note { display: flex; align-items: center; gap: var(--al-space-1-5); margin: 0 0 var(--al-space-6); }
+.s-comments__list { display: flex; flex-direction: column; gap: var(--al-space-3); margin: 0; padding: 0; list-style: none; }
+
+.s-comment { overflow: hidden; border: var(--al-border-hairline) solid var(--al-color-line); border-radius: var(--al-radius-md); background: var(--al-color-surface); }
+/* The post's author's: on the accent's wash, with its line at the start. */
+.s-comment__head { display: flex; align-items: center; gap: var(--al-space-3); padding: var(--al-space-3) var(--al-space-4) var(--al-space-2); }
+.s-comment__avatar { inline-size: 2.25rem; block-size: 2.25rem; object-fit: cover; font-weight: var(--al-weight-medium); }
+.s-comment__meta { display: flex; flex: 1; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: var(--al-space-1) var(--al-space-3); min-inline-size: 0; }
+.s-comment__author { display: inline-flex; flex-wrap: wrap; align-items: baseline; gap: var(--al-space-2); font-weight: var(--al-weight-medium); }
+.s-comment__author a { color: inherit; text-decoration: none; }
+.s-comment__author a:hover { text-decoration: underline; text-underline-offset: 0.2em; }
+.s-comment__when { display: inline-flex; align-items: center; gap: var(--al-space-2); flex: none; font-family: var(--al-font-mono); font-size: var(--al-text-xs); color: var(--al-color-text-muted); }
+.s-comment__original { display: inline-flex; color: var(--al-color-text-muted); }
+.s-comment__original:hover { color: var(--al-color-accent); }
+.s-comment__body { padding: var(--al-space-1) var(--al-space-4) var(--al-space-3); font-family: "IBM Plex Sans Arabic", var(--al-font-sans); font-size: var(--al-text-md); line-height: var(--al-leading-prose); color: var(--al-color-text-muted); overflow-wrap: anywhere; }
+.s-comments__empty { align-items: center; text-align: center; }

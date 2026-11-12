@@ -1,0 +1,15 @@
+/* The 2009 banner header's styles (templates/partials/header_2009.html), kept for reference; not loaded.
+   To go back: rename header_2009.html to header.html and add css/header-2009.css to extra.stylesheets. */
+.t9-header { background: #FFFFFF; }
+.t9-header__inner { max-inline-size: 970px; margin-inline: auto; }
+.t9-tabs { display: flex; justify-content: flex-end; gap: 2px; margin: 0; padding: 10px 0 0; padding-inline-end: 70px; list-style: none; }
+.t9-tabs img { display: block; }
+.t9-banner { position: relative; block-size: 120px; border-block-start: 1px solid #B4B4B4;
+  background: url(/2009/besmEllah_20atHeader.jpg) no-repeat left top; }
+.t9-logo { position: absolute; inset-inline-start: 40px; inset-block-start: 10px; inline-size: 152px; block-size: 104px;
+  background: url(/2009/logo.gif) no-repeat; }
+.t9-logo span { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.t9-mainnav { border-block-end: 5px solid #666666; }
+.t9-util { display: flex; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; }
+.t9-util a { display: flex; align-items: center; padding: 5px 8px 3px; color: #666666; font-size: 0.875em; text-decoration: none; }
+.t9-util a:hover, .t9-util a[aria-current] { color: #006699; }

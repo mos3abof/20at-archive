@@ -1,0 +1,12 @@
+{#- 20at archive: the theme's partials/range.html, with Arabic-Indic numbers (components/ar.html). -#}
+{#- Which of how many a page of a paginated list shows ("11 to 20 of 24"),
+    above the list. Needs `paginator` and `pages`. -#}
+{%- if paginator.number_pagers > 1 %}
+{%- set from = (paginator.current_index - 1) * paginator.paginate_by + 1 %}
+{%- set shown = pages | length %}
+{%- set to = from + shown - 1 %}
+{%- set from = "<bdi>" ~ <ar.num value={from} /> ~ "</bdi>" %}
+{%- set to = "<bdi>" ~ <ar.num value={to} /> ~ "</bdi>" %}
+{%- set total = "<bdi>" ~ <ar.num value={paginator.total_pages} /> ~ "</bdi>" %}
+<p class="zt-range al-muted">{{ t.range | replace(from="%from", to=from) | replace(from="%total", to=total) | replace(from="%to", to=to) | safe }}</p>
+{%- endif %}

@@ -1,0 +1,61 @@
+{#- 20at archive: the theme's taxonomy_list.html, with the count in Arabic-Indic digits (components/ar.html). -#}
+{%- extends "base.html" -%}
+
+{#- A taxonomy's terms, with how many pages each has. -#}
+
+{%- block title %}{{ t | get(key="taxonomy_" ~ taxonomy.name, default=taxonomy.name | capitalize) }} · {{ config.title }}{% endblock title -%}
+
+{%- block main %}
+{%- set name = t | get(key="taxonomy_" ~ taxonomy.name, default=taxonomy.name | capitalize) %}
+<div class="al-page zt-main">
+  {#- 20at archive: no breadcrumbs (removed site-wide). #}
+  {%- if taxonomy.name == "authors" and terms | length > 0 %}
+  {#- 20at archive: the writers as cards, most articles first, with a filter (js/authors.js);
+      their details come from data/authors.json (pipeline/site.py, write_authors_data). #}
+  {%- set ad = load_data(path="data/authors.json", required=false) | default(value={}) %}
+  <header class="ar-authors-head">
+    <h1>{{ name }} <span class="ar-authors-head__count"><bdi>{{ <ar.num value={terms | length} /> }}</bdi> كاتبًا</span></h1>
+    <p class="ar-authors-head__lede">كل من كتب في عشرينات، من الأكثر كتابةً إلى الأقل.</p>
+    <label class="ar-sr" for="ar-author-filter">ابحث عن كاتب</label>
+    <input class="al-input ar-authors-head__filter" id="ar-author-filter" type="search" placeholder="ابحث عن كاتب…" autocomplete="off" data-writer-filter>
+  </header>
+  <ul class="ar-author-grid" role="list" data-writer-list>
+    {%- for term in terms | sort(attribute="page_count") | reverse %}
+    {%- set a = ad | get(key=term.name, default={}) %}
+    <li style="--ct: {{ a.colour | default(value='#666666') }}">
+      <a class="ar-author-card" href="{{ term.permalink | safe }}">
+        <span class="ar-author-card__initial" aria-hidden="true">{{ a.initial | default(value=term.name | truncate(length=1, end="")) }}</span>
+        <span class="ar-author-card__text">
+          <span class="ar-author-card__name">{{ term.name }}</span>
+          <span class="ar-author-card__meta"><bdi>{{ <ar.num value={term.pages | length} /> }}</bdi> {% if term.pages | length == 1 %}مقال{% else %}مقالًا{% endif %}{% if a.main %} · {{ a.main }}{% endif %}{% if a.first %} · <bdi>{{ a.first }}{% if a.last != a.first %}–{{ a.last }}{% endif %}</bdi>{% endif %}</span>
+        </span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+  <p class="ar-authors-none" data-writer-none hidden>لا يوجد كاتب بهذا الاسم.</p>
+  {%- else %}
+  <header class="al-page-head zt-head"><h1>{{ name }}</h1></header>
+  {%- endif %}
+  {%- if taxonomy.name != "authors" and terms | length > 0 %}
+  <ul class="al-list zt-list" role="list">
+    {#- 20at archive: the most articles first (authors, sections), not alphabetical #}
+    {%- for term in terms | sort(attribute="page_count") | reverse %}
+    <li>
+      <a class="al-list__item" href="{{ term.permalink | safe }}">
+        <span class="al-list__text"><span class="al-list__title">{{ term.name }}</span></span>
+        <span class="al-list__end"><span class="al-badge al-badge--count"><bdi>{{ <ar.num value={term.pages | length} /> }}</bdi><span class="al-visually-hidden"> {{ t.pages_count }}</span></span></span>
+      </a>
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- elif terms | length == 0 %}
+  <div class="al-empty">
+    <p class="al-empty__title">{{ t.nothing_title }}</p>
+    <a class="al-button al-button--primary" href="{{ home_url | safe }}">{{ t.nothing_action }}</a>
+  </div>
+  {%- endif %}
+</div>
+{%- endblock main %}
+
+{%- block scripts %}{% if taxonomy.name == "authors" %}<script src="{{ get_url(path='js/authors.js', cachebust=true) }}" defer></script>{% endif %}{% endblock scripts %}

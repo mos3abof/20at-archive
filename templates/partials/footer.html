@@ -1,0 +1,55 @@
+{#- 20at archive: the footer (overrides the theme's): on a light band, four columns — the site and
+    what this archive is; the sections, each with its colour; ways to browse; about the archive (the
+    feed, the original on the Wayback Machine) — then the stripe of section colours, as in the header.
+    Styled in css/twenty2009.css ("footer"). -#}
+{%- set footer = config.extra.footer -%}
+{%- set note = footer.text | get(key=lang, default="") -%}
+<footer class="t9f">
+  <div class="t9f__inner">
+    <div class="t9f__brand">
+      <a class="t9f__lockup" href="{{ home_url | safe }}">
+        <img src="{{ get_url(path='2009/logo.gif') }}" width="152" height="104" alt="" loading="lazy">
+        <!-- <span><strong>{{ config.title }}</strong>{% if config.extra.tagline %}<span>{{ config.extra.tagline }}</span>{% endif %}</span> -->
+        <span><strong>{{ config.title }}</strong>{% if config.extra.tagline %}<span>{{ config.extra.tagline }}</span>{% endif %}</span>
+      </a>
+      <!-- {%- if note %}<p class="t9f__note">{{ note | safe }}</p>{% endif %} -->
+    </div>
+
+    <nav class="t9f__col" aria-labelledby="t9f-sections">
+      <h2 class="t9f__title" id="t9f-sections">الأقسام</h2>
+      <ul class="t9f__list t9f__list--sections" role="list">
+        {%- for s in config.extra.twenty2009_all_sections %}
+        {%- set u = get_taxonomy_url(kind="sections", name=s.name, lang=lang, required=false) %}
+        {%- if u %}<li style="--c: {{ s.colour }}"><a href="{{ u | safe }}">{{ s.name }}</a></li>{% endif %}
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <nav class="t9f__col" aria-labelledby="t9f-browse">
+      <h2 class="t9f__title" id="t9f-browse">تصفّح</h2>
+      <ul class="t9f__list" role="list">
+        <li><a href="{{ get_url(path='@/articles/_index.md') | safe }}">كل المقالات</a></li>
+        <li><a href="{{ get_url(path='@/archive.md') | safe }}">الأرشيف حسب السنة</a></li>
+        <li><a href="{{ get_url(path='authors/', trailing_slash=true) | safe }}">الكتّاب</a></li>
+        <li><a href="{{ get_url(path='sections/', trailing_slash=true) | safe }}">كل الأقسام</a></li>
+        {%- if config.extra.search.page %}<li><a href="{{ <zt.url path={config.extra.search.page} /> | safe }}">{{ t.search }}</a></li>{% endif %}
+      </ul>
+    </nav>
+
+    <nav class="t9f__col" aria-labelledby="t9f-about">
+      <h2 class="t9f__title" id="t9f-about">عن الأرشيف</h2>
+      <ul class="t9f__list" role="list">
+        <li><a href="{{ get_url(path='@/about.md') | safe }}">كيف أُعيد بناء الموقع</a></li>
+        {%- if config.extra.wayback_url %}
+        <li><a href="{{ config.extra.wayback_url }}" rel="noopener noreferrer" target="_blank">عشرينات في موقع الأرشيف ↗</a></li>
+        {%- endif %}
+        {%- if config.generate_feeds %}
+        <li><a href="{{ get_url(path=config.feed_filenames[0], lang=lang) | safe }}"><img class="t9f__rss" src="{{ get_url(path='2009/icon-rss.png') }}" width="12" height="12" alt=""> {{ t.feed }}</a></li>
+        {%- endif %}
+      </ul>
+    </nav>
+  </div>
+  <div class="t9f__stripe" aria-hidden="true">
+    {%- for s in config.extra.twenty2009_sections %}<span style="--c: {{ s.colour }}"></span>{% endfor -%}
+  </div>
+</footer>

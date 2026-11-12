@@ -1,0 +1,49 @@
+{%- extends "page.html" -%}
+
+{#- Every page of a section, by year (the theme's archive.html, overridden for the 20at archive):
+    each row shows the article's author, linked to their page. A row can't be one link around
+    another, so the title is the link and the author is a link of its own. -#}
+
+{%- block main %}
+{%- set path = page.extra.section | default(value=config.extra.home.section) %}
+<div class="al-page zt-main">
+  {%- set ancestors = page.ancestors %}
+  {%- include "partials/breadcrumbs.html" %}
+  <header class="al-page-head zt-head">
+    <h1>{{ page.title }}</h1>
+    {%- if page.description %}<p class="al-page-head__lede">{{ page.description }}</p>{% endif %}
+  </header>
+  {%- if page.content %}<div class="al-prose zt-prose">{{ page.content | safe }}</div>{% endif %}
+  {%- if path %}{% set listed = get_section(path=path, lang=lang) %}{% set all_pages = listed.pages %}{% else %}{% set all_pages = [] %}{% endif %}
+  {#- The pages arrive newest first; a new year's heading starts where the year changes (Tera's
+      group_by keeps no order, so it would shuffle the years). #}
+  {%- set_global current_year = 0 %}
+  {%- for p in all_pages %}
+  {%- if p.year != current_year %}
+  {%- if current_year != 0 %}
+    </ul>
+  </section>
+  {%- endif %}
+  {%- set_global current_year = p.year %}
+  <section class="zt-archive" aria-labelledby="zt-year-{{ p.year }}">
+    <h2 class="zt-archive__year" id="zt-year-{{ p.year }}"><bdi>{{ <ar.num value={p.year} /> }}</bdi></h2>
+    <ul class="al-list zt-list ar-archive-list" role="list">
+  {%- endif %}
+      <li>
+        <div class="al-list__item ar-archive-item">
+          <span class="al-list__text">
+            <a class="al-list__title ar-archive-item__title" href="{{ p.permalink | safe }}">{{ p.title }}</a>
+            {%- if p.authors | default(value=[]) | length > 0 %}
+            <span class="al-list__description">{{ t.by }} {% include "partials/author_links.html" %}</span>
+            {%- endif %}
+          </span>
+          <span class="al-list__end">{{ p.date | date(format=t.date_format | replace(from=" y", to=""), locale=t.date_locale) }}</span>
+        </div>
+      </li>
+  {%- endfor %}
+  {%- if current_year != 0 %}
+    </ul>
+  </section>
+  {%- endif %}
+</div>
+{%- endblock main %}

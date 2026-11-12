@@ -1,0 +1,7 @@
+{#- 20at archive: a number (or any text) with its digits written as Arabic-Indic digits:
+    {{ <ar.num value={4407} /> }} -> ٤٤٠٧. For what the site writes (counts, years, page numbers), never
+    for archived text. Machine-readable values (datetime="", JSON-LD, URLs) keep Latin digits. -#}
+{%- component ar.num(value) -%}
+{%- set s = value ~ "" -%}
+{{ s | replace(from="0", to="٠") | replace(from="1", to="١") | replace(from="2", to="٢") | replace(from="3", to="٣") | replace(from="4", to="٤") | replace(from="5", to="٥") | replace(from="6", to="٦") | replace(from="7", to="٧") | replace(from="8", to="٨") | replace(from="9", to="٩") }}
+{%- endcomponent ar.num -%}

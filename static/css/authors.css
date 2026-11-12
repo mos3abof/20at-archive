@@ -1,0 +1,62 @@
+/* The writers' pages (templates/taxonomy_list.html and taxonomy_single.html, taxonomy "authors"):
+   the index as cards with a filter; each writer's profile and their articles by year. The writer's
+   colour (--ct) is the text-safe colour of the section they wrote most for. */
+.ar-sr { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+/* ---- the index --------------------------------------------------------------------------------- */
+.ar-authors-head { padding: 24px 0 18px; }
+.ar-authors-head h1 { margin: 0; color: #006699; font-size: 2em; font-weight: 700; }
+.ar-authors-head__count { color: #999999; font-size: 0.5em; font-weight: 400; }
+.ar-authors-head__lede { margin: 4px 0 16px; color: #666666; }
+.ar-authors-head__filter { inline-size: 100%; max-inline-size: 26rem; }
+.ar-author-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(14.5rem, 1fr)); gap: 10px;
+  margin: 8px 0 0; padding: 0; list-style: none; }
+.ar-author-grid li[hidden] { display: none; }
+.ar-author-card { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border: 1px solid #E5E5E5;
+  border-inline-start: 3px solid var(--ct); background: #FFFFFF; color: inherit; text-decoration: none; }
+.ar-author-card:hover { border-color: #CCCCCC; border-inline-start-color: var(--ct); background: #F7F7F7; }
+.ar-author-card__initial { flex: none; display: grid; place-items: center; inline-size: 2.6rem; block-size: 2.6rem;
+  border-radius: 50%; background: var(--ct); color: #FFFFFF; font-weight: 700; font-size: 1.1em; }
+.ar-author-card__text { display: flex; flex-direction: column; min-inline-size: 0; }
+.ar-author-card__name { color: #006699; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ar-author-card:hover .ar-author-card__name { color: #CC0000; }
+.ar-author-card__meta { color: #999999; font-size: 0.8em; }
+.ar-authors-none { color: #999999; }
+
+/* ---- a writer's page ------------------------------------------------------------------------------ */
+.ar-author__head { display: flex; align-items: center; gap: 22px; margin-block: 24px 28px; padding: 22px 24px;
+  background: #F7F7F7; border-block-start: 3px solid var(--ct); }
+.ar-author__initial { flex: none; display: grid; place-items: center; inline-size: 5.5rem; block-size: 5.5rem;
+  border-radius: 50%; background: var(--ct); color: #FFFFFF; font-size: 2.4em; font-weight: 700; }
+.ar-author__intro { min-inline-size: 0; }
+.ar-author__kicker { margin: 0; font-size: 0.85em; }
+.ar-author__kicker a { color: #999999; text-decoration: none; }
+.ar-author__kicker a:hover { color: #CC0000; }
+.ar-author__name { margin: 2px 0 10px; color: #006699; font-size: 2em; font-weight: 700; line-height: 1.2; }
+.ar-author__stats { display: flex; flex-wrap: wrap; gap: 6px 22px; margin: 0; padding: 0; list-style: none; color: #666666; }
+.ar-author__stats b { color: #333333; font-size: 1.15em; }
+.ar-author__sections { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; padding: 0; list-style: none; }
+.ar-author__sections .hv-tag bdi { opacity: 0.85; font-weight: 400; }
+
+.ar-author__year { margin-block-end: 26px; }
+.ar-author__year-title { margin: 0 0 8px; color: #999999; font-size: 1.4em; font-weight: 700; }
+.ar-author__list { margin: 0; padding: 0; list-style: none; border-block-start: 1px solid #E5E5E5; }
+.ar-author__list li { display: grid; grid-template-columns: 7rem minmax(0, 1fr); gap: 14px; padding: 12px 0;
+  border-block-end: 1px solid #E5E5E5; }
+.ar-author__date { color: #999999; font-size: 0.85em; padding-block-start: 2px; }
+.ar-author__title { color: #006699; font-weight: 700; text-decoration: none; margin-inline-end: 8px; }
+.ar-author__title:hover { color: #CC0000; text-decoration: underline; }
+.ar-author__summary { margin: 4px 0 0; color: #555555; font-size: 0.9em; line-height: 1.6;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+
+@media (max-width: 52rem) {
+  .ar-author__head { flex-direction: column; align-items: flex-start; gap: 14px; padding: 18px; }
+  .ar-author__initial { inline-size: 4rem; block-size: 4rem; font-size: 1.8em; }
+  .ar-author__name { font-size: 1.6em; }
+  .ar-author__list li { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+}
+
+/* no stray underlines on the writer's page (only links underline, on hover) */
+.ar-author :where(h1, p, time, span, b, bdi, li, div) { text-decoration: none; }
+.ar-author a { text-decoration: none; }
+.ar-author a:hover { text-decoration: underline; }

@@ -1,0 +1,85 @@
+{#- 20at archive: the theme's taxonomy_single.html, with the count in Arabic-Indic digits (components/ar.html). -#}
+{%- extends "base.html" -%}
+
+{#- One term: the pages that have it, newest first, a page of them at a
+    time when the taxonomy is paginated. -#}
+
+{%- block title %}{{ term.name }} · {{ config.title }}{% endblock title -%}
+
+{%- block main %}
+{%- set name = t | get(key="taxonomy_" ~ taxonomy.name, default=taxonomy.name | capitalize) %}
+{%- if taxonomy.name == "authors" %}
+{#- 20at archive: a writer's page: a profile (initial in the colour of the section they wrote most for,
+    their numbers, the sections they wrote for), then all their articles by year, newest first.
+    Their details come from data/authors.json (pipeline/site.py, write_authors_data). #}
+{%- set ad = load_data(path="data/authors.json", required=false) | default(value={}) %}
+{%- set a = ad | get(key=term.name, default={}) %}
+{%- set date_fmt = t.date_format | replace(from=" y", to="") %}
+<div class="al-page zt-main ar-author" id="main" style="--ct: {{ a.colour | default(value='#666666') }}">
+  <header class="ar-author__head">
+    <span class="ar-author__initial" aria-hidden="true">{{ a.initial | default(value=term.name | truncate(length=1, end="")) }}</span>
+    <div class="ar-author__intro">
+      <p class="ar-author__kicker"><a href="{{ get_url(path='authors/', trailing_slash=true) | safe }}">{{ name }}</a></p>
+      <h1 class="ar-author__name">{{ term.name }}</h1>
+      <ul class="ar-author__stats" role="list">
+        <li><b><bdi>{{ <ar.num value={term.pages | length} /> }}</bdi></b> {% if term.pages | length == 1 %}مقال{% else %}مقالًا{% endif %}</li>
+        {%- if a.first %}<li><b><bdi>{{ a.first }}{% if a.last != a.first %}–{{ a.last }}{% endif %}</bdi></b> سنوات الكتابة</li>{% endif %}
+        {%- if a.comments %}<li><b><bdi>{{ <ar.num value={a.comments} /> }}</bdi></b> تعليقًا من القرّاء</li>{% endif %}
+      </ul>
+      {%- if a.sections | default(value=[]) | length > 0 %}
+      <ul class="ar-author__sections" role="list" aria-label="الأقسام">
+        {%- for sx in a.sections %}
+        {%- set sx_url = get_taxonomy_url(kind="sections", name=sx.name, lang=lang, required=false) %}
+        <li><a class="hv-tag" style="--ct: {{ sx.colour }}" href="{{ sx_url | default(value='#') | safe }}">{{ sx.name }} <bdi>{{ <ar.num value={sx.count} /> }}</bdi></a></li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </div>
+  </header>
+
+  {%- set_global current_year = 0 %}
+  {%- for p in term.pages | sort(attribute="date") | reverse %}
+  {%- if p.year != current_year %}
+  {%- if current_year != 0 %}
+    </ol>
+  </section>
+  {%- endif %}
+  {%- set_global current_year = p.year %}
+  <section class="ar-author__year" aria-labelledby="ar-y-{{ p.year }}">
+    <h2 class="ar-author__year-title" id="ar-y-{{ p.year }}"><bdi>{{ <ar.num value={p.year} /> }}</bdi></h2>
+    <ol class="ar-author__list" role="list">
+  {%- endif %}
+      <li>
+        <time class="ar-author__date" datetime="{{ p.date }}">{{ p.date | date(format=date_fmt, locale=t.date_locale) }}</time>
+        <div class="ar-author__item">
+          <a class="ar-author__title" href="{{ p.permalink | safe }}">{{ p.title }}</a>
+          {%- if p.taxonomies.sections is defined and p.taxonomies.sections | length > 0 %}
+          {%- set sname = p.taxonomies.sections[0] %}
+          {%- set_global scolour = "#888888" %}
+          {%- for sx in a.sections | default(value=[]) %}{% if sx.name == sname %}{% set_global scolour = sx.colour %}{% endif %}{% endfor %}
+          <span class="hv-tag hv-tag--sm" style="--ct: {{ scolour }}">{{ sname }}</span>
+          {%- endif %}
+          {%- if p.extra.summary %}<p class="ar-author__summary">{{ p.extra.summary | truncate(length=170) }}</p>{% endif %}
+        </div>
+      </li>
+  {%- endfor %}
+  {%- if current_year != 0 %}
+    </ol>
+  </section>
+  {%- endif %}
+</div>
+{%- else %}
+<div class="al-page zt-main">
+  {#- 20at archive: no breadcrumbs (removed site-wide). #}
+  <header class="al-page-head zt-head">
+    <h1>{{ term.name }}</h1>
+    <div class="al-page-head__end"><span class="al-badge al-badge--count"><bdi>{{ <ar.num value={term.pages | length} /> }}</bdi><span class="al-visually-hidden"> {{ t.pages_count }}</span></span></div>
+  </header>
+  {%- if paginator is defined %}{% set pages = paginator.pages %}{% else %}{% set pages = term.pages %}{% endif %}
+  {%- set dated = true %}
+  {%- if paginator is defined %}{% include "partials/range.html" %}{% endif %}
+  {%- include "partials/page_list.html" %}
+  {%- if paginator is defined %}{% include "partials/pagination.html" %}{% endif %}
+</div>
+{%- endif %}
+{%- endblock main %}

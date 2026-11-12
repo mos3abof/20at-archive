@@ -1,0 +1,31 @@
+/* 20at archive: "about this archived copy" at the end of the article, after the comments
+   (templates/page.html). */
+.ar-provenance { margin-block-start: var(--al-space-12); font-size: var(--al-text-sm); }
+.ar-provenance .zt-notice { margin: 0; }
+.ar-provenance__list { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: var(--al-space-2) var(--al-space-6); margin: var(--al-space-3) 0 0; }
+.ar-provenance__list dt { font-weight: var(--al-weight-medium); }
+.ar-provenance__list dd { margin: 0; overflow-wrap: anywhere; color: var(--al-color-text-muted); }
+.ar-provenance__list dt + dd ~ dd { grid-column: 2; }
+.ar-provenance__list code { font-size: var(--al-text-xs); }
+@media (max-width: 40rem) {
+  .ar-provenance__list { grid-template-columns: minmax(0, 1fr); gap: var(--al-space-1); }
+  .ar-provenance__list dt { margin-block-start: var(--al-space-2); }
+  .ar-provenance__list dt + dd ~ dd { grid-column: 1; }
+}
+
+/* Author names as links (partials/author_links.html): quiet until hovered, like the meta line. */
+.ar-author { color: inherit; text-decoration: underline; text-decoration-color: var(--al-color-line-strong); text-underline-offset: 0.2em; }
+.ar-author:hover { color: var(--al-color-accent); text-decoration-color: currentColor; }
+/* Archive rows (archive.html): the title is the link, the author a link of its own. */
+.ar-archive-item__title { color: inherit; text-decoration: none; }
+.ar-archive-item__title:hover { color: var(--al-color-accent); text-decoration: underline; text-underline-offset: 0.2em; }
+
+/* "Other addresses of the same article" (templates/page.html): a disclosure under the list, closed by default. */
+.ar-provenance__aliases { margin-block-start: var(--al-space-4); }
+.ar-provenance__aliases ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: var(--al-space-1); }
+.ar-provenance__aliases code { font-size: var(--al-text-xs); }
+
+/* Articles take the full width of the container: lift the theme's 46rem cap on the document's
+   parts and the prose's reading measure (article pages only; other pages keep the theme's). */
+.ar-article > :not(.zt-doc__head),
+.ar-article .al-prose { max-inline-size: none; }

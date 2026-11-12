@@ -1,0 +1,197 @@
+/* The look of 20at.com as of 22 June 2009 (Joomla, ja_teline_ii), on top of the Arabesque theme:
+   its colours, rules, section labels, layout and 970px page; the theme's fonts are kept.
+   Values from the 2009 stylesheets (templates/ja_teline_ii/css/*.css in the archive); graphics in
+   /2009/ (see static/2009/SOURCE.txt). Templates: partials/header.html, partials/footer.html,
+   index.html, page.html. Light only (templates/base.html). */
+
+:root, :root[data-theme] {
+  --al-size-page: 60.625rem;               /* the 2009 page: 970px */
+  --al-color-bg: #FFFFFF;
+  --al-color-surface: #FFFFFF;
+  --al-color-surface-sunk: #F7F7F7;
+  --al-color-text: #333333;
+  --al-color-text-muted: #666666;
+  --al-color-line: #CCCCCC;
+  --al-color-line-strong: #ABABAB;
+  --al-color-accent: #006699;              /* links */
+  --al-color-accent-hover: #CC0000;        /* links on hover */
+  --al-color-accent-wash: #EBF2F9;
+  --t9-rule: #666666;
+}
+body { background: #FFFFFF; color: #333333; }
+a:hover { color: #CC0000; }
+
+/* ---- header (partials/header.html): stripe of section colours, logo + name + tagline, search, links;
+        then the section bar, sticky, with each section underlined in its own colour ----------------- */
+.t9h { background: #FFFFFF; }
+.t9h__stripe { display: flex; block-size: 4px; }
+.t9h__stripe span { flex: 1; background: var(--c); }
+.t9h__bar { max-inline-size: 970px; margin-inline: auto; display: flex; align-items: center; gap: 12px 24px; padding: 10px 0; }
+.t9h__brand { display: flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; flex: none; }
+.t9h__logo { display: block; inline-size: auto; block-size: 52px; }
+.t9h__words { display: flex; flex-direction: column; line-height: 1.25; }
+.t9h__name { color: #006699; font-weight: 700; font-size: 1.35em; }
+.t9h__tagline { color: #666666; font-size: 0.8em; }
+.t9h__brand:hover .t9h__name { color: #CC0000; }
+.t9h__search { flex: 1; display: flex; max-inline-size: 26rem; margin-inline-start: auto; border: 1px solid #CCCCCC; background: #FFFFFF; }
+.t9h__search:focus-within { border-color: #006699; outline: 2px solid #EBF2F9; }
+.t9h__input { flex: 1; min-inline-size: 0; padding: 6px 10px; border: 0; background: transparent; font: inherit; color: #333333; }
+.t9h__input:focus { outline: none; }
+.t9h__go { display: grid; place-items: center; inline-size: 2.4rem; border: 0; background: #006699; color: #FFFFFF; cursor: pointer; }
+.t9h__go:hover { background: #CC0000; }
+.t9h__sr { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.t9h__util ul { display: flex; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.t9h__util a { display: block; padding: 4px 8px; color: #666666; font-size: 0.9em; text-decoration: none; }
+.t9h__util a:hover { color: #CC0000; }
+.t9h__util a[aria-current] { color: #006699; font-weight: 700; }
+
+/* the section bar: the header's second row; white, hairlines, each section with a dot of its colour */
+.t9-subnav { position: sticky; inset-block-start: 0; z-index: 20; background: #FFFFFF;
+  border-block: 1px solid #E5E5E5; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04); }
+.t9-subnav__inner { max-inline-size: 970px; margin-inline: auto; display: flex; }
+.t9-sections { display: flex; flex-wrap: wrap; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.t9-sections a { display: flex; align-items: center; gap: 7px; padding: 9px 11px 7px; color: #333333; font-size: 0.95em;
+  text-decoration: none; border-block-end: 3px solid transparent; }
+.t9-sections__sec a::before { content: ""; inline-size: 8px; block-size: 8px; border-radius: 50%; background: var(--t9-tab, #888888); flex: none; }
+.t9-sections a:hover { color: #CC0000; border-block-end-color: var(--t9-tab, #006699); }
+.t9-sections .active a { font-weight: 700; color: #006699; border-block-end-color: var(--t9-tab, #006699); }
+.t9-sections li:last-child { margin-inline-start: auto; }        /* "باقي الأقسام" at the far end */
+.t9-sections li:last-child a { color: #666666; }
+
+/* ---- section labels: white on the section's colour, over a grey shadow ------------------------- */
+.t9-label { display: flow-root; margin-block-end: 5px; }
+.t9-label a { float: right; display: block; padding: 0 0 2px 2px; font-weight: 700; text-decoration: none;
+  background: url(/2009/zin-section-bg.gif) no-repeat left top #ABABAB; }
+.t9-label a span { display: block; min-inline-size: 100px; padding: 1px 10px; color: #FFFFFF; font-size: 0.9em;
+  background: var(--t9-label, #888888); }
+.t9-label a:hover span { background: #006699; }
+.t9-label--page { margin-block-end: var(--al-space-4); }
+
+/* ---- the home page ----------------------------------------------------------------------------- */
+/* Wide: the lead and the sections on the right, the sidebar beside both. Narrow: lead, sidebar, sections. */
+.t9-home { display: grid; grid-template-columns: minmax(0, 1fr) 19rem; grid-template-areas: "hl side" "zin side";
+  gap: 0 20px; margin-block: 12px 20px; align-items: start; }
+.t9-hl { grid-area: hl; }
+.t9-zin { grid-area: zin; }
+.t9-side { grid-area: side; }
+.t9-hl, .t9-zin { padding-inline-end: 20px; border-inline-end: 1px solid #CCCCCC; min-inline-size: 0; }
+
+.t9-hl { display: grid; grid-template-columns: 1fr 1fr; gap: 0 15px; border-block-start: 1px solid #CCCCCC; padding-block-start: 10px; }
+.t9-hl__first { background: #F7F7F7; padding: 8px; }
+.t9-hl__img { display: block; }
+.t9-hl__img img { display: block; inline-size: 100%; aspect-ratio: 280 / 233; object-fit: cover; }
+.t9-hl__img.t9-ph { inline-size: 100%; aspect-ratio: 280 / 233; }
+.t9-hl__title { margin: 10px 0 2px; font-size: 1.45em; font-weight: 700; line-height: 1.2; }
+.t9-hl__title a, .t9-item__title a, .t9-links a { color: #006699; text-decoration: none; }
+.t9-hl__title a:hover, .t9-item__title a:hover, .t9-links a:hover { color: #CC0000; text-decoration: underline; }
+.t9-item { display: flow-root; padding: 10px 0; }
+.t9-hl__next .t9-item { border-block-end: 1px solid #CCCCCC; }
+.t9-hl__next .t9-item:last-child { border-block-end: none; }
+.t9-item__title { margin: 0 0 2px; font-size: 1em; font-weight: 700; line-height: 1.35;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.t9-item__thumb { float: left; margin: 3px 10px 5px 0; }
+.t9-item__thumb img { display: block; inline-size: 97px; block-size: 80px; object-fit: cover; }
+.t9-item__thumb.t9-ph { inline-size: 97px; block-size: 80px; }
+.t9-date { margin: 0 0 4px; color: #999999; font-size: 0.8em; }
+.t9-summary { margin: 0; color: #555555; font-size: 0.9em; line-height: 1.6;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+
+/* no archived picture: a tile in the section's colour, with its name */
+.t9-ph { display: flex; align-items: center; justify-content: center; text-align: center; text-decoration: none;
+  color: #FFFFFF; font-weight: 700; font-size: 0.85em; line-height: 1.3; padding: 6px;
+  background: var(--t9-label, #ABABAB) url(/2009/dot.gif) repeat; box-sizing: border-box;
+  background-blend-mode: soft-light; }
+.t9-hl__img.t9-ph { font-size: 1.6em; }
+.t9-ph span { opacity: 0.95; }
+.t9-ph--logo { background: #F7F7F7 url(/2009/logo.gif) no-repeat center / 70% auto; background-blend-mode: normal; border: 1px solid #E5E5E5; }
+.t9-ph:hover { color: #FFFFFF; filter: brightness(1.08); }
+
+/* section boxes: the latest article, three more headlines, and a link to the section */
+.t9-zin { display: grid; grid-template-columns: 1fr 1fr; gap: 0 20px; margin-block-start: 10px; }
+.t9-zin__box { display: flex; flex-direction: column; padding: 10px 0 15px; background: url(/2009/dot.gif) repeat-x left bottom; }
+.t9-zin__box .t9-item { padding-block-start: 5px; }
+.t9-links { margin: 4px 0 0; padding: 0; list-style: none; }
+.t9-links li { padding: 5px 0; border-block-start: 1px dotted #CCCCCC; font-size: 0.88em; line-height: 1.45;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+.t9-links .t9-date { margin: 0; font-size: 0.85em; }
+.t9-more { margin-block-start: auto; padding-block-start: 8px; align-self: flex-end; color: #999999; font-size: 0.8em; text-decoration: none; }
+.t9-more:hover { color: #CC0000; }
+
+/* sidebar: search, then boxes as the 2009 modules */
+.t9-search { display: flex; gap: 4px; margin-block: 10px 20px; }
+.t9-search__label { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.t9-search__input { flex: 1; min-inline-size: 0; }
+.t9-box { margin-block-end: 20px; padding: 10px; border: 1px solid #CCCCCC; }
+.t9-box[hidden] { display: none; }
+.t9-box__title { margin: 0 0 8px; font-size: 1em; font-weight: 700; color: #006699; text-align: center; }
+.t9-box__foot { margin: 8px 0 0; font-size: 0.85em; text-align: end; }
+.t9-otd__day { color: #999999; font-weight: 400; font-size: 0.85em; }
+.t9-list, .t9-years { margin: 0; padding: 0; list-style: none; }
+.t9-list li { padding: 6px 0; background: url(/2009/dot.gif) repeat-x left bottom; font-size: 0.9em; line-height: 1.5; }
+.t9-list li:last-child { background: none; }
+.t9-years { display: flex; flex-wrap: wrap; gap: 6px 14px; }
+.t9-count { color: #999999; font-size: 0.85em; }
+.t9-box--about p { margin: 0 0 6px; font-size: 0.9em; color: #555555; }
+
+/* ---- articles and lists ---------------------------------------------------------------------------- */
+.zt-doc__title { color: #006699; font-weight: 700; }
+.zt-post__title a, .al-list__title, .ar-archive-item__title { color: #006699; }
+.zt-doc__head { border-block-end-color: #CCCCCC; }
+.zt-archive__year { border-block-end: 5px solid var(--t9-rule); padding-block-end: 4px; }
+
+/* ---- footer (partials/footer.html): four columns on a light band, then the section colours ---- */
+.t9f { margin-block-start: 48px; background: #F7F7F7; border-block-start: 1px solid #E5E5E5; color: #555555; font-size: 0.9em; }
+.t9f__inner { max-inline-size: 970px; margin-inline: auto; display: grid; grid-template-columns: 1.4fr 1.5fr 0.9fr 1.2fr;
+  gap: 28px; padding: 32px 0 28px; }
+.t9f__lockup { display: flex; align-items: center; gap: 10px; color: inherit; text-decoration: none; }
+.t9f__lockup img { block-size: 46px; inline-size: auto; }
+.t9f__lockup strong { display: block; color: #006699; font-size: 1.3em; }
+.t9f__lockup span span { display: block; color: #666666; font-size: 0.85em; }
+.t9f__note { margin: 14px 0 0; color: #777777; font-size: 0.9em; line-height: 1.7; }
+.t9f__title { margin: 0 0 10px; color: #333333; font-size: 1em; font-weight: 700; }
+.t9f__list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.t9f__list a { display: inline-flex; align-items: center; gap: 6px; color: #555555; text-decoration: none; white-space: nowrap; }
+.t9f__list a:hover { color: #CC0000; text-decoration: underline; }
+.t9f__list--sections { display: grid; grid-template-columns: repeat(2, max-content); gap: 6px 22px; }
+.t9f__list--sections li { display: flex; align-items: center; gap: 7px; }
+.t9f__list--sections li::before { content: ""; inline-size: 8px; block-size: 8px; border-radius: 50%; background: var(--c); flex: none; }
+.t9f__rss { flex: none; }
+.t9f__stripe { display: flex; block-size: 4px; }
+.t9f__stripe span { flex: 1; background: var(--c); }
+
+/* ---- narrow screens ------------------------------------------------------------------------------ */
+@media (max-width: 62rem) {
+  .t9h__bar, .t9-subnav__inner, .t9f__inner { padding-inline: 16px; }
+}
+@media (max-width: 52rem) {
+  .t9-home { grid-template-columns: minmax(0, 1fr); grid-template-areas: "hl" "side" "zin"; }
+  .t9-hl, .t9-zin { padding-inline-end: 0; border-inline-end: none; }
+  .t9-hl, .t9-zin { grid-template-columns: minmax(0, 1fr); }
+  .t9-hl__img img, .t9-hl__img.t9-ph { aspect-ratio: 16 / 9; }
+  .t9-subnav__inner { inline-size: 100%; }
+  /* header: logo, name and links on one row; the search field full width under them */
+  .t9h__bar { flex-wrap: wrap; padding-block: 6px; }
+  .t9h__logo { block-size: 40px; }
+  .t9h__tagline { display: none; }
+  .t9h__util { margin-inline-start: auto; }
+  .t9h__search { order: 3; flex-basis: 100%; max-inline-size: none; margin-inline-start: 0; }
+  /* the section bar: one row that scrolls sideways */
+  .t9-subnav__inner { flex-direction: column; align-items: stretch; padding-inline: 0; }
+  .t9-sections { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding-inline: 8px; min-inline-size: 0; max-inline-size: 100%; }
+  .t9-sections::-webkit-scrollbar { display: none; }
+  .t9-sections li { flex: none; }
+  .t9-sections li:last-child { margin-inline-start: 0; }
+  .t9f__inner { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 20px; padding-block: 24px; }
+  .t9f__brand { grid-column: 1 / -1; }
+}
+
+/* the section's tag in the line under the title (partials/page_meta.html) */
+.t9-label--inline { display: inline-flex; margin: 0; vertical-align: middle; }
+.t9-label--inline a { float: none; }
+.t9-label--inline a span, .t9-label--inline > span { min-inline-size: 0; padding: 0 8px; font-size: 0.85em; line-height: 1.6; }
+.t9-label--inline > span { display: block; color: #FFFFFF; background: var(--t9-label, #888888); }
+
+/* the home page's writers box: every writer, scrolling inside the box (templates/index.html) */
+.t9-list--scroll { max-block-size: 26rem; overflow-y: auto; padding-inline-end: 6px; scrollbar-width: thin; }
+.t9-list--scroll:focus-visible { outline: 2px solid #006699; outline-offset: 2px; }
+.t9-box__title .t9-count { font-weight: 400; }

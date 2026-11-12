@@ -1,0 +1,92 @@
+base_url = "/"
+title = "عشرينات"
+description = "موقع الشباب العربي"
+default_language = "ar"
+theme = "arabesque"
+
+compile_sass = false
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+build_search_index = true
+
+taxonomies = [
+  { name = "authors", feed = true },     # one page per writer, grouped by year (templates/taxonomy_single.html)
+  { name = "sections", paginate_by = 20, feed = true },
+]
+
+[slugify]
+taxonomies = "safe"                # keep Arabic author names in their URLs
+
+[markdown]
+smart_punctuation = false          # keep the archived punctuation exactly
+external_links_target_blank = true
+external_links_no_referrer = true
+
+[markdown.highlighting]
+light_theme = "arabesque-light"
+dark_theme = "arabesque-dark"
+extra_themes = ["themes/arabesque/highlighting/arabesque-light.json", "themes/arabesque/highlighting/arabesque-dark.json"]
+add_color_scheme = false
+
+[search]
+index_format = "fuse_json"         # indexes Arabic; elasticlunr can't
+
+[extra]
+author = "عشرينات"
+tagline = "أرشيف موقع الشباب العربي ٢٠٠٤–٢٠٠٩"   # under the logo (templates/partials/header.html)
+n_articles = 4407   # in the header's search field
+wayback_url = "https://web.archive.org/web/20091231235959/http://www.20at.com/"   # the original, in the footer
+# readers' comments; the provenance box; the look of 20at.com in 2009 (templates/partials/header.html …)
+stylesheets = ["css/comments.css", "css/archive.css", "css/twenty2009.css", "css/home-v2.css", "css/authors.css"]
+
+# The 2009 section bar and labels (name, slug, colour), in the order the site showed them.
+twenty2009_sections = [{ name = "حياتنا", slug = "7ayatna", colour = "#CA0789", text_colour = "#CA0789" }, { name = "نشرة 9", slug = "nashrat-9", colour = "#004B80", text_colour = "#004B80" }, { name = "أنا سعودي", slug = "ana-s3ody", colour = "#0E9C9A", text_colour = "#0B8381" }, { name = "اشتباك", slug = "eshtbak", colour = "#E77B13", text_colour = "#B45F0E" }, { name = "قلم رصاص", slug = "klam-rosas", colour = "#333333", text_colour = "#333333" }, { name = "السلام عليكم", slug = "salamo-3lakom", colour = "#1A661A", text_colour = "#1A661A" }, { name = "عبقرينو", slug = "3abkrino", colour = "#880088", text_colour = "#880088" }, { name = "ملفات", slug = "malafat", colour = "#CC0000", text_colour = "#CC0000" }]
+twenty2009_editions = [{ name = "ولاد البلد", slug = "masr", colour = "#666666", text_colour = "#666666" }, { name = "بنات", slug = "banat", colour = "#888888", text_colour = "#747474" }]
+# Every section, as the home pages show them: the 2009 sections, then the editions.
+twenty2009_all_sections = [{ name = "حياتنا", slug = "7ayatna", colour = "#CA0789", text_colour = "#CA0789" }, { name = "نشرة 9", slug = "nashrat-9", colour = "#004B80", text_colour = "#004B80" }, { name = "أنا سعودي", slug = "ana-s3ody", colour = "#0E9C9A", text_colour = "#0B8381" }, { name = "اشتباك", slug = "eshtbak", colour = "#E77B13", text_colour = "#B45F0E" }, { name = "قلم رصاص", slug = "klam-rosas", colour = "#333333", text_colour = "#333333" }, { name = "السلام عليكم", slug = "salamo-3lakom", colour = "#1A661A", text_colour = "#1A661A" }, { name = "عبقرينو", slug = "3abkrino", colour = "#880088", text_colour = "#880088" }, { name = "ملفات", slug = "malafat", colour = "#CC0000", text_colour = "#CC0000" }, { name = "ولاد البلد", slug = "masr", colour = "#666666", text_colour = "#666666" }, { name = "بنات", slug = "banat", colour = "#888888", text_colour = "#747474" }]
+# The section bar, in order (names of sections or editions above); "كل الأقسام" follows it.
+twenty2009_menu = ["حياتنا", "نشرة 9", "بنات", "اشتباك", "قلم رصاص", "السلام عليكم", "عبقرينو", "ملفات"]
+
+[extra.i18n.ar]
+taxonomy_sections = "الأقسام"
+comments_title = "تعليقات القرّاء"
+comments_archive_note = "تعليقات القرّاء كما حفظها أرشيف الإنترنت. في التعليقات الأقدم لم يحفظ الموقع اسم الكاتب ولا وقت الكتابة: العنوان هو ما كتبه القارئ، والتاريخ هو أول لقطة ظهر فيها التعليق."
+comments_archived = "حُفظ في"
+comments_posted = "كُتب في"
+comments_view_original = "اعرض اللقطة المؤرشفة"
+provenance_title = "عن هذه النسخة المؤرشفة"
+provenance_original = "العنوان الأصلي"
+provenance_capture = "اللقطة المؤرشفة"
+provenance_date = "التاريخ"
+provenance_aliases = "عناوين أخرى للمقال نفسه"
+provenance_comments = "تعليقات القرّاء"
+provenance_missing_images = "صور لم يحفظها الأرشيف"
+
+[extra.header]
+language_link = false              # Arabic only
+theme_toggle = false               # the 2009 site was light only
+
+[[extra.menu.ar]]
+name = "المقالات"
+url = "@/articles/_index.md"
+
+[[extra.menu.ar]]
+name = "الأرشيف"
+url = "@/archive.md"
+
+[[extra.menu.ar]]
+name = "الكتّاب"
+url = "/authors/"
+
+[extra.home]
+section = "articles/_index.md"
+count = 10
+
+[extra.search]
+page = "@/search.md"
+
+[extra.social]
+publisher_type = "Organization"
+
+[extra.footer.text]
+ar = "نسخة أرشيفية أُعيد بناؤها من لقطات أرشيف الإنترنت (Wayback Machine) حتى ٣١ ديسمبر ٢٠٠٩."

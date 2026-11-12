@@ -1,0 +1,6 @@
+{#- The authors of `p`, each a link to their page in the `authors` taxonomy when there is one. -#}
+{%- for a in p.authors | default(value=[]) -%}
+{%- set a_url = get_taxonomy_url(kind="authors", name=a, lang=lang, required=false) -%}
+{%- if a_url %}<a class="ar-author" href="{{ a_url | safe }}">{{ a }}</a>{% else %}{{ a }}{% endif -%}
+{%- if not loop.last %}{{ t.list_sep }}{% endif -%}
+{%- endfor -%}

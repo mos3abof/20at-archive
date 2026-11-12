@@ -1,0 +1,62 @@
+{#- 20at archive: the site header (overrides the theme's), a compact redesign in the 2009 colours:
+      - a thin stripe of the section colours across the top;
+      - the bar: the 20@ logo, the site's name and what it is (config.extra.tagline), the search field,
+        and the archive's links (config.extra.menu);
+      - the section bar (config.extra.twenty2009_menu, then "باقي الأقسام"), which stays at the top as the
+        page scrolls; each section underlined in its own colour when hovered or current.
+    The section bar sits after </header> so it can stick for the whole page. No script needed.
+    Styled in css/twenty2009.css ("header"). The 2009 banner header is partials/header_2009.html. -#}
+{%- set menu = config.extra.menu | get(key=lang, default=[]) -%}
+{%- set search_page = config.extra.search.page -%}
+{%- set active_section = "" -%}
+{%- if page is defined and page.taxonomies.sections is defined and page.taxonomies.sections | length > 0 -%}
+  {%- set active_section = page.taxonomies.sections[0] -%}
+{%- elif term is defined and taxonomy is defined and taxonomy.name == "sections" -%}
+  {%- set active_section = term.name -%}
+{%- endif -%}
+<header class="t9h">
+  <a class="al-skip-link" href="#main">{{ t.skip }}</a>
+  <div class="t9h__stripe" aria-hidden="true">
+    {%- for s in config.extra.twenty2009_sections %}<span style="--c: {{ s.colour }}"></span>{% endfor -%}
+  </div>
+  <div class="t9h__bar">
+    <a class="t9h__brand" href="{{ home_url | safe }}"{% if current_url is defined and current_url == home_url %} aria-current="page"{% endif %}>
+      <img class="t9h__logo" src="{{ get_url(path='2009/logo.gif') }}" width="152" height="104" alt="">
+      <span class="t9h__words">
+        <span class="t9h__name">{{ config.title }}</span>
+        {%- if config.extra.tagline %}<span class="t9h__tagline">{{ config.extra.tagline }}</span>{% endif %}
+      </span>
+    </a>
+    {%- if search_page %}
+    {%- set search_url = <zt.url path={search_page} /> %}
+    <form class="t9h__search" role="search" action="{{ search_url | safe }}" method="get">
+      <label class="t9h__sr" for="t9h-q">{{ t.search_label }}</label>
+      <input class="t9h__input" id="t9h-q" name="q" type="search" placeholder="ابحث في {% if config.extra.n_articles %}{{ <ar.num value={config.extra.n_articles} /> }} مقالًا{% else %}الأرشيف{% endif %}…" autocomplete="off">
+      <button class="t9h__go" type="submit" aria-label="{{ t.search }}" title="{{ t.search }}">{{ <zt.icon name="search" class="al-icon--sm" /> }}</button>
+    </form>
+    {%- endif %}
+    {%- if menu | length > 0 %}
+    <nav class="t9h__util" aria-label="{{ t.footer_nav }}"><ul role="list">{% include "partials/menu_items.html" %}</ul></nav>
+    {%- endif %}
+  </div>
+</header>
+<nav class="t9-subnav" aria-label="{{ t.sections }}">
+  <div class="t9-subnav__inner">
+    <ul class="t9-sections" role="list">
+      {%- set at_home = current_url is defined and current_url == home_url %}
+      <li{% if at_home %} class="active"{% endif %}><a href="{{ home_url | safe }}"{% if at_home %} aria-current="page"{% endif %}>{{ t.home }}</a></li>
+      {%- for name in config.extra.twenty2009_menu %}
+      {%- set u = get_taxonomy_url(kind="sections", name=name, lang=lang, required=false) %}
+      {%- set_global tab_colour = "#888888" %}
+      {%- for sx in config.extra.twenty2009_sections %}{% if sx.name == name %}{% set_global tab_colour = sx.colour %}{% endif %}{% endfor %}
+      {%- for sx in config.extra.twenty2009_editions %}{% if sx.name == name %}{% set_global tab_colour = sx.colour %}{% endif %}{% endfor %}
+      {%- if u %}
+      <li class="t9-sections__sec{% if name == active_section %} active{% endif %}" style="--t9-tab: {{ tab_colour }}"><a href="{{ u | safe }}"{% if name == active_section %} aria-current="page"{% endif %}>{{ name }}</a></li>
+      {%- endif %}
+      {%- endfor %}
+      {%- set all_sections = get_url(path="sections/", trailing_slash=true) %}
+      {%- set at_all = current_url is defined and current_url == all_sections %}
+      <li{% if at_all %} class="active"{% endif %}><a href="{{ all_sections | safe }}"{% if at_all %} aria-current="page"{% endif %}>باقي الأقسام</a></li>
+    </ul>
+  </div>
+</nav>

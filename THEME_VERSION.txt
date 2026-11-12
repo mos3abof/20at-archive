@@ -1,0 +1,3 @@
+Copied from https://github.com/ArabesqueLabs/zola-theme-arabesque
+commit 96ec7829e9c5b532f0455749b0f7cd2a9606ded4 (2026-11-03)
+To track upstream instead: rm -r website/themes/arabesque && git submodule add https://github.com/ArabesqueLabs/zola-theme-arabesque.git website/themes/arabesque
