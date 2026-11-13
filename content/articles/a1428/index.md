@@ -45,7 +45,7 @@ missing_images = "٥"
 
 <p>وتم عرض 27 مقبوضاً عليه من مظاهرة أمس، علي نيابة أمن الدولة بمصر الجديدة صباح اليوم الأحد، وستستكمل التحقيقات غداً الاثنين، وقررت حركة كفاية القيام باعتصام للتضامن مع المقبوض عليهم غدا الاثنين أمام مكتب النائب العام.</p>
 
-<p><a href="/media/media/sound_40_kedah.amr"><span style="color:#0000FF">استمع لجزء من المظاهرة</span></a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__sound_40_kedah.amr"><span style="color:#0000FF">استمع لجزء من المظاهرة</span></a></p>
 
 <h3><span style="color:#FF0000">باكستان تطرد أجانب المدارس الدينية !</span></h3>
 

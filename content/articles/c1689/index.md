@@ -61,11 +61,11 @@ missing_images = ""
 
 <p>استمع إلى بعض أناشيدها :</p>
 
-<p>•<a href="/media/media/saba7-el7ir.wma">صباح الخير يا بلادي</a></p>
+<p>•<a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__saba7-el7ir.wma">صباح الخير يا بلادي</a></p>
 
-<p>•<a href="/media/media/markeb-men-warak.wma">مركب من ورق</a></p>
+<p>•<a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__markeb-men-warak.wma">مركب من ورق</a></p>
 
-<p>•<a href="/media/media/ya-sawt.wma">يا صوت </a></p>
+<p>•<a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__ya-sawt.wma">يا صوت </a></p>
 
 <h3><span style="color:#FF0000">54f2</span></h3>
 

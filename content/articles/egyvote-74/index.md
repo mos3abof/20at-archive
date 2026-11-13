@@ -63,6 +63,6 @@ missing_images = ""
 
 <p>وجميعنا نؤمن بأن خير بلادنا مهوش بإيدنا!</p>
 
-<p><a href="/media/admins.20at.com/albaraa/aho-da-elly-sar.rm">استمع للأغنية بصوت علي الحجار</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__albaraa__aho-da-elly-sar.rm">استمع للأغنية بصوت علي الحجار</a></p>
 
 <h3><span style="color:#AC1D4B"> 27/11/2005 </span></h3>

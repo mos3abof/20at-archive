@@ -55,6 +55,6 @@ missing_images = "١"
 
 <p>وبيشرب شايه منين</p>
 
-<p>* <a href="/media/admins.20at.com/masr/dream2_elgaishelarabyfeen.wmv"> شاهدوا </a>باقي القصيدة.. وأخبرونا برأيكم!</p>
+<p>* <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__dream2_elgaishelarabyfeen.wmv"> شاهدوا </a>باقي القصيدة.. وأخبرونا برأيكم!</p>
 
 <p>عدد التعليقات : <strong>30</strong></p>

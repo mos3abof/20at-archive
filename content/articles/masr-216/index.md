@@ -45,6 +45,6 @@ missing_images = ""
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف"> استمع إلى الغربة علمتني</span></p>
 
-<p><a href="/media/masr.20at.com/media/awel-youm.rm"> استمع إلى سنة أولى غربة </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__awel-youm.rm"> استمع إلى سنة أولى غربة </a></p>
 
 <p>عدد التعليقات : <strong>162</strong></p>

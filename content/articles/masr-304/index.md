@@ -57,17 +57,17 @@ missing_images = ""
 
 <p>بعيدا عن العاشقين للفرقة والمختلفين معها.. نترككم الآن مع أغاني الفرقة نفسها.. ولتحكموا بأنفسكم ..</p>
 
-<p><a href="/media/admins.20at.com/masr/wustelbalad/05_track05.mp3">شجرة جوافة</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__wustelbalad__05_track05.mp3">شجرة جوافة</a></p>
 
-<p><a href="/media/admins.20at.com/masr/wustelbalad/02_track02.mp3">لافت على غيري</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__wustelbalad__02_track02.mp3">لافت على غيري</a></p>
 
-<p><a href="/media/admins.20at.com/masr/wustelbalad/ah_ya_lalaly.mp3">آه يالالي</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__wustelbalad__ah_ya_lalaly.mp3">آه يالالي</a></p>
 
-<p><a href="/media/admins.20at.com/masr/wustelbalad/venus1.mp3">فينوس</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__wustelbalad__venus1.mp3">فينوس</a></p>
 
-<p><a href="/media/admins.20at.com/masr/wustelbalad/3am_miina.mp3">عم مينا وشيخ أمين</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__wustelbalad__3am_miina.mp3">عم مينا وشيخ أمين</a></p>
 
-<p><a href="/media/admins.20at.com/masr/wustelbalad/magnoun.mp3">مجنون</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__wustelbalad__magnoun.mp3">مجنون</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">جايز</span></p>
 

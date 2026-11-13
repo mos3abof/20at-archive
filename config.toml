@@ -1,5 +1,5 @@
 base_url = "https://20at.mosab.me"   # the site's address (static/CNAME); zola serve uses its own
-title = "عشرينات"
+title = "أرشيف موقع عشرينات"
 description = "أرشيف موقع عشرينات: ٨٥٤٢ مقالًا، كما حفظها أرشيف الإنترنت."
 default_language = "ar"
 theme = "arabesque"
@@ -7,6 +7,8 @@ theme = "arabesque"
 compile_sass = false
 generate_feeds = true
 feed_filenames = ["atom.xml"]
+feed_limit = 30                    # the latest 30 per feed: full feeds of every section and writer were ~200 MB
+minify_html = true                 # GitHub Pages serves at most 1 GB; the header's menus are on every page
 build_search_index = false         # our own, smaller index (pipeline/site.py write_search, js/search.js)
 
 taxonomies = [

@@ -57,6 +57,6 @@ missing_images = ""
 
 <p>أحمد صالح</p>
 
-<p>شاهد: <a href="/media/media/elsawarkah.wmv"><span style="color:#0000FF">نسخة محسنة</span></a></p>
+<p>شاهد: <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__elsawarkah.wmv"><span style="color:#0000FF">نسخة محسنة</span></a></p>
 
 <p>شاهد: <span class="ar-dead-link" title="لم يحفظها الأرشيف"><span style="color:#0000FF"> نسخة مضغوطة</span></span></p>

@@ -67,10 +67,10 @@ missing_images = "١"
 
 <p>أمي نهى الزيني.. تحدثي أكثر، حتى لا يفوتني أكثر.. من هذا الوطن!</p>
 
-<p>- استمع إلى <a href="/media/admins.20at.com/masr/noha_zeny.wmv">تسجيل صوتي</a> لحديث المستشارة نهى الزيني لبرنامج العاشرة مسائا..</p>
+<p>- استمع إلى <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__noha_zeny.wmv">تسجيل صوتي</a> لحديث المستشارة نهى الزيني لبرنامج العاشرة مسائا..</p>
 
 <p>- اقرأ <span class="ar-dead-link" title="لم يحفظها الأرشيف">نص شهادة</span> المستشارة نهى الزيني المنشور في جريدة المصري اليوم</p>
 
-<p>- لنهى الزيني نغنى.. <a href="/media/admins.20at.com/masr/elmalek/mawawel-elhawa.mp3">مواويل الهوى</a> .. بصوت محمد منير</p>
+<p>- لنهى الزيني نغنى.. <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__elmalek__mawawel-elhawa.mp3">مواويل الهوى</a> .. بصوت محمد منير</p>
 
 <p>عدد التعليقات : <strong>175</strong></p>

@@ -37,7 +37,7 @@ missing_images = ""
 
 <p>باسم المجدوب - ولاد البلد:</p>
 
-<p><a href="/media/masr.20at.com/media/theme_bakkar.rm">استمع </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__theme_bakkar.rm">استمع </a></p>
 
 <p>بالطبع أنت تعرفه، بكار..أبو كف رقيق وصغير.. ابن أسوان البار....ومعزته رشيدة.. بنت أسوان (البارة برضه).</p>
 

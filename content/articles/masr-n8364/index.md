@@ -77,14 +77,14 @@ missing_images = ""
 
 <p>أما إذا كنت من محبي سماع تلك الأغاني وكنت من جمهورها نقدم لك أهبط 5 أغاني بيئة..</p>
 
-<p><a href="/media/masr.20at.com/media/ka3boh-ka3boh.mp3"> كعبو كعبو</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__ka3boh-ka3boh.mp3"> كعبو كعبو</a></p>
 
-<p><a href="/media/masr.20at.com/media/men-7aq-el-kebeer.mp3">من حق الكبير يدلع </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__men-7aq-el-kebeer.mp3">من حق الكبير يدلع </a></p>
 
-<p><a href="/media/masr.20at.com/media/sakarana.mp3"> سهرانة </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__sakarana.mp3"> سهرانة </a></p>
 
-<p><a href="/media/masr.20at.com/media/khamsa-le-khamsa-we-nos.mp3">خمسة ونص </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__khamsa-le-khamsa-we-nos.mp3">خمسة ونص </a></p>
 
-<p><a href="/media/masr.20at.com/media/zaman-el-wa7sh.mp3">زمن الوحوش</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__zaman-el-wa7sh.mp3">زمن الوحوش</a></p>
 
 <h3><span style="color:#FF0000">b554</span></h3>

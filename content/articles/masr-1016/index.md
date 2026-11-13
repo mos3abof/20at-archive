@@ -47,6 +47,6 @@ missing_images = "١"
 
 <p>و اليوم .. و بعد مرور 25 عاما من حكم مبارك، أو بمعنى أدق بعد مرور 25 عاما من تعطيل الدستور و انتهاكه .. هؤلاء هم .. رعاياك يا مولاي.</p>
 
-<p><a href="/media/masr.20at.com/media/ra3ayak.wmv">شاهد الرعايا</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__ra3ayak.wmv">شاهد الرعايا</a></p>
 
 <p>عدد التعليقات : <strong>29</strong></p>

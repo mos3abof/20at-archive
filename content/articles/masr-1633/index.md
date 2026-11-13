@@ -41,6 +41,6 @@ missing_images = "١"
 
 <p>قعدوا كتبوا ويلحنوا ويغنوا.. "ع الشط أنا واقف.. وحدى ومش خايف.. ف إيدى كبشة حزن.. اضحك وأقوم حادف.. ياخدها موج البحر.. يضحك يقول شايف.. في لحظة راح الحزن..</p>
 
-<p>اسمع "<a href="/media/masr.20at.com/media/enksar.mp3"> اللي انكسر</a>".. وقول لنا رأيك</p>
+<p>اسمع "<a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__enksar.mp3"> اللي انكسر</a>".. وقول لنا رأيك</p>
 
 <p>عدد التعليقات : <strong>36</strong></p>

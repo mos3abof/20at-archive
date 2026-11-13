@@ -37,6 +37,6 @@ missing_images = "١"
 
 <p>حاولنا أن نعرف المزيد.. نسيبة داوود مراسلة "ولاد البلد" كانت هناك.. وأحضرت لنا الفيديو الذي صورته الكنيسة بعد الاعتداءات.. شاهده معنا.. وابعد الأطفال ومرضى القلب عن الشاشة.. ثم أخبرنا برأيك في التعليقات..</p>
 
-<p><a href="/media/admins.20at.com/masr/alex1.wmv">شاهد ملف الفيديو</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__alex1.wmv">شاهد ملف الفيديو</a></p>
 
 <p>عدد التعليقات : <strong>136</strong></p>

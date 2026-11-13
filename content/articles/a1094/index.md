@@ -84,16 +84,16 @@ missing_images = "٣"
 
 <p><span style="color:#800080">** استمع من أغاني مارسيل خليفة:</span></p>
 
-<p>- أغنية <a href="/media/media/3aris-el-ganooby.mp3"><span style="color:#0000FF">عريس الجنوبي</span></a></p>
+<p>- أغنية <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__3aris-el-ganooby.mp3"><span style="color:#0000FF">عريس الجنوبي</span></a></p>
 
-<p>- أغنية <a href="/media/media/montaseb-el-kama.mp3"><span style="color:#0000FF">منتصب القامة</span></a></p>
+<p>- أغنية <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__montaseb-el-kama.mp3"><span style="color:#0000FF">منتصب القامة</span></a></p>
 
-<p>- أغنية <a href="/media/media/ommi.mp3"><span style="color:#0000FF">أمي</span></a></p>
+<p>- أغنية <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__ommi.mp3"><span style="color:#0000FF">أمي</span></a></p>
 
 <p>- أغنية <span class="ar-dead-link" title="لم يحفظها الأرشيف"><span style="color:#0000FF">موسيقى جدل</span></span></p>
 
 <p>- أغنية <span class="ar-dead-link" title="لم يحفظها الأرشيف"><span style="color:#0000FF">أحمد العربي</span></span></p>
 
-<p>- أغنية <a href="/media/media/ritta.mp3"><span style="color:#0000FF">ريتا</span></a></p>
+<p>- أغنية <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__ritta.mp3"><span style="color:#0000FF">ريتا</span></a></p>
 
 <p>- أغنية <span class="ar-dead-link" title="لم يحفظها الأرشيف"><span style="color:#0000FF">طلعت يا محلى نورها</span></span></p>

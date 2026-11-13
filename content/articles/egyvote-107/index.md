@@ -49,7 +49,7 @@ missing_images = ""
 
 <p>أما فهمي سيدراك فقال أن هذه الفكرة غير مطروحة بالمرة عند أي مصري متفتح سواء كان مسيحي أو مسلم لأننا هنا مواطنين ولا داعي لإقحام الدين في السياسة.</p>
 
-<p><a href="/media/admins.20at.com/albaraa/carstian.rm">استمع للشهادات</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__albaraa__carstian.rm">استمع للشهادات</a></p>
 
 <h3><span style="color:#AC1D4B"> راندا فاروق - دعاء الشامي </span></h3>
 

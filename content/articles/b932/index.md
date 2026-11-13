@@ -116,24 +116,24 @@ missing_images = ""
 
 <p>استمع الى أغاني بصوت الشيخ إمام:</p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/mamno3at.mp3">ممنوعات</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__mamno3at.mp3">ممنوعات</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/elfool.mp3">الفول</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__elfool.mp3">الفول</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/jevara_mat.mp3">جيفارا مات</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__jevara_mat.mp3">جيفارا مات</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/haha.mp3">بقرة حاحا</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__haha.mp3">بقرة حاحا</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/etgama3o.mp3">اتجمعوا العشاق</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__etgama3o.mp3">اتجمعوا العشاق</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/han3any.mp3">هنغني</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__han3any.mp3">هنغني</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/botekaty.mp3">يا بلح أبريم</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__botekaty.mp3">يا بلح أبريم</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/botekaty.mp3">بوتيكاتي</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__botekaty.mp3">بوتيكاتي</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/bahebek.mp3"> بحبك يا مصر</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__bahebek.mp3"> بحبك يا مصر</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/etgama3o.mp3">الجدع جدع</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__etgama3o.mp3">الجدع جدع</a></p>
 
-<p><a href="/media/admins.20at.com/masr/shekh-emam/hamza.mp3">رجعوا التلامذة</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__shekh-emam__hamza.mp3">رجعوا التلامذة</a></p>

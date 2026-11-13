@@ -40,7 +40,7 @@ missing_images = "٢"
 
 <p>كل سنة وانتو طيبين وان شاء الله السنة اللي جاية أحلى، وبنهديلكوا كام أغنية كده من بتوع العيد.</p>
 
-<p><a href="/media/masr.20at.com/media/3eed/leilat-el-3eed.ram">أغنية "يا ليلة العيد لأم كلثوم</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__3eed__leilat-el-3eed.ram">أغنية "يا ليلة العيد لأم كلثوم</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">أهلا.. أهلا بالعيد لصفاء أبو السعود </span></p>
 

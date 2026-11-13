@@ -61,12 +61,12 @@ missing_images = "١"
 
 <p>*غنوا لإسكندرية في عيد كنايسها..</p>
 
-<p><a href="/media/masr.20at.com/media/ya-eskendria.mp3">إسكندرية محمد منير</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__ya-eskendria.mp3">إسكندرية محمد منير</a></p>
 
-<p><a href="/media/masr.20at.com/media/fayroz-sha6-eskenderia.ram">شط إسكندرية فيروز</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__fayroz-sha6-eskenderia.ram">شط إسكندرية فيروز</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">إسكندرية اجدع ناس مصطفى قمر</span></p>
 
-<p><a href="/media/masr.20at.com/media/al-7ajar..eskandrani.ram">اسكندرانى على الحجار</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__al-7ajar.eskandrani.ram">اسكندرانى على الحجار</a></p>
 
 <p>عدد التعليقات : <strong>118</strong></p>

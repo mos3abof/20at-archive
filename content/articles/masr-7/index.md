@@ -63,13 +63,13 @@ missing_images = "١"
 
 <p><a href="https://web.archive.org/web/20060719124503/http://www.cheikh-imam.net/From%20Tawfik/el%20bahr.rm">7 البحر بيضحك ليه </a></p>
 
-<p><a href="/media/masr.20at.com/media/7abayebna/8.ram">8 الجدع جدع </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__7abayebna__8.ram">8 الجدع جدع </a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">9 عيون الكلام </span></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">10 بهية </span></p>
 
-<p><a href="/media/masr.20at.com/media/7abayebna/11.ram">11 مغنواتي </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__7abayebna__11.ram">11 مغنواتي </a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">12 شرفت يا نيكسون </span></p>
 
