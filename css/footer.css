@@ -1,0 +1,37 @@
+/* 20at archive: the footer (templates/partials/footer.html), dark blue in four columns. Loaded after
+   css/twenty2009.css, whose older .t9f rules it overrides. */
+
+.t9f { margin-block-start: 48px; background: #0F2A3D; color: #DCE8F0; border: 0; }
+.t9f a { color: #DCE8F0; text-decoration: none; }
+.t9f a:hover { color: #FFFFFF; text-decoration: underline; }
+.t9f a:focus-visible, .t9f button:focus-visible, .t9f input:focus-visible { outline: 2px solid #FFCC00; outline-offset: 2px; }
+.t9f__inner { max-inline-size: 1010px; margin: 0 auto; padding: 36px 20px 22px; display: grid;
+  grid-template-columns: minmax(0, 2fr) repeat(3, minmax(0, 1fr)); gap: 28px; }
+.t9f__lockup { display: flex; align-items: center; gap: 12px; }
+.t9f__logo { display: grid; place-items: center; padding: 4px; background: #FFFFFF; }
+.t9f__logo img { display: block; inline-size: auto; block-size: 36px; }
+.t9f__lockup strong { display: block; color: #FFFFFF; font-size: 1.15em; }
+.t9f__lockup span span { display: block; font-size: 0.8em; color: #B8CCDA; }
+.t9f__note { margin: 14px 0 0; font-size: 0.85em; line-height: 1.9; color: #C9D9E5; }
+.t9f__search { display: flex; margin-block-start: 14px; border: 1px solid #3D6680; max-inline-size: 22rem; }
+.t9f__input { flex: 1; min-inline-size: 0; border: 0; padding: 8px 10px; background: #1C4058; color: #FFFFFF; font: inherit; font-size: 0.85em; }
+.t9f__input::placeholder { color: #9FB6C7; }
+.t9f__go { border: 0; padding: 0 14px; background: #006699; color: #FFFFFF; font: inherit; font-size: 0.85em; cursor: pointer; }
+.t9f__go:hover { background: #0077B3; }
+.t9f__sr { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.t9f__title { margin: 0 0 10px; color: #FFFFFF; font-size: 0.95em; font-weight: 700; }
+.t9f__list { margin: 0; padding: 0; list-style: none; font-size: 0.85em; line-height: 2.2; }
+.t9f__list li::before { content: none; }
+.t9f__bottom { border-block-start: 1px solid #24465E; background: transparent; }
+.t9f__bottom-inner { max-inline-size: 1010px; margin: 0 auto; padding: 14px 20px; display: flex; flex-wrap: wrap;
+  align-items: center; justify-content: space-between; gap: 8px 20px; font-size: 0.85em; }
+.t9f__bottom-inner p { margin: 0; }
+.t9f__credit a { font-weight: 700; }
+.t9f__heart { color: #FF6B6B; }
+.t9f__top { opacity: 0.85; }
+.t9f__stripe { display: none; }
+
+@media (max-width: 52rem) {
+  .t9f__inner { grid-template-columns: repeat(2, minmax(0, 1fr)); padding-block-start: 28px; }
+  .t9f__brand { grid-column: 1 / -1; }
+}

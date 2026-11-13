@@ -143,7 +143,7 @@
   var out = page.querySelector("[data-results]");
   var params = new URLSearchParams(location.search);
   input.value = params.get("q") || "";
-  var KINDS = [["كاتب", "الكتّاب"], ["قسم", "الأقسام"], ["سنة", "السنوات"], ["صفحة", "صفحات"], ["وسائط", "الوسائط"]];
+  var KINDS = [["كاتب", "الكُتَّاب"], ["قسم", "الأقسام"], ["سنة", "السنوات"], ["صفحة", "صفحات"], ["وسائط", "الوسائط"]];
   var PAGE = 40, run = 0, textState = null;   // textState: {texts: [...normalized], raw: [...]} once loaded
 
   function arNum(n) { return String(n).replace(/\d/g, function (d) { return "٠١٢٣٤٥٦٧٨٩"[d]; }); }
@@ -193,7 +193,7 @@
   function search() {
     var mine = ++run, q = norm(input.value), ws = words(input.value), plain = q.split(" ").filter(Boolean);
     out.textContent = "";
-    if (!q) { status.textContent = "اكتب كلمة أو اسمًا للبحث في الأرشيف."; return; }
+    if (!q) { status.textContent = "كلمة أو اسم للبحث في الأرشيف."; return; }
     status.textContent = "جارٍ البحث…";
     loadIndex(page).then(function (ix) {
       if (mine !== run) return;
@@ -211,7 +211,7 @@
       });
       var seen = {};
       arts.forEach(function (r) { seen[r[1]] = true; });
-      if (arts.length) group("في العناوين والكتّاب والأقسام", arts.length, list(arts, function (r) { return articleItem(r, plain, null); }));
+      if (arts.length) group("في العناوين والكُتَّاب والأقسام", arts.length, list(arts, function (r) { return articleItem(r, plain, null); }));
       status.textContent = (quick.length + arts.length) ? "" : "لا شيء في العناوين والأسماء.";
       textBlock(ix, ws, plain, seen, mine);
     }).catch(function () { status.textContent = "تعذّر تحميل فهرس البحث."; });
@@ -248,7 +248,7 @@
     if (textState && textState.complete) { go(); return; }
     getJSON(page.dataset.meta).then(function (meta) {
       if (mine !== run) return;
-      var b = el("button", "hv-button-outline", "ابحث في نصوص المقالات أيضًا");
+      var b = el("button", "hv-button-outline", "البحث في نصوص المقالات أيضًا");
       b.type = "button"; b.addEventListener("click", go);
       box.appendChild(b);
       box.appendChild(el("p", "ar-search__note", "يُحمَّل نص " + arNum(meta.articles) + " مقالًا (نحو " + arNum(meta.text_mb) + " ميغابايت) مرة واحدة في هذه الزيارة."));
