@@ -1,0 +1,65 @@
+# The 20at archive site: this repository holds the site as built locally (`make publish` / `make pr` in the
+# pipeline repository), so nothing is built here. Pull requests are checked; main is deployed to GitHub Pages.
+# Source of truth: publish/.github/workflows/deploy.yml in the pipeline repository (copied here on publish).
+name: Deploy the 20at archive
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.event_name == 'pull_request' && github.ref || 'deploy' }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.1
+
+      - name: Check the built site
+        run: |
+          fail() { echo "::error::$1"; bad=1; }
+          bad=0
+          for f in index.html 404.html CNAME sitemap.xml; do [ -f "$f" ] || fail "missing $f: is this a full build?"; done
+          [ ! -f config.toml ] || fail "config.toml found: Zola sources belong in the pipeline repository"
+          [ ! -d templates ] || fail "templates/ found: Zola sources belong in the pipeline repository"
+          size=$(du -sb --exclude=.git --exclude=.github . | cut -f1)
+          echo "site: $((size / 1000000)) MB, $(find . -path ./.git -prune -o -type f -print | wc -l) files"
+          [ "$size" -lt 1000000000 ] || fail "the site is $((size / 1000000)) MB; GitHub Pages allows 1 GB"
+          big=$(find . -path ./.git -prune -o -type f -size +50M -print)
+          [ -z "$big" ] || fail "files over 50 MB (put recordings in the release instead): $big"
+          exit $bad
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6.0.1
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
