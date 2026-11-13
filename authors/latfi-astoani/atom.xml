@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
+    <title>أرشيف عشرينات - latfi-astoani</title>
+    <subtitle>في الفترة ٨٥٥١ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/latfi-astoani/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2007-01-03T00:00:00+00:00</updated>
+    <id>https://20at.mosab.me/authors/latfi-astoani/atom.xml</id>
+    <entry xml:lang="ar">
+        <title>الفارس حمشو .. أمل سوريا</title>
+        <published>2007-01-03T00:00:00+00:00</published>
+        <updated>2007-01-03T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            لطفي أسطواني
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/doha2006-3187/"/>
+        <id>https://20at.mosab.me/articles/doha2006-3187/</id>
+        
+        <content type="html" xml:base="https://20at.mosab.me/articles/doha2006-3187/">&lt;figure class=&quot;zt-figure&quot;&gt;
+  &lt;img src=&quot;https://20at.mosab.me/media/admins.20at.com/aly/hamshu-inside.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot;&gt;
+&lt;/figure&gt;
+&lt;p&gt;في أول مشاركة لهم بفروسية التحمل في الدورات الآسيوية يعول السوريون على الفارس الشاب أحمد حمشو (14 عاماً) لإحراز إحدى الميداليات في آسياد الدوحة التي تبدأ منافساتها اليوم.&lt;/p&gt;
+&lt;h3&gt;حمشو .. وحصانه الأرجنتيني!&lt;/h3&gt;
+&lt;p&gt;أحمد حمشو الذي يشارك في الدوري العربي لقفز الحواجز المؤهل لكأس العالم بناءً على دعوة خاصة أنهى حالياً برنامجاً تدريبياً مكثفاً في ناديه سيف الشام (قرب دمشق) ولمدة خمس ساعات يومياً على ستة خيول قبل أن يتوجه إلى الدوحة ويشارك هناك على حصان جديد (9 سنوات) تم استقدامه من الأرجنتين ويشرف عليه فريق مختص بالتدريب.&lt;/p&gt;
+&lt;p&gt;الفارس حمشو الذي سبق له أن أحرز المركز الثالث عربياً والمركز (28) في كأس العالم الأخيرة للتحمل التي جرت في ألمانيا في شهر أغسطس الماضي يتوقع إحراز إحدى الميداليات الآسيوية الثلاث حيث قال : &quot;لا أخشى فرسان آسيا بل احترمهم وأركز على نفسي وسأنافس على إحدى الميداليات وهذا طموح مشروع في الرياضة وأعتقد أنني مؤهل لذلك إذا لم تحدث معي مشاكل وإذا لم يصب الحصان أثناء المنافسات&quot;.&lt;/p&gt;
+&lt;p&gt;وعن حصانه الجديد يقول حمشو : &quot;فروسية التحمل لا تحتاج إلى اعتياد على الجواد المهم في هذه الرياضة التحمل والتركيز ومعرفة طباع الجواد وقد شاركت في فرنسا على حصان أركبه لأول مرة وكانت النتيجة جيدة&quot;.&lt;/p&gt;
+&lt;p&gt;يذكر أن المشاركة السورية بالتحمل في الآسياد تضم إلى جانب الشاب حمشو كلاً من الفارس طارق أرناؤوط والفارسة ديا توتنجي.&lt;/p&gt;
+&lt;h3&gt;* من موقع العربية . نت.&lt;/h3&gt;
+</content>
+        
+    </entry>
+</feed>
