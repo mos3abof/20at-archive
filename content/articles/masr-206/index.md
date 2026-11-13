@@ -109,7 +109,7 @@ missing_images = ""
 
 <h3>* استمع:</h3>
 
-<p><a href="/media/admins.20at.com/masr/roba3yat1.mp3">رباعيات جاهين 1</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__roba3yat1.mp3">رباعيات جاهين 1</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">رباعيات جاهين 2</span></p>
 

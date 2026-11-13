@@ -43,7 +43,7 @@ missing_images = ""
 
 <p>قال إن اللعبة مش حلوة.. وإنه مش لاعب معاهم..</p>
 
-<p>بقولكم إيه.. تعالوا<a href="/media/admins.20at.com/masr/entekhab.mp3"> اسمعوا معانا</a>!</p>
+<p>بقولكم إيه.. تعالوا<a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__entekhab.mp3"> اسمعوا معانا</a>!</p>
 
 <p>مش نخب يا محترم</p>
 

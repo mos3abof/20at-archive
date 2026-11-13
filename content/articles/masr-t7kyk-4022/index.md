@@ -42,4 +42,4 @@ missing_images = "١"
 
 <p>ولم يبخل الأمن عليهما، فقرر أن يجعل الحلقة تنتهي بشكل أكثر سخونة.. فاعتقل من المدونين ثلاثة.. ليصنع بنفسه نهاية ملائمة أكثر للحلقة..</p>
 
-<p><a href="/media/masr/media/modawenoon-low.rm">شاهدوا الحلقة</a>.. وننتظر تعليقاتكم .</p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr__media__modawenoon-low.rm">شاهدوا الحلقة</a>.. وننتظر تعليقاتكم .</p>

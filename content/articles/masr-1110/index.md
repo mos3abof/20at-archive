@@ -87,7 +87,7 @@ missing_images = ""
 
 <p>هتكون سنانك وقعت قربت على 100 سنه</p>
 
-<p>شاهد مقطع فيديو للطلبة أثناء <a href="/media/masr.20at.com/media/7elwan-demo.rm">اقتحام مبنى رئيس الجامعة</a></p>
+<p>شاهد مقطع فيديو للطلبة أثناء <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__7elwan-demo.rm">اقتحام مبنى رئيس الجامعة</a></p>
 
 <h3>شاهد صور لطلاب جامعة حلوان</h3>
 

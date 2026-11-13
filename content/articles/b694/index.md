@@ -120,6 +120,6 @@ missing_images = ""
 
 <p>-<span class="ar-dead-link" title="لم يحفظها الأرشيف">كركشنجي (أحمد عدوية).</span></p>
 
-<p>-<a href="/media/media/04_blue_danube_waltz__op.314.wma">Blue Danube Waltz (Johann Strauss).</a></p>
+<p>-<a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__04_blue_danube_waltz__op.314.wma">Blue Danube Waltz (Johann Strauss).</a></p>
 
 <p>-<span class="ar-dead-link" title="لم يحفظها الأرشيف">طيب طيب (محمد فؤاد).</span></p>

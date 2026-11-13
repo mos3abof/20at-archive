@@ -123,6 +123,6 @@ missing_images = ""
 
 <p>وفي كمان كليب لبعض الأحداث الهامة التي مرت في تاريخ هذه الشقة.. وإدعولي أرجع بالسلامة، وأنجح، وأحول من قنا لآداب الخرطوم، لإنهم بيقولوا إن الجو هناك ألطف من هنا.. وأهي تبقى غربة بجد.. وآآآآآآآآآآآآآآآآآه.. يا لاللي!</p>
 
-<p>شاهد معنا <a href="/media/masr.20at.com/media/elley-et3arab.wmv"> اللي اتغرب</a></p>
+<p>شاهد معنا <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/masr.20at.com__media__elley-et3arab.wmv"> اللي اتغرب</a></p>
 
 <p>عدد التعليقات : <strong>39</strong></p>

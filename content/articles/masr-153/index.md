@@ -53,15 +53,15 @@ missing_images = ""
 
 <h3>*استمع:</h3>
 
-<p><a href="/media/admins.20at.com/masr/phonecalls/1.mp3">- المطرب خالد أشرف</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__phonecalls__1.mp3">- المطرب خالد أشرف</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">- سلامو عليكو</span></p>
 
-<p><a href="/media/admins.20at.com/masr/phonecalls/3.mp3">- النمرة غلط</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__phonecalls__3.mp3">- النمرة غلط</a></p>
 
-<p><a href="/media/admins.20at.com/masr/phonecalls/4.mp3">- لمعي نجيب حبيب </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__phonecalls__4.mp3">- لمعي نجيب حبيب </a></p>
 
-<p><a href="/media/admins.20at.com/masr/phonecalls/5.mp3">- بانا بيتي </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__phonecalls__5.mp3">- بانا بيتي </a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">- العداد</span></p>
 

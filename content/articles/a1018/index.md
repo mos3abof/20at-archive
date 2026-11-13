@@ -88,7 +88,7 @@ missing_images = "١٠"
 
 <p>إلا أن الأمطار الغزيرة التي هطلت في يوم العيد – اليوم - كان لها الكلمة الأخيرة في تحديد شكل الاحتفال.. اللهم اجعلها سقيا خير لا سقيا عذاب، وكل عام والكويت وشعبها بخير!</p>
 
-<p>استمع إلى أغنية <a href="/media/media/3ashat-lna.ram"><span style="color:#0000FF">(عاشت لنا)</span></a></p>
+<p>استمع إلى أغنية <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__3ashat-lna.ram"><span style="color:#0000FF">(عاشت لنا)</span></a></p>
 
 <p>بصوت عبد الله الرويشد</p>
 

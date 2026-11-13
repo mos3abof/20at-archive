@@ -105,9 +105,9 @@ missing_images = ""
 
 <p>يبدو أن لقب النائب الشرعي عن الدائرة سيصبح رمزا ضد النواب المزورين الذين يجب أن يعاملوا معاملة خاصة وأن توضع قائمة سوداء بأسمائهم في البرلمان وفي كافة وسائل الإعلام الشريفة، وعلي الوجه الآخر علي هؤلاء النواب الشرعيين ألا يختفي دورهم ولا أن يكتفوا بالملاحقات القضائية أدعوهم لتكوين جبهة تسمي (نواب ضد التزوير) ويكون لها دور في الإشراف علي أعمال البرلمان وملاحقة الفساد وملاحقة تحركات نواب التزوير والتصدي لمواقفهم الفاسدة ضد الشعب المصري فيستحيل أن يأتي شخصا بالتزوير ويعمل لصالح هذا الشعب.</p>
 
-<p><a href="/media/egyvote.20at.com/video/heshmat.wmv">شاهد فيلم الدكتور جمال</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/egyvote.20at.com__video__heshmat.wmv">شاهد فيلم الدكتور جمال</a></p>
 
-<p><a href="/media/egyvote.20at.com/video/masr1.wmv">فيلم آخر</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/egyvote.20at.com__video__masr1.wmv">فيلم آخر</a></p>
 
 <h3><span style="color:#AC1D4B"> عبد المنعم محمود </span></h3>
 

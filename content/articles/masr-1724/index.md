@@ -89,7 +89,7 @@ missing_images = "١"
 
 <p>وكأن فرص العمل "مفيش أكثر منها"، وسلملي علي خطة تشغيل الشباب في البرنامج الانتخابي للرئيس.. وكله بتوجيهاته..</p>
 
-<p><a href="/media/admins.20at.com/masr/la5abet.rm">حمل أغنية "يا مصري"</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__la5abet.rm">حمل أغنية "يا مصري"</a></p>
 
 <p>• <span class="ar-dead-link" title="لم يحفظها الأرشيف">الدرع يقترب.. بقوة</span></p>
 

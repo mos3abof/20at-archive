@@ -43,6 +43,6 @@ missing_images = ""
 
 <p>كل هذه تساؤلات دارت في عقولنا وقررنا أن ننزل إلى الشارع والجامعة ونعرف رأي الشباب فيها.</p>
 
-<p>* <a href="/media/egyvote.20at.com/shabab.rm">استمع إلى الإجابة</a></p>
+<p>* <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/egyvote.20at.com__shabab.rm">استمع إلى الإجابة</a></p>
 
 <h3><span style="color:#AC1D4B"> 22/11/2005 </span></h3>

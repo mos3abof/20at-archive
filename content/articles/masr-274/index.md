@@ -41,6 +41,6 @@ missing_images = "١"
 
 <p>الاتنين اتقابلوا وكتبوا أغنية ولحنوها وغنوها.. وأهدوها لموقع "ولاد البلد".. لكن أهدوها قبل كدة للـ"حلو".. اللي فاضله زلطة.. ويطلع برة.. الملعب طبعا!</p>
 
-<p><a href="/media/admins.20at.com/masr/justapush.mp3"> * استمع للأغنية</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__justapush.mp3"> * استمع للأغنية</a></p>
 
 <p>عدد التعليقات : <strong>186</strong></p>

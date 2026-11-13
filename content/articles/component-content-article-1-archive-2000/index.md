@@ -125,4 +125,4 @@ missing_images = "١"
 
 <p><a href="https://web.archive.org/web/20100218111808/http://islamonline.net/arabic/arts/2004/10/images/bag4.ram"> اللهم صلي على المصطفى</a></p>
 
-<p><a href="/media/ramadan.20at.com/media/kan-nefsi.mp3">كان نفسي</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/ramadan.20at.com__media__kan-nefsi.mp3">كان نفسي</a></p>

@@ -41,4 +41,4 @@ missing_images = "١"
 
 <p>فريق نستمتع بمشاهدة لعب نجومه المنفرد.. ولكن يبقى روح الفريق هو الذي يجمعهم نحو الفوز.</p>
 
-<h3>* شاهد : <a href="/media/worldcup2006.20at.com/media/video/nike_alone.avi">البرازيل .. روح الفريق.</a></h3>
+<h3>* شاهد : <a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/worldcup2006.20at.com__media__video__nike_alone.avi">البرازيل .. روح الفريق.</a></h3>

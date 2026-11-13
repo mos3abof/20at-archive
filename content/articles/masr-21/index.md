@@ -115,4 +115,4 @@ missing_images = ""
 
 <h3>*استمع:</h3>
 
-<p><a href="/media/admins.20at.com/masr/mamno3at.rm">- أغنية "ممنوعات" بصوت الشيخ إمام</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__mamno3at.rm">- أغنية "ممنوعات" بصوت الشيخ إمام</a></p>

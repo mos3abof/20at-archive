@@ -79,8 +79,8 @@ missing_images = ""
 
 <h3><span style="color:#FF0000">البراء أشرف</span></h3>
 
-<p><a href="/media/admins.20at.com/albaraa/1.wmv">لمشاهدة الفيلم نسخة مضغوطة 5 ميجا</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__albaraa__1.wmv">لمشاهدة الفيلم نسخة مضغوطة 5 ميجا</a></p>
 
-<p><a href="/media/admins.20at.com/albaraa/2.wmv">لمشاهدة الفيلم نسخة مجودة 10 ميجا</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__albaraa__2.wmv">لمشاهدة الفيلم نسخة مجودة 10 ميجا</a></p>
 
 <h3><span style="color:#AC1D4B"> 29/11/2005 </span></h3>

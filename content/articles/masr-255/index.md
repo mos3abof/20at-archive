@@ -49,15 +49,15 @@ missing_images = "١"
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف"> - الله يا دايم</span></p>
 
-<p><a href="/media/admins.20at.com/masr/elmalek/tafy-elnour.mp3"> - طفي النور يا بهية </a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__elmalek__tafy-elnour.mp3"> - طفي النور يا بهية </a></p>
 
-<p><a href="/media/admins.20at.com/masr/elmalek/shorm.mp3"> - شرم برم</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__elmalek__shorm.mp3"> - شرم برم</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف"> - تك تك</span></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">- علي عليوة</span></p>
 
-<p><a href="/media/admins.20at.com/masr/elmalek/mawawel-elhawa.mp3"> - مواويل الهوى</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__elmalek__mawawel-elhawa.mp3"> - مواويل الهوى</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف"> - مولاك</span></p>
 

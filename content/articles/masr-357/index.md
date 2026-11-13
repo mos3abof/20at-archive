@@ -75,7 +75,7 @@ missing_images = "٣"
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">صعبان عليا يا غالي</span></p>
 
-<p><a href="/media/admins.20at.com/masr/boss-baa.mp3">بص بقى عشان تبقى عارف</a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/admins.20at.com__masr__boss-baa.mp3">بص بقى عشان تبقى عارف</a></p>
 
 <p><span class="ar-dead-link" title="لم يحفظها الأرشيف">يا أطب طب يا دلع</span></p>
 

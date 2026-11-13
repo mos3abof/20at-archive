@@ -35,4 +35,4 @@ missing_images = ""
 
 <h3><span style="color:#800080">** شاهد </span></h3>
 
-<p><a href="/media/media/abou-fotouh.wmv"><span style="color:#0000FF"> شهادة الدكتور عبد المنعم أبو الفتوح </span></a></p>
+<p><a href="https://github.com/mos3abof/20at-archive/releases/download/recordings/media__abou-fotouh.wmv"><span style="color:#0000FF"> شهادة الدكتور عبد المنعم أبو الفتوح </span></a></p>
