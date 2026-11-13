@@ -1,0 +1,67 @@
+/* 20at archive: the layout of the 2026 design (mockup "عشرينات · New Home Page"), loaded last:
+   - the type: Noto Kufi Arabic for the interface and headings, Noto Naskh Arabic for reading text
+     (css/fonts-noto.css), the theme's fonts after them as fallbacks;
+   - the width: a 1080px page (1040px of content between 20px gutters), the header, the menus and the
+     footer on the same edges. */
+:root, :root[data-theme] {
+  --al-font-sans: "Noto Kufi Arabic", "IBM Plex Sans Arabic", "Noto Sans Arabic", "Geeza Pro", ui-sans-serif, system-ui, sans-serif;
+  --al-font-display: "Noto Kufi Arabic", "Kufam", "IBM Plex Sans Arabic", ui-sans-serif, system-ui, sans-serif;
+  --al-font-serif: "Noto Naskh Arabic", "Amiri", "Scheherazade New", "Georgia", serif;
+  --al-size-page: 1040px;
+}
+body { font-family: var(--al-font-sans); }
+.t9h__bar, .t9-types__list { max-inline-size: 1040px; }
+@media (max-width: 1100px) { .t9h__bar, .t9-types__list { margin-inline: 20px; } }
+.t9f__inner, .t9f__bottom-inner { max-inline-size: 1080px; }
+
+/* the header as in the design: a smaller logo, the name over the original site's dates */
+.t9h__logo { block-size: 40px; }
+.t9h__name { font-size: 1.2em; }
+.t9h__tagline { font-size: 0.75em; }
+.t9-types__end2 > a { color: var(--t9-color-text-soft) !important; }
+
+/* ---- link hover: a lighter shade of the logo's orange (#F47216) ---------------------------------------- */
+:root, :root[data-theme] { --al-color-accent-hover: #F5893A; }
+a:hover { color: var(--al-color-accent-hover); }
+
+/* ---- the header, as in the design (mockup "عشرينات · New Home Page"): two rows --------------------------
+   row 1 (sticky): the logo, the name over the dates, the search filling the rest; no colour stripe
+   row 2: the content menu in 14px, the current item in blue with a 3px rule under it */
+.t9h__stripe { display: none; }
+.t9h__top { background: #FFFFFF; border-block-end: 1px solid #E5E5E5; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06); }
+.t9h__bar { box-sizing: border-box; max-inline-size: 1080px; margin-inline: auto; padding: 10px 20px; gap: 10px 20px; }
+@media (max-width: 1100px) { .t9h__bar { margin-inline: 0; } }
+.t9h__brand { gap: 10px; }
+.t9h__logo { block-size: 40px; }
+.t9h__words { line-height: 1.4; }
+.t9h__name { font-size: 19px; font-weight: 700; color: #006699; }
+.t9h__tagline { display: block; font-size: 12px; color: #666666; }
+.t9h__search { flex: 1 1 320px; max-inline-size: none; margin-inline-start: 0; border: 1px solid #ABABAB; background: #FFFFFF; }
+.t9h__input { padding: 9px 12px; font-size: 14px; }
+.t9h__go { padding: 0 18px; border: 0; background: #006699; color: #FFFFFF; font: inherit; font-size: 14px; font-weight: 600; cursor: pointer; }
+.t9h__go:hover { background: #004B80; }
+.t9-types { border-block-start: 0; border-block-end: 1px solid #E5E5E5; background: #FFFFFF; }
+.t9-types__list { box-sizing: border-box; max-inline-size: 1080px; padding: 0 20px; gap: 2px 22px; font-size: 14px; }
+@media (max-width: 1100px) { .t9-types__list { margin-inline: 0; } }
+.t9-types__list > li > a, .t9-types .t9-drop__toggle { padding: 9px 0 7px; font-size: 14px; color: #333333; border-block-end: 3px solid transparent; }
+.t9-types__list > li > a:hover, .t9-types .t9-drop__toggle:hover { color: var(--al-color-accent-hover); border-block-end-color: transparent; }
+.t9-types__list > li.active > a, .t9-types__list > li.active .t9-drop__toggle { color: #006699; font-weight: 700; border-block-end-color: #006699; }
+.t9-types__end { margin-inline-start: auto; }
+.t9-types__end > a, .t9-types__end2 > a { color: #666666 !important; }
+
+/* ---- the footer: the light band of the published site, in the new four columns ---------------------------- */
+.t9f { background: var(--al-color-surface-sunk); color: var(--t9-color-text-soft); border-block-start: 1px solid var(--t9-color-line-soft); }
+.t9f a { color: var(--al-color-text); }
+.t9f a:hover { color: var(--al-color-accent-hover); }
+.t9f a:focus-visible, .t9f button:focus-visible, .t9f input:focus-visible { outline-color: var(--al-color-accent); }
+.t9f__logo { background: transparent; padding: 0; }
+.t9f__lockup strong { color: var(--al-color-accent); }
+.t9f__lockup span span { color: var(--t9-color-text-soft); }
+.t9f__note { color: var(--t9-color-text-soft); }
+.t9f__title { color: var(--al-color-text); }
+.t9f__search { border-color: var(--al-color-line); }
+.t9f__input { background: #FFFFFF; color: var(--al-color-text); }
+.t9f__input::placeholder { color: #8A8A8A; }
+.t9f__bottom { border-block-start-color: var(--t9-color-line-soft); }
+.t9f__heart { color: #CC0000; }
+.t9h__go { flex: none; inline-size: auto; min-inline-size: 64px; white-space: nowrap; }

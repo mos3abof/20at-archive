@@ -237,3 +237,28 @@
 @media (max-width: 52rem) {
   .hv-extras { gap: 18px; grid-template-columns: minmax(0, 1fr); }
 }
+
+/* ---- the timeline, months: a column per month holding its bar, its readers' comments and any special
+   file's diamond; a click opens the month below the chart (templates/index.html, js/home.js) ------------- */
+.hv-tl__m { position: relative; flex: 1 1 0; min-inline-size: 3px; block-size: 100%; display: flex; flex-direction: column; justify-content: flex-end; }
+.hv-tl__m .hv-tl__bar { flex: none; min-inline-size: 0; }
+.hv-tl__said { position: absolute; inset-inline: -1px; inset-block-end: var(--s); block-size: 2px; background: #D35400; pointer-events: none; }
+.hv-tl__mark { position: absolute; inset-block-end: calc(var(--h) + 8px + var(--i, 0) * 14px); inset-inline-start: 50%; z-index: 1;
+  inline-size: 10px; block-size: 10px; margin-inline-start: -5px; background: var(--c); border: 2px solid #FFFFFF; outline: 1px solid var(--c); transform: rotate(45deg); }
+.hv-tl__mark:hover, .hv-tl__mark:focus-visible { outline: 2px solid var(--al-color-accent-hover); }
+.hv-tl__bar.is-open { outline: 2px solid var(--al-color-accent-hover); outline-offset: 1px; }
+.hv-hero .hv-tl__bars { block-size: 150px; margin-block-start: 22px; }    /* room for the diamonds above the busiest bars */
+.hv-legend__said::before { block-size: 2px !important; inline-size: 14px !important; background: #D35400 !important; }
+.hv-legend__mark::before { inline-size: 8px !important; block-size: 8px !important; background: var(--t9-color-text-soft) !important; transform: rotate(45deg); }
+
+.hv-tl-month { margin-block-start: 16px; padding: 14px 16px; background: var(--al-color-surface-sunk); border-inline-start: 3px solid var(--al-color-accent); }
+.hv-tl-month__head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin: 0 0 8px; }
+.hv-tl-month__title { margin: 0; font-size: 1.1em; }
+.hv-tl-month__nums { color: var(--t9-color-text-soft); font-size: 0.9em; }
+.hv-tl-month__close { margin-inline-start: auto; padding: 2px 8px; border: 1px solid var(--t9-color-line-mid); background: none; color: var(--t9-color-text-soft); font: inherit; font-size: 0.85em; cursor: pointer; }
+.hv-tl-month__close:hover { color: var(--al-color-accent-hover); border-color: var(--al-color-accent-hover); }
+.hv-tl-month__list { margin: 0; padding: 0; list-style: none; columns: 2 18rem; column-gap: 28px; }
+.hv-tl-month__list li { break-inside: avoid; display: flex; gap: 8px; align-items: baseline; padding: 5px 0; border-block-end: 1px dotted var(--t9-color-line-mid); }
+.hv-tl-month__day { flex: none; min-inline-size: 1.6em; color: var(--t9-color-text-faint); font-size: 0.85em; }
+.hv-tl-month__n { flex: none; margin-inline-start: auto; color: #A04000; font-size: 0.8em; }
+.hv-tl-month__more { display: inline-block; margin-block-start: 10px; font-size: 0.9em; }

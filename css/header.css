@@ -39,7 +39,7 @@
 .t9-types .t9-drop__menu .active > a, .t9-types .t9-drop__menu a[aria-current] { color: var(--al-color-accent); font-weight: 700; }
 .t9-mega__n { color: var(--t9-color-text-faint); font-size: 0.8em; font-weight: 400; }
 
-/* the wide menus: الأقسام, ملفات خاصة */
+/* the wide menus: الأقسام, صفحات خاصة */
 .t9-mega { inset-inline: 0; display: flex; flex-wrap: wrap; gap: 6px 28px; padding: 14px 18px 12px; }
 .t9-mega__group { min-inline-size: 0; }
 .t9-mega__group ul { margin: 0; padding: 0; list-style: none; columns: 2 10rem; column-gap: 18px; }
@@ -113,3 +113,26 @@
 .ar-search__snip mark { background: #FFF1B8; color: inherit; padding: 0 1px; }
 .ar-search__more { margin-block-start: 14px; }
 .ar-search__progress { color: var(--t9-color-text-faint); font-size: 0.88em; }
+
+/* ---- the readers' page (templates/readers.html, js/readers.js) ---------------------------------------- */
+.ar-readers__list { margin: 0; padding: 0; list-style: none; columns: 3 15rem; column-gap: 28px; }
+.ar-readers__list li { break-inside: avoid; padding: 7px 0; border-block-end: 1px dotted var(--t9-color-line-mid); }
+.ar-readers__list a { font-weight: 700; }
+.ar-readers__meta { display: block; color: var(--t9-color-text-faint); font-size: 0.82em; }
+.ar-readers__one { margin-block-start: 10px; border: 1px solid var(--t9-color-line-soft); }
+.ar-readers__one summary { padding: 10px 14px; cursor: pointer; background: var(--al-color-surface-sunk); }
+.ar-readers__name { font-weight: 700; color: var(--al-color-accent); font-size: 1.05em; }
+.ar-readers__comments { margin: 0; padding: 6px 14px 12px; list-style: none; columns: 2 20rem; column-gap: 28px; }
+.ar-readers__comments li { break-inside: avoid; padding: 5px 0; border-block-end: 1px dotted var(--t9-color-line-mid); }
+.s-comments__list > li:target .s-comment { outline: 2px solid var(--al-color-accent); outline-offset: 4px; background: var(--al-color-accent-wash); }
+
+/* ---- the first row (stripe, logo, search) stays at the top while scrolling. The header box itself
+   is dissolved (display: contents) so the row can stick for the whole page, not only while the header
+   is in view; it takes its own space in the flow, so it never covers what is above it, and jumps to
+   an anchor land below it (scroll-padding-top). ------------------------------------------------------ */
+.t9h { display: contents; }
+.t9h__top { position: sticky; top: 0; z-index: 50; background: var(--al-color-surface);
+  box-shadow: 0 1px 0 var(--t9-color-line-soft), 0 2px 8px rgba(0, 0, 0, 0.06); }
+.t9-types, .t9-subnav { background: var(--al-color-surface); }
+html { scroll-padding-top: 90px; }
+@media (max-width: 52rem) { html { scroll-padding-top: 70px; } }

@@ -222,7 +222,7 @@ a:hover { color: var(--al-color-accent-hover); }
 .al-prose .ar-caption-lost { color: var(--t9-color-text-faint); font-size: 0.88em; text-align: center; }
 .al-prose .ar-caption-lost::before { content: "(صورة لم يحفظها الأرشيف) "; }
 
-/* "ملفات خاصة": a dropdown of the special sites in the section bar (templates/partials/header.html), on a
+/* "صفحات خاصة": a dropdown of the special sites in the section bar (templates/partials/header.html), on a
    native <details>. Desktop: the menu hangs under its item. Narrow screens, where the bar scrolls sideways
    and would clip it: the item is not positioned, so the menu hangs from the whole (sticky) bar instead. */
 .t9-sections__drop { position: relative; }
@@ -245,7 +245,7 @@ a:hover { color: var(--al-color-accent-hover); }
   .t9-sections__drop { position: static; }
   .t9-drop__menu { inset-inline: 8px; }
 }
-/* with "ملفات خاصة" the bar has one more item: slightly narrower items keep it on one line at 970px */
+/* with "صفحات خاصة" the bar has one more item: slightly narrower items keep it on one line at 970px */
 .t9-sections a, .t9-drop__toggle { padding-inline: 8px; }
 .t9-drop__menu a { padding-inline: 14px; }
 
