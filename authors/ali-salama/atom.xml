@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - ali-salama</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/ali-salama/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/ali-salama/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2008-06-26T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/ali-salama/atom.xml</id>
+    <id>https://el20at.com/authors/ali-salama/atom.xml</id>
     <entry xml:lang="ar">
         <title>أحسن م الأول</title>
         <published>2008-06-26T00:00:00+00:00</published>
@@ -24,10 +24,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-n16481/"/>
-        <id>https://20at.mosab.me/articles/masr-n16481/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-n16481/"/>
+        <id>https://el20at.com/articles/masr-n16481/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-n16481/">&lt;p&gt;قلنا النضافة م الإيمان..&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-n16481/">&lt;p&gt;قلنا النضافة م الإيمان..&lt;/p&gt;
 &lt;p&gt;البلد بقت أوسخ م الأول..&lt;/p&gt;
 &lt;p&gt;رفعنا شعار الأمن والأمان..&lt;/p&gt;
 &lt;p&gt;الخوف بقي أكتر م الأول..&lt;/p&gt;
@@ -161,10 +161,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-egyptian-newspapers-9051/"/>
-        <id>https://20at.mosab.me/articles/masr-egyptian-newspapers-9051/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-egyptian-newspapers-9051/"/>
+        <id>https://el20at.com/articles/masr-egyptian-newspapers-9051/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-egyptian-newspapers-9051/">&lt;figure&gt;&lt;img src=&quot;/media/masr.20at.com/siteassets/images/takhateef/masryalyom.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/figure&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-egyptian-newspapers-9051/">&lt;figure&gt;&lt;img src=&quot;/media/masr.20at.com/siteassets/images/takhateef/masryalyom.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/figure&gt;
 &lt;p&gt;آلو آلو..&lt;/p&gt;
 &lt;p&gt;هل تسمعني..&lt;/p&gt;
 &lt;p&gt;أنا بكلم سعادتك..&lt;/p&gt;
@@ -219,10 +219,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-n15326/"/>
-        <id>https://20at.mosab.me/articles/masr-n15326/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-n15326/"/>
+        <id>https://el20at.com/articles/masr-n15326/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-n15326/">&lt;p&gt;لما أنا والسرير بنتخاصم..&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-n15326/">&lt;p&gt;لما أنا والسرير بنتخاصم..&lt;/p&gt;
 &lt;p&gt;لا يمكن أرتاح ع الكنبة..&lt;/p&gt;
 &lt;p&gt;ولا ع الكرسي ولا ع الأرض..&lt;/p&gt;
 &lt;p&gt;ولما يومي بيبتدي..&lt;/p&gt;

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - mahmoud-saodi</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/mahmoud-saodi/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/mahmoud-saodi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2008-03-11T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/mahmoud-saodi/atom.xml</id>
+    <id>https://el20at.com/authors/mahmoud-saodi/atom.xml</id>
     <entry xml:lang="ar">
         <title>غمض عينيك وموت بخفه ودلع!</title>
         <published>2008-03-11T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-hot-topics-8468/"/>
-        <id>https://20at.mosab.me/articles/masr-hot-topics-8468/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-hot-topics-8468/"/>
+        <id>https://el20at.com/articles/masr-hot-topics-8468/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-hot-topics-8468/">&lt;p&gt;هو طريق.. لكن مش زى أي طريق، المسافر عليه راحل إلى عالم آخر، من خلال نعوش أخر موديل!&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-hot-topics-8468/">&lt;p&gt;هو طريق.. لكن مش زى أي طريق، المسافر عليه راحل إلى عالم آخر، من خلال نعوش أخر موديل!&lt;/p&gt;
 &lt;p&gt;هو الطريق الواقع في أحضان ترعة &quot;المنصورية&quot;، فهو ليس زراعيا ولا صحراويا لكنه طريق &quot;ترعاوياً&quot;..&lt;/p&gt;
 &lt;p&gt;أما الترعة فأعتقد أنها سميت بـ &quot;المنصورية&quot; لأنها انتصرت على الأحياء وبلعتهم!، وممكن لأنها بتساهم في تقليل التعداد السكاني في بلدنا لأننا كترنا جداً!.&lt;/p&gt;
 &lt;h3&gt;حدث بالفعل!&lt;/h3&gt;

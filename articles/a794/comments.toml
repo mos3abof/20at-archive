@@ -263,3 +263,10 @@ subject = "عهلىغام"
 text = "البءلر نمعغف يهتزوركغ"
 archived = "2005-07-05"
 capture_url = "https://web.archive.org/web/20050705073744/http://www.20at.com:80/article.php?sid=794"
+
+[[comments]]
+order = 38
+subject = "لمادا؟"
+text = "بصراحة لا أعرف لمادا توقف موقع allالطلبةعن العمل؟ إنه حقا موقع رائع."
+archived = "2005-08-11"
+capture_url = "https://web.archive.org/web/20050811085439/http://www.20at.com:80/article.php?sid=794&mode=&order=0"

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://20at.mosab.me/sitemap.xml
+Sitemap: https://el20at.com/sitemap.xml

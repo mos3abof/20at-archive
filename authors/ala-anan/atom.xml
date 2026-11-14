@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - ala-anan</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/ala-anan/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/ala-anan/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2009-12-28T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/ala-anan/atom.xml</id>
+    <id>https://el20at.com/authors/ala-anan/atom.xml</id>
     <entry xml:lang="ar">
         <title>طرائف وصولي غزة</title>
         <published>2009-12-28T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-arabic-blogs-14623/"/>
-        <id>https://20at.mosab.me/articles/20at-arabic-blogs-14623/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-arabic-blogs-14623/"/>
+        <id>https://el20at.com/articles/20at-arabic-blogs-14623/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-arabic-blogs-14623/">&lt;p&gt;في الحلقة السابقة من مسلسل العودة .. حكيتلكم عن الأحداث والنوادر التي صارت معايا على الجانب المصري من معبر رفح.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-arabic-blogs-14623/">&lt;p&gt;في الحلقة السابقة من مسلسل العودة .. حكيتلكم عن الأحداث والنوادر التي صارت معايا على الجانب المصري من معبر رفح.&lt;/p&gt;
 &lt;p&gt;صار الوقت عشان نكمل الحلقة الأخيرة من المسلسل: معبر رفح الجانب الفلسطيني.&lt;/p&gt;
 &lt;p&gt;كنت ركبت الباص المصري مع باقي المسافرين .. وهادا الباص الي رح يتوجه فينا عبر السياج الحدودي لمبنى الجانب الفلسطيني من المعبر&lt;/p&gt;
 &lt;p&gt;هالمرة الناس كانت تعبانة جدا وماحدش كان طايق حدا .. والولاد الصغار ناموا في الباص من كتر التعب والانتظار ..&lt;/p&gt;

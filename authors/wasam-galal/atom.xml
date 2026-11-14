@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - wasam-galal</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/wasam-galal/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/wasam-galal/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2004-04-29T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/wasam-galal/atom.xml</id>
+    <id>https://el20at.com/authors/wasam-galal/atom.xml</id>
     <entry xml:lang="ar">
         <title>تشي جيفارا ... الفتى الجميل</title>
         <published>2004-04-29T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/a182/"/>
-        <id>https://20at.mosab.me/articles/a182/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/a182/"/>
+        <id>https://el20at.com/articles/a182/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/a182/">&lt;p&gt;&quot; إنني أحس على وجهي بألم كل صفعة تُوجّه إلى مظلوم في هذه الدنيا، فأينما وجد الظلم فذاك هو وطني..&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/a182/">&lt;p&gt;&quot; إنني أحس على وجهي بألم كل صفعة تُوجّه إلى مظلوم في هذه الدنيا، فأينما وجد الظلم فذاك هو وطني..&lt;/p&gt;
 &lt;p&gt;أيا ما كانت أفكارك وعقائدك فإنك لن تستطيع إلا أن تحترم رجلا كانت هذه إحدى أفكاره التي ظل طيلة حياته يناضل من أجلها.&lt;/p&gt;
 &lt;p&gt;أيا ما كانت أفكارك وعقائدك فإنك لن تستطيع إلا أن تحترم رجلا كانت هذه إحدى أفكاره التي ظل طيلة حياته يناضل من أجلها.&lt;/p&gt;
 &lt;p&gt;لقد ولد صاحب هذه المقولة -وهو الملقب بالـ&quot;تشي&quot; التي تعني الرفيق واسمه الحقيقي &quot;أرنستو جيفارا دي لاسيرنا&quot;- في الرابع عشر من أغسطس عام 1928، في &quot;بوينس أيريس&quot; عاصمة الأرجنتين في عائلة برجوازية عريقة.&lt;/p&gt;

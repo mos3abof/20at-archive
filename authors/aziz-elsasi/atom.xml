@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - aziz-elsasi</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/aziz-elsasi/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/aziz-elsasi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2007-05-17T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/aziz-elsasi/atom.xml</id>
+    <id>https://el20at.com/authors/aziz-elsasi/atom.xml</id>
     <entry xml:lang="ar">
         <title>العالم بثلاثة ابعاد، والطباعة صارت كذلك</title>
         <published>2007-05-17T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/harb-n10264/"/>
-        <id>https://20at.mosab.me/articles/harb-n10264/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/harb-n10264/"/>
+        <id>https://el20at.com/articles/harb-n10264/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/harb-n10264/">&lt;p&gt;كثيرا ما تتمنى أن تكون بحوزتك قطعة خاصة من البلاستيك، بحجم معين وشكل معين. قد تكون جزءا من غطاء هاتفك المحمول، أو فرشاة أسنان، أو دمية رأتها ابنتك على التلفزة، وتريدها للتو واللحظة، لكن من أين لك بها؟&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/harb-n10264/">&lt;p&gt;كثيرا ما تتمنى أن تكون بحوزتك قطعة خاصة من البلاستيك، بحجم معين وشكل معين. قد تكون جزءا من غطاء هاتفك المحمول، أو فرشاة أسنان، أو دمية رأتها ابنتك على التلفزة، وتريدها للتو واللحظة، لكن من أين لك بها؟&lt;/p&gt;
 &lt;p&gt;سيكون بإمكان أي مستخدم كمبيوتر خلال سنوات صنع كل ما يحتاجه من البلاستيك في بيته. فمثلا، سيمكنك تحميل تصميم لفرشاة أسنان على جهازك ثم &quot;تطبعها&quot; في طابعتك ثلاثية الأبعاد.&lt;/p&gt;
 &lt;p&gt;ولن يتطلب صنع القطعة البلاستيكية التي تريدها إلا بضع ساعات.&lt;/p&gt;
 &lt;p&gt;ليس هذا خيالا علميا فمنذ حوالي عقد من الزمن، كانت آلات مشابهة بحوزة مصممين صناعيين. وكانت تستخدم لصنع قطع تجريبية للسيارات والطائرات وغيرها قبل أن يبدأ تصنيعها من المواد النهائية بأعداد كبيرة.&lt;/p&gt;

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - eiad-elkara</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/eiad-elkara/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/eiad-elkara/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2007-03-12T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/eiad-elkara/atom.xml</id>
+    <id>https://el20at.com/authors/eiad-elkara/atom.xml</id>
     <entry xml:lang="ar">
         <title>قول يا طير</title>
         <published>2007-03-12T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-arts-3406/"/>
-        <id>https://20at.mosab.me/articles/20at-arts-3406/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-arts-3406/"/>
+        <id>https://el20at.com/articles/20at-arts-3406/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-arts-3406/">&lt;p&gt;أثار قرار وزارة التربية والتعليم الفلسطينية حظر تداول كتاب &quot;قول يا طير&quot; من المدارس زوبعة كبيرة في الشارع الفلسطيني بين مؤيد ومعارض، خاصة أن وزارة الثقافة الفلسطينية أوصت من قبل بطباعة 1500 نسخة منه وتوزيعها على المكتبات المدرسية.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-arts-3406/">&lt;p&gt;أثار قرار وزارة التربية والتعليم الفلسطينية حظر تداول كتاب &quot;قول يا طير&quot; من المدارس زوبعة كبيرة في الشارع الفلسطيني بين مؤيد ومعارض، خاصة أن وزارة الثقافة الفلسطينية أوصت من قبل بطباعة 1500 نسخة منه وتوزيعها على المكتبات المدرسية.&lt;/p&gt;
 &lt;p&gt;يضم الكتاب 45 حكاية من التراث الشعبي الفلسطيني، إلا أن بعضها غير متوارد شعبيا أو محّور، كما أن بعض الروايات تضمنت ألفاظا نابية أو تتناول علاقات جنسية، لذا قررت وزارة التربية والتعليم حظرها بالمدارس.&lt;/p&gt;
 &lt;h3&gt;قصص محظورة&lt;/h3&gt;
 &lt;p&gt;بتصفح الكتاب الذي كتبه د. &quot;شريف كناعنة&quot; أستاذ علم الاجتماع والأنثروبولوجيا في جامعة بيرزيت، ود.&quot;إبراهيم مهوّي&quot; أستاذ الأدب العربي المعاصر والترجمة في جامعة إدنبره باسكتلندا، نجد أن أبطال القصص شخصيات مشهورة مستمده من التراث الفلسطيني.&lt;/p&gt;

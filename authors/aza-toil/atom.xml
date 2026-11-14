@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - aza-toil</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/aza-toil/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/aza-toil/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2006-07-31T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/aza-toil/atom.xml</id>
+    <id>https://el20at.com/authors/aza-toil/atom.xml</id>
     <entry xml:lang="ar">
         <title>روبرت فيسك .. والانتهازية الغربية</title>
         <published>2006-07-31T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/harb-72/"/>
-        <id>https://20at.mosab.me/articles/harb-72/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/harb-72/"/>
+        <id>https://el20at.com/articles/harb-72/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/harb-72/">&lt;p&gt;روبرت فيسك مراسل صحيفة «Independent» البريطانية في الشرق الأوسط، يستقر في بيروت، ومنها ينطلق نحو فلسطين والعراق والكويت وإيران... وصولاً إلى أفغانستان.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/harb-72/">&lt;p&gt;روبرت فيسك مراسل صحيفة «Independent» البريطانية في الشرق الأوسط، يستقر في بيروت، ومنها ينطلق نحو فلسطين والعراق والكويت وإيران... وصولاً إلى أفغانستان.&lt;/p&gt;
 &lt;p&gt;بعد كتابه «ويلات وطن» الذي اعتبره القراء الأكثر مكاشفة وجرأة في مقاربة الموضوعات الشائكة، تصدر بعد أيام في بيروت الترجمة العربية لكتابه الجديد «الحرب الكبرى تحت ذريعة الحضارة».&lt;/p&gt;
 &lt;p&gt;لمناسبة صدور الكتاب الجديد التقت «الحياة» روبرت فيسك الذي قال: «حين شرعتُ في تأليف كتابي هذا، كنت أظن أنني سأخوض في موضوع العجز عن تخطّي التاريخ والهرب منه، على قاعدة أن كل ما نعانيه وما سوف نعانيه إنما هو نتاج ما قام به أهلنا وأسلافنا.&lt;/p&gt;
 &lt;p&gt;لم أكن قد ولدت بعد، زمن وعد بلفور ولا يوم عقدت معاهدة سايكس بيكو، لكنني أعيش وفي كل لحظة من حياتي نتاجهما. نحن الأوروبيين والأميركيين نعتقد أن بوسعنا أن نصفق الباب خلف التاريخ ونجاوزه.&lt;/p&gt;

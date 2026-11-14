@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - blog-eiaksh-tola</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/blog-eiaksh-tola/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/blog-eiaksh-tola/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2010-01-19T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/blog-eiaksh-tola/atom.xml</id>
+    <id>https://el20at.com/authors/blog-eiaksh-tola/atom.xml</id>
     <entry xml:lang="ar">
         <title>كل واحد يبص فى ورقته</title>
         <published>2010-01-19T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-egyptian-blogs-14966/"/>
-        <id>https://20at.mosab.me/articles/masr-egyptian-blogs-14966/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-egyptian-blogs-14966/"/>
+        <id>https://el20at.com/articles/masr-egyptian-blogs-14966/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-egyptian-blogs-14966/">&lt;p&gt;كلية الشرطة - اختبار الفرقة الثالثة&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-egyptian-blogs-14966/">&lt;p&gt;كلية الشرطة - اختبار الفرقة الثالثة&lt;/p&gt;
 &lt;p&gt;زمن الإجابة:ساعتان&lt;/p&gt;
 &lt;p&gt;-:السؤال الأول: اختيار من متعدد&lt;/p&gt;
 &lt;p&gt;تكررت مجموعة من الانفجارات فى نفس المكان تقريبا و فى أوقات تكاد تكون متشابهة(كالأعياد القومية مثلا)، و لم تستطع بخيبتك الثقيلة أن تكتشف مدبريها....فكيف يا ترى (يا هل ترى) ستستطيع أن تلهى الرأى العام؟&lt;/p&gt;

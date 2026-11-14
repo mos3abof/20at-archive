@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - fakhr-eldin-aiobi</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/fakhr-eldin-aiobi/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/fakhr-eldin-aiobi/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2007-01-27T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/fakhr-eldin-aiobi/atom.xml</id>
+    <id>https://el20at.com/authors/fakhr-eldin-aiobi/atom.xml</id>
     <entry xml:lang="ar">
         <title>في لبنان..السياسة بالألوان</title>
         <published>2007-01-27T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-politics-3115/"/>
-        <id>https://20at.mosab.me/articles/20at-politics-3115/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-politics-3115/"/>
+        <id>https://el20at.com/articles/20at-politics-3115/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-politics-3115/">&lt;figure&gt;&lt;img src=&quot;/media/admins.20at.com/aly/i_love_live.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/figure&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-politics-3115/">&lt;figure&gt;&lt;img src=&quot;/media/admins.20at.com/aly/i_love_live.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/figure&gt;
 &lt;p&gt;صادر السياسيون في لبنان ألوان الحياة وتقاسموها فيما بينهم، فأصبح اللون البرتقالي حقاً حصرياً للتيار الوطني الحر، والأصفر ملكاً لحزب الله، والأخضر لتيار المردة، أما تيار المستقبل فلونه &quot;الأزرق الفاتح&quot;.&lt;/p&gt;
 &lt;p&gt;ليصبح المواطن اللبناني محروماً من التمتع بهذه الألوان، إن أراد العيش مرتاح البال بعيداً عما يجري من سجالات ومهاترات سياسية.&lt;/p&gt;
 &lt;h3&gt;لافتات سياسية&lt;/h3&gt;

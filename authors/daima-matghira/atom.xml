@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - daima-matghira</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/daima-matghira/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/daima-matghira/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2007-01-14T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/daima-matghira/atom.xml</id>
+    <id>https://el20at.com/authors/daima-matghira/atom.xml</id>
     <entry xml:lang="ar">
         <title>رجل البنطلون فردة وفردة</title>
         <published>2007-01-14T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-1442/"/>
-        <id>https://20at.mosab.me/articles/masr-1442/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-1442/"/>
+        <id>https://el20at.com/articles/masr-1442/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-1442/">&lt;p&gt;تصدق ان اليمين هي اللي طويلة والشمال قصيرة&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-1442/">&lt;p&gt;تصدق ان اليمين هي اللي طويلة والشمال قصيرة&lt;/p&gt;
 &lt;p&gt;14/01/2007&lt;/p&gt;
 &lt;p&gt;من مدونة &lt;a href=&quot;https://web.archive.org/web/20070116161535/http://anooojy.blogspot.com&quot;&gt; سمراء النيل&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;الرجل الشمال يمكن طويلة ولا اليمين قصيرة حبة&lt;/p&gt;

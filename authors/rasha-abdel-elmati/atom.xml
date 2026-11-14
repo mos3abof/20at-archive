@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - rasha-abdel-elmati</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/rasha-abdel-elmati/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/rasha-abdel-elmati/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2009-07-11T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/rasha-abdel-elmati/atom.xml</id>
+    <id>https://el20at.com/authors/rasha-abdel-elmati/atom.xml</id>
     <entry xml:lang="ar">
         <title>سكة سفر</title>
         <published>2009-07-11T00:00:00+00:00</published>
@@ -24,10 +24,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-blog-12614/"/>
-        <id>https://20at.mosab.me/articles/masr-blog-12614/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-blog-12614/"/>
+        <id>https://el20at.com/articles/masr-blog-12614/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-blog-12614/">&lt;p&gt;يوم الجمعة اللي فاتت كان أخر يوم لي في الأجازة اللي حددتها لنفسي والتي قضيتها مع أهلي في قريتي التابعة لمركز ميت غمر وفي طريق عودتي إلى القاهرة ركبت البيجو من ميت غمر ومازل ينقصه راكب بجواري حيث اجلس في الكنبة الخلفية&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-blog-12614/">&lt;p&gt;يوم الجمعة اللي فاتت كان أخر يوم لي في الأجازة اللي حددتها لنفسي والتي قضيتها مع أهلي في قريتي التابعة لمركز ميت غمر وفي طريق عودتي إلى القاهرة ركبت البيجو من ميت غمر ومازل ينقصه راكب بجواري حيث اجلس في الكنبة الخلفية&lt;/p&gt;
 &lt;p&gt;وظل السائق ينادي&lt;/p&gt;
 &lt;p&gt;واحد مصر وطالع&lt;/p&gt;
 &lt;p&gt;واحد عبود&lt;/p&gt;

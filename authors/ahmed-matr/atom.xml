@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - ahmed-matr</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/ahmed-matr/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/ahmed-matr/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2006-05-14T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/ahmed-matr/atom.xml</id>
+    <id>https://el20at.com/authors/ahmed-matr/atom.xml</id>
     <entry xml:lang="ar">
         <title>عباس وراء المتراس!</title>
         <published>2006-05-14T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b801/"/>
-        <id>https://20at.mosab.me/articles/b801/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b801/"/>
+        <id>https://el20at.com/articles/b801/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b801/">&lt;p&gt;الشاعر العربي أحمد مطر يشاركنا هذه الحالة غير المفهومة من العجز والاستسلام، ويوجه كلامه لكل (عباس ..)&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b801/">&lt;p&gt;الشاعر العربي أحمد مطر يشاركنا هذه الحالة غير المفهومة من العجز والاستسلام، ويوجه كلامه لكل (عباس ..)&lt;/p&gt;
 &lt;h3&gt;- 1 -&lt;/h3&gt;
 &lt;h3&gt;عباس وراء المتراس&lt;/h3&gt;
 &lt;p&gt;عباس وراء المتراس&lt;/p&gt;
