@@ -1,4 +1,4 @@
-/* A section's page (templates/taxonomy_single.html, taxonomy "sections"; js/sections.js). --ct is the
+/* A section's page (templates/taxonomy_single.html, taxonomy "sections"; js/pages.js; the 2026 layout is in css/pages.css). --ct is the
    section's 2009 colour, made text-safe (pipeline/site.py, write_sections_data). The article list reuses
    the writer page's rows (css/authors.css). */
 .ar-section__head { margin-block: 24px 22px; padding: 22px 24px; background: var(--al-color-surface-sunk); border-block-start: 4px solid var(--ct); }
