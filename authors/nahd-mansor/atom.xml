@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - nahd-mansor</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/nahd-mansor/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/nahd-mansor/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2004-05-26T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/nahd-mansor/atom.xml</id>
+    <id>https://el20at.com/authors/nahd-mansor/atom.xml</id>
     <entry xml:lang="ar">
         <title>خاص من رفح.. الدخول إلي الدمار....[1]</title>
         <published>2004-05-26T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/a272/"/>
-        <id>https://20at.mosab.me/articles/a272/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/a272/"/>
+        <id>https://el20at.com/articles/a272/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/a272/">&lt;p&gt;الأربعاء 19 – 5 – 2004 شهر مايو، الشهر الذي بعثت به للحياة، في هذا اليوم تلقيت اتصالا من أخي محمد أثناء ذهابي لعملي في إذاعة صوت العمال في تمام الثالثة والنصف عصرا، مضمونة التالي:&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/a272/">&lt;p&gt;الأربعاء 19 – 5 – 2004 شهر مايو، الشهر الذي بعثت به للحياة، في هذا اليوم تلقيت اتصالا من أخي محمد أثناء ذهابي لعملي في إذاعة صوت العمال في تمام الثالثة والنصف عصرا، مضمونة التالي:&lt;/p&gt;
 &lt;p&gt;- ألو أنا محمد&lt;/p&gt;
 &lt;p&gt;- نعم محمد ما الجديد في المدينة.&lt;/p&gt;
 &lt;p&gt;- محمود ابن عمك طارق استشهد اليوم أثناء قصف طائرات الآباتشى الحربية الصهيونية للمسيرة السلمية التي كانت ذاهبة لحي تل السلطان لنصرة المدنيين المحاصرين من قبل الاحتلال الصهيوني.&lt;/p&gt;

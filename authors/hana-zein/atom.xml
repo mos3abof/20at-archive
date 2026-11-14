@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - hana-zein</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/hana-zein/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/hana-zein/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2005-02-26T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/hana-zein/atom.xml</id>
+    <id>https://el20at.com/authors/hana-zein/atom.xml</id>
     <entry xml:lang="ar">
         <title>البداية..لندن!</title>
         <published>2005-02-26T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/a1019/"/>
-        <id>https://20at.mosab.me/articles/a1019/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/a1019/"/>
+        <id>https://el20at.com/articles/a1019/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/a1019/">&lt;p&gt;مقدمه علي رحلة خوف وترقب.. أبكي فراق أمي وبلادي الهادئة.....&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/a1019/">&lt;p&gt;مقدمه علي رحلة خوف وترقب.. أبكي فراق أمي وبلادي الهادئة.....&lt;/p&gt;
 &lt;p&gt;أستقبلت في بيت الاقارب بعض العرب المغتربين في لندن..&lt;/p&gt;
 &lt;p&gt;أبناء العرب الشباب يتحدثون بلغة إنجليزية سليمة وبرود.. إنجليزي أيضا!&lt;/p&gt;
 &lt;p&gt;شيء من الانكسار تسلل إلى نفسي.. هل هو طعم الغربة؟&lt;/p&gt;

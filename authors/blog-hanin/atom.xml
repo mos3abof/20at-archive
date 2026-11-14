@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - blog-hanin</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/blog-hanin/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/blog-hanin/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2007-05-02T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/blog-hanin/atom.xml</id>
+    <id>https://el20at.com/authors/blog-hanin/atom.xml</id>
     <entry xml:lang="ar">
         <title>الطريق السريع</title>
         <published>2007-05-02T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-egyptian-blogs-5702/"/>
-        <id>https://20at.mosab.me/articles/masr-egyptian-blogs-5702/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-egyptian-blogs-5702/"/>
+        <id>https://el20at.com/articles/masr-egyptian-blogs-5702/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-egyptian-blogs-5702/">&lt;figure&gt;&lt;img src=&quot;/media/admins.20at.com/masr/7nen2.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/figure&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-egyptian-blogs-5702/">&lt;figure&gt;&lt;img src=&quot;/media/admins.20at.com/masr/7nen2.jpg&quot; alt=&quot;&quot; loading=&quot;lazy&quot;&gt;&lt;/figure&gt;
 &lt;p&gt;تستيقظ فجاه ذات صباح&lt;/p&gt;
 &lt;p&gt;لتجد نفسك فى منتصف طريق سريع&lt;/p&gt;
 &lt;p&gt;عند المنعطف تماما&lt;/p&gt;

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - mohamed-siam</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/mohamed-siam/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/mohamed-siam/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2005-03-03T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/mohamed-siam/atom.xml</id>
+    <id>https://el20at.com/authors/mohamed-siam/atom.xml</id>
     <entry xml:lang="ar">
         <title>مذكرات ثلاثيناتي في عشرينات</title>
         <published>2005-03-03T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/a1178/"/>
-        <id>https://20at.mosab.me/articles/a1178/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/a1178/"/>
+        <id>https://el20at.com/articles/a1178/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/a1178/">&lt;p&gt;كان يوما حارا ً .. لزجا من أيام شهر نوفمبر.. كنت في سيارة العمل.. السائق بجانبي يشتكي من كل شئ في الحياة بداية من رئيسه في العمل إلى الإسهال الذي أصاب ابنه إبراهيم إلى أحداث الفلوجه!!&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/a1178/">&lt;p&gt;كان يوما حارا ً .. لزجا من أيام شهر نوفمبر.. كنت في سيارة العمل.. السائق بجانبي يشتكي من كل شئ في الحياة بداية من رئيسه في العمل إلى الإسهال الذي أصاب ابنه إبراهيم إلى أحداث الفلوجه!!&lt;/p&gt;
 &lt;p&gt;.. هاتفي المحمول يضرب .. أووف إنه أحد أفراد فرق العمل التي أقودها بالتأكيد حدثت كارثة ما&lt;/p&gt;
 &lt;p&gt;..ألو..&lt;/p&gt;
 &lt;p&gt;أيوة يا عم فرج ..خير ..!؟ كابل إتسرق؟؟ 500 عميل تعطلوا ؟؟ نهارك مالوش ملامح يا عم فرج!!! مع السلامة أنا جاي ..&lt;/p&gt;

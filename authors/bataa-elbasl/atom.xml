@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - bataa-elbasl</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/bataa-elbasl/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/bataa-elbasl/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2008-12-24T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/bataa-elbasl/atom.xml</id>
+    <id>https://el20at.com/authors/bataa-elbasl/atom.xml</id>
     <entry xml:lang="ar">
         <title>بحثا في الدفاتر القديمة</title>
         <published>2008-12-24T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-n18953/"/>
-        <id>https://20at.mosab.me/articles/masr-n18953/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-n18953/"/>
+        <id>https://el20at.com/articles/masr-n18953/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-n18953/">&lt;p&gt;&lt;a href=&quot;/articles/masr-n18947/&quot;&gt; قريتنا.com&lt;/a&gt;&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-n18953/">&lt;p&gt;&lt;a href=&quot;/articles/masr-n18947/&quot;&gt; قريتنا.com&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/articles/masr-n18945/&quot;&gt; افتتاح المحلات..النهارده فرحي يا جدعان! &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/articles/masr-n18939/&quot;&gt; أول تفسير للقرآن الكريم تتقدم به امرأة&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/articles/masr-n18933/&quot;&gt; بورسعيد .. من يريد الانتقام منها؟ &lt;/a&gt;&lt;/p&gt;

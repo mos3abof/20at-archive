@@ -594,6 +594,15 @@ capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/ar
 
 [[comments]]
 order = 66
+subject = "جائنا البيان التالي"
+author = "هبهوب او هوووبه"
+posted = "2006-03-14"
+text = "الحته بتاعت هنيدي لما بيسال الراجل تعمل<br />ايه في السنه الجديد وسنه حلوه عليك ولاه<br />التاني اللي كان علي القهوه ولسه<br />منتجوزش من الاخر خلي الطابق مستور عشان<br />الحلقه تتداع والجمهور \"اللي فوق ميزعلش\""
+archived = "2006-05-24"
+capture_url = "https://web.archive.org/web/20060524204332/http://masr.20at.com:80/article.php?sid=1&PHPSESSID=fa67b88393d9d5e656ddd51a44f821d0"
+
+[[comments]]
+order = 67
 subject = "أخوكم أبو عمير"
 author = "مصعب الحمدان"
 posted = "2006-03-14"
@@ -602,7 +611,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 67
+order = 68
 subject = "عرس الحرية"
 author = "رائد عدوان"
 posted = "2006-03-15"
@@ -611,7 +620,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 68
+order = 69
 subject = "الصوت الجبار"
 author = "بدر دروزة"
 posted = "2006-03-16"
@@ -620,7 +629,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 69
+order = 70
 subject = "انا غيور"
 author = "بدر دروزة"
 posted = "2006-03-16"
@@ -629,7 +638,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 70
+order = 71
 subject = "الحمد لله \"\"\""
 author = "بنت الأصايل ـ السعوديه ."
 posted = "2006-03-16"
@@ -638,7 +647,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 71
+order = 72
 subject = "نجمة ولكن"
 author = "ابو اليمان"
 posted = "2006-03-20"
@@ -647,7 +656,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 72
+order = 73
 subject = "ماشاء الله"
 author = "همسات المحبه... اليمن"
 posted = "2006-03-21"
@@ -656,7 +665,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 73
+order = 74
 subject = "كنت الافضل في باتنة"
 author = "ع. ابن قسنطينة"
 posted = "2006-03-22"
@@ -665,7 +674,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 74
+order = 75
 subject = "الاخت ميس"
 author = "اخ ناصح"
 posted = "2006-03-26"
@@ -674,7 +683,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 75
+order = 76
 subject = "مع كل الاحترام"
 author = "حلا - الاردن"
 posted = "2006-03-27"
@@ -683,7 +692,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 76
+order = 77
 subject = "شكر غلى الاغاني"
 author = "شروق"
 posted = "2006-03-28"
@@ -692,7 +701,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 77
+order = 78
 subject = "منوعات"
 author = "ملكة فلسطين"
 posted = "2006-03-28"
@@ -701,7 +710,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 78
+order = 79
 subject = "احبك"
 author = "خديجة"
 posted = "2006-04-05"
@@ -710,7 +719,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 79
+order = 80
 subject = "معجبين"
 author = "شباب باتنة الجزائر"
 posted = "2006-04-07"
@@ -719,7 +728,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 80
+order = 81
 subject = "ميس"
 author = "نصرالدين بوقنة -الجزائر-"
 posted = "2006-04-10"
@@ -728,7 +737,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 81
+order = 82
 subject = "عذرا .."
 author = "لا احد ينكر موهبة ميس شلش و انا هنا للحديث او الدفاع عنها,,"
 posted = "2006-04-12"
@@ -737,7 +746,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 82
+order = 83
 subject = "الاقصى الحبيب"
 author = "نصر الدين بوقنة -الجزائر-"
 posted = "2006-04-18"
@@ -746,7 +755,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 83
+order = 84
 subject = "لو سمحتوا"
 author = "ملكة فلسطين"
 posted = "2006-04-22"
@@ -755,7 +764,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 84
+order = 85
 subject = "حزن عميق"
 author = "نصرالدين بوقنة-الجزائر-"
 posted = "2006-04-24"
@@ -764,7 +773,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 85
+order = 86
 subject = "الله يهديكي"
 author = "ميلاد"
 posted = "2006-04-27"
@@ -773,7 +782,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 86
+order = 87
 subject = "الله اخليك ميس يا حنونة"
 author = "سعيد من الجزائر"
 posted = "2006-04-27"
@@ -782,7 +791,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 87
+order = 88
 subject = "ميس صوثت العرب"
 author = "مونيا - المغرب"
 posted = "2006-04-27"
@@ -791,7 +800,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 88
+order = 89
 subject = "الله"
 author = "الماسة ينبع"
 posted = "2006-04-29"
@@ -800,7 +809,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 89
+order = 90
 subject = "ميس ..استمري ..."
 author = "صفوءة"
 posted = "2006-05-01"
@@ -809,7 +818,16 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 90
+order = 91
+subject = "الملك"
+author = "طارق ومحمد"
+posted = "2006-05-06"
+text = "ان محمد منير هو افضل مغنى فى مصر والعالم العربى وهو الكينج بعد الله سبحانة وتعالى وهو الوحيد اللة بيشرف مصر دايما فى الخارج بدليل انة هو سفير مصر فى المانيا والنمسا وانتوا عرفين اكيد والبلاد العربية ومبحبش يغنى فى البلاد العربية عشان العرب جررررببببببببببببببببببببببببببببب وشكرا واتمنى المذيد من النجاح والحفلات المستمرة والنبى يا كينج<br />شكرا ومت تلميذك الاتينين محمد محمود الدكاوى<br />وطارق محمد عوض الله كشتمنة باشا وانا بحب بلدك على فكرة والف شكر يا كينج باااااااااااااااااااى"
+archived = "2006-05-24"
+capture_url = "https://web.archive.org/web/20060524204332/http://masr.20at.com:80/article.php?sid=1&PHPSESSID=fa67b88393d9d5e656ddd51a44f821d0"
+
+[[comments]]
+order = 92
 subject = "الدمام"
 author = "دلوعه انا"
 posted = "2006-05-09"
@@ -818,7 +836,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 91
+order = 93
 subject = "الكلمات مجتمعه بلحن رائع"
 author = "مرجوحه"
 posted = "2006-05-11"
@@ -827,7 +845,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 92
+order = 94
 subject = "احبك يا ميس شلش"
 author = "اردنية"
 posted = "2006-05-13"
@@ -836,7 +854,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 93
+order = 95
 subject = "احبك يا ميس شلش"
 author = "اسراء احمد - ام الفحم"
 posted = "2006-05-13"
@@ -845,7 +863,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 94
+order = 96
 subject = "نجاح"
 author = "طارق"
 posted = "2006-05-14"
@@ -854,7 +872,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 95
+order = 97
 subject = "رائعة"
 author = "حبيبة فلسطين"
 posted = "2006-05-15"
@@ -863,7 +881,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 96
+order = 98
 subject = "بنت فلسطين"
 author = "سلوى الغزاوي"
 posted = "2006-05-16"
@@ -872,7 +890,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 97
+order = 99
 subject = "ميس شلش"
 author = "فلــسـ صفاء ـــطين"
 posted = "2006-05-17"
@@ -881,7 +899,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 98
+order = 100
 subject = "من ميس شلش"
 author = "ميس شلش"
 posted = "2006-05-18"
@@ -890,7 +908,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 99
+order = 101
 subject = "فلسطيني"
 author = "وسام فلسطين ابو وسام"
 posted = "2006-05-25"
@@ -899,7 +917,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 100
+order = 102
 subject = "انا هي انا و احب ميس شلش"
 author = "ايمان من المغرب"
 posted = "2006-05-30"
@@ -908,7 +926,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 101
+order = 103
 subject = "صوتك جميل كصوط العصافير"
 author = "محمدوصفي ابو عليا"
 posted = "2006-05-30"
@@ -917,7 +935,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 102
+order = 104
 subject = "حبيبت فلسطين الورده الحمراء"
 author = "محمد وصفي المغراوي ابو عليا"
 posted = "2006-05-30"
@@ -926,7 +944,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 103
+order = 105
 subject = "الى المتشددين"
 author = "إياد"
 posted = "2006-06-01"
@@ -935,7 +953,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 104
+order = 106
 subject = "احلا فلسطين"
 author = "سفير الحب"
 posted = "2006-06-01"
@@ -944,7 +962,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 105
+order = 107
 subject = "لم تظهري انك فلسطينية"
 author = "عادل الجزائري"
 posted = "2006-06-04"
@@ -953,7 +971,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 106
+order = 108
 subject = "انا هي انا و احب ميس شلش"
 author = "انا هي انا"
 posted = "2006-06-05"
@@ -962,7 +980,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 107
+order = 109
 subject = "الى انا هي انا"
 author = "إياد"
 posted = "2006-06-05"
@@ -971,7 +989,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 108
+order = 110
 subject = "ارجو المسامحة من الاخ اياد"
 author = "ايمان"
 posted = "2006-06-05"
@@ -980,7 +998,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 109
+order = 111
 subject = "الى ايمان"
 author = "إياد"
 posted = "2006-06-06"
@@ -989,7 +1007,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 110
+order = 112
 subject = "بارك الله في امثالك يا اخي اياد"
 author = "ميس شلش"
 posted = "2006-06-06"
@@ -998,7 +1016,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 111
+order = 113
 subject = "عفوا يا ميس"
 author = "إياد"
 posted = "2006-06-06"
@@ -1007,7 +1025,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 112
+order = 114
 subject = "الى ميس شلش اين انت ارجوووووووووووووك"
 author = "ايمان"
 posted = "2006-06-07"
@@ -1016,7 +1034,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 113
+order = 115
 subject = "الى ايمان مع التحيه"
 author = "ميس شلش"
 posted = "2006-06-07"
@@ -1025,7 +1043,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 114
+order = 116
 subject = "الى ميس شلش"
 author = "ايمان"
 posted = "2006-06-08"
@@ -1034,7 +1052,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 115
+order = 117
 subject = "ما شاء الله تبارك الله .."
 author = "عربية"
 posted = "2006-06-09"
@@ -1043,7 +1061,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 116
+order = 118
 subject = "الى الاخت ايمان ولاخ اياد"
 author = "ميس شلش- ميس شلش"
 posted = "2006-06-09"
@@ -1052,7 +1070,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 117
+order = 119
 subject = "الى ميس"
 author = "إياد"
 posted = "2006-06-10"
@@ -1061,7 +1079,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 118
+order = 120
 subject = "نحن فدا فلسطين"
 author = "سمير الامام"
 posted = "2006-06-10"
@@ -1070,7 +1088,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 119
+order = 121
 subject = "الى ميس"
 author = "اياد"
 posted = "2006-06-14"
@@ -1079,7 +1097,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 120
+order = 122
 subject = "ردي وينك يا ميس"
 author = "ياسمين"
 posted = "2006-06-18"
@@ -1088,7 +1106,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 121
+order = 123
 subject = "الى الاخت ياسمين"
 author = "ميس شلش"
 posted = "2006-06-20"
@@ -1097,7 +1115,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 122
+order = 124
 subject = "اختكي المحبة لكي في الله"
 author = "ميس يونس_نابلس_فلسطين"
 posted = "2006-06-22"
@@ -1106,7 +1124,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 123
+order = 125
 subject = "machalah 3ala hadihi lmo3jiza arjo an tasila risalti li mayss"
 author = "fatima zahra"
 posted = "2006-06-23"
@@ -1115,7 +1133,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 124
+order = 126
 subject = "ميس فلسطين......"
 author = "بيسان_فلسطين"
 posted = "2006-06-28"
@@ -1124,7 +1142,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 125
+order = 127
 subject = "ميس"
 author = "ايمان"
 posted = "2006-06-28"
@@ -1133,7 +1151,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 126
+order = 128
 subject = "ميس شلش زهرة فلسطين"
 author = "معـــاذ"
 posted = "2006-07-01"
@@ -1142,7 +1160,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 127
+order = 129
 subject = "فلسطين"
 author = "الغريب"
 posted = "2006-07-13"
@@ -1151,7 +1169,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 128
+order = 130
 subject = "حضرت امس لك حفلة"
 author = "ola"
 posted = "2006-07-13"
@@ -1160,7 +1178,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 129
+order = 131
 subject = "اهنئك"
 author = "ola"
 posted = "2006-07-13"
@@ -1169,7 +1187,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 130
+order = 132
 subject = "انت نجمة فلسطين"
 author = "فلسطينية"
 posted = "2006-07-18"
@@ -1178,7 +1196,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 131
+order = 133
 subject = "الصوت الجميل ملوش مثيل"
 author = "محمد محمود كبها"
 posted = "2006-07-22"
@@ -1187,7 +1205,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 132
+order = 134
 subject = "الصوت"
 author = "الوردة البيضاء"
 posted = "2006-07-23"
@@ -1196,7 +1214,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 133
+order = 135
 subject = "مزيد من شرائطها"
 author = "أبو يوسف"
 posted = "2006-07-28"
@@ -1205,7 +1223,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 134
+order = 136
 subject = "شكر وعرفان"
 author = "housna"
 posted = "2006-08-03"
@@ -1214,7 +1232,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 135
+order = 137
 subject = "والله موهبه"
 author = "ايناس الفلسطينيه"
 posted = "2006-08-03"
@@ -1223,7 +1241,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 136
+order = 138
 subject = "تشجيع"
 author = "Oumaima"
 posted = "2006-08-03"
@@ -1232,7 +1250,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 137
+order = 139
 subject = "لندن"
 author = "ابتسام"
 posted = "2006-08-03"
@@ -1241,7 +1259,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 138
+order = 140
 subject = "بارك الله في خطاك"
 author = "سعيدة المغربية"
 posted = "2006-08-04"
@@ -1250,7 +1268,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 139
+order = 141
 subject = "نجمة النجوم"
 author = "جمال بوحدة"
 posted = "2006-08-05"
@@ -1259,7 +1277,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 140
+order = 142
 subject = "ميس.. استمري"
 author = "منال الفلسطينية"
 posted = "2006-08-05"
@@ -1268,7 +1286,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 141
+order = 143
 subject = "السلام عليكم"
 author = "ام مجاهد"
 posted = "2006-08-06"
@@ -1277,7 +1295,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 142
+order = 144
 subject = "شكري وتقديري لكم جميعا"
 author = "ميس شلش"
 posted = "2006-08-07"
@@ -1286,7 +1304,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 143
+order = 145
 subject = "رد على عاشقة الوطن"
 author = "خنساء فلسطين"
 posted = "2006-08-10"
@@ -1295,7 +1313,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 144
+order = 146
 subject = "مزمار داوود"
 author = "جمال من المغرب"
 posted = "2006-08-11"
@@ -1304,7 +1322,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 145
+order = 147
 subject = "بصراحه كلمة نجمه قليل فى حقك"
 author = "ابو احمد"
 posted = "2006-08-19"
@@ -1313,7 +1331,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 146
+order = 148
 subject = "كما نجحت يمكن ان ننجح"
 author = "مصطفى"
 posted = "2006-08-27"
@@ -1322,7 +1340,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 147
+order = 149
 subject = "الىميس شلش"
 author = "خنساء فلسطين"
 posted = "2006-08-31"
@@ -1331,7 +1349,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 148
+order = 150
 subject = "اصالة صوت"
 author = "ابوقتيبة"
 posted = "2006-08-31"
@@ -1340,7 +1358,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 149
+order = 151
 subject = "المراة والطفلة الداعية"
 author = "ابوقتيبة-اليمن"
 posted = "2006-08-31"
@@ -1349,7 +1367,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 150
+order = 152
 subject = "ميس شلش"
 author = "نرنر"
 posted = "2006-09-05"
@@ -1358,7 +1376,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 151
+order = 153
 subject = "اروع منشده على الاطلاق"
 author = "فراس الوادية"
 posted = "2006-09-05"
@@ -1367,7 +1385,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 152
+order = 154
 subject = "الحما س العربي الفلسطيني"
 author = "ادريس اسماعيل الترب"
 posted = "2006-09-12"
@@ -1376,7 +1394,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 153
+order = 155
 subject = "صوت الاقصى ينادي"
 author = "الخطاط/ ادريس اسماعيل الترب"
 posted = "2006-09-12"
@@ -1385,7 +1403,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 154
+order = 156
 subject = "شكر رسالة"
 author = "الاستاذ/ حمزة محمد ناجي الترب - اليمن - تعز"
 posted = "2006-09-14"
@@ -1394,7 +1412,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 155
+order = 157
 subject = "خد راحتك ياعم"
 author = "قطرة ندى"
 posted = "2006-09-19"
@@ -1403,7 +1421,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 156
+order = 158
 subject = "حملة تنظيف ومراقبة التعليقات"
 author = "موقع عشرينات"
 posted = "2006-09-19"
@@ -1412,7 +1430,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 157
+order = 159
 subject = "ملكة كلمة الحق"
 author = "مازن فايز محمود الخطيب"
 posted = "2006-09-21"
@@ -1421,7 +1439,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 158
+order = 160
 subject = "رائعة يا بنت فلسطين"
 author = "جميلة"
 posted = "2006-09-23"
@@ -1430,7 +1448,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 159
+order = 161
 subject = "مرحبا اخوانى وكيفكم"
 author = "جهاد خالد"
 posted = "2006-09-29"
@@ -1439,7 +1457,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 160
+order = 162
 subject = "اللهم ارنا الحق حقا وارزقنا اتباعه"
 author = "أم الشهيد"
 posted = "2006-09-29"
@@ -1448,7 +1466,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 161
+order = 163
 subject = "jazaki"
 author = "ali"
 posted = "2006-10-09"
@@ -1457,7 +1475,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 162
+order = 164
 subject = "فلسطين اولا"
 author = "محمد"
 posted = "2006-10-10"
@@ -1466,7 +1484,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 163
+order = 165
 subject = "for mayss"
 author = "noussaiba"
 posted = "2006-10-13"
@@ -1475,7 +1493,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 164
+order = 166
 subject = "الله يوفقك"
 author = "نميري النخعي"
 posted = "2006-11-01"
@@ -1484,7 +1502,7 @@ archived = "2006-11-02"
 capture_url = "https://web.archive.org/web/20061102103334/http://www.20at.com/article2.php?sid=53"
 
 [[comments]]
-order = 165
+order = 167
 subject = "هل من مزيد"
 author = "نميري حسن محمد النخعي من اليمن"
 posted = "2006-11-01"

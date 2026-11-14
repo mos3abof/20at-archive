@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - sayed-katb</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/sayed-katb/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/sayed-katb/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2006-05-23T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/sayed-katb/atom.xml</id>
+    <id>https://el20at.com/authors/sayed-katb/atom.xml</id>
     <entry xml:lang="ar">
         <title>أفراح الروح</title>
         <published>2006-05-23T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b849/"/>
-        <id>https://20at.mosab.me/articles/b849/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b849/"/>
+        <id>https://el20at.com/articles/b849/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b849/">&lt;p&gt;رسالة سطرها سيد قطب رحمه الله تعالى إلى شقيقته أمينة ، نشرت في مجلة الفكر التونسية العدد السادس من السنة الرابعة مارس 1959 بعنوان أضواء من بعيد. ثم نشرت مراراً تحت عنوان (أفراح الروح) ويبدو أن هذا العنوان هو الأليق بها.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b849/">&lt;p&gt;رسالة سطرها سيد قطب رحمه الله تعالى إلى شقيقته أمينة ، نشرت في مجلة الفكر التونسية العدد السادس من السنة الرابعة مارس 1959 بعنوان أضواء من بعيد. ثم نشرت مراراً تحت عنوان (أفراح الروح) ويبدو أن هذا العنوان هو الأليق بها.&lt;/p&gt;
 &lt;h3&gt;بسم الله الرحمن الرحيم&lt;/h3&gt;
 &lt;h3&gt;(1)&lt;/h3&gt;
 &lt;p&gt;أختي الحبيبة.. هذه الخواطر مهداة إليك..&lt;/p&gt;

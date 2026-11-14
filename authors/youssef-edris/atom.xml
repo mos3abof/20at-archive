@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - youssef-edris</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/youssef-edris/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/youssef-edris/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2004-05-05T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/youssef-edris/atom.xml</id>
+    <id>https://el20at.com/authors/youssef-edris/atom.xml</id>
     <entry xml:lang="ar">
         <title>بيت من لحم</title>
         <published>2004-05-05T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/a194/"/>
-        <id>https://20at.mosab.me/articles/a194/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/a194/"/>
+        <id>https://el20at.com/articles/a194/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/a194/">&lt;p&gt;الخاتم بجوار المصباح، الصمت، الصمت يحل فتعمى الآذان، في الصمت تتسلل الأصبع، يضع الخاتم.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/a194/">&lt;p&gt;الخاتم بجوار المصباح، الصمت، الصمت يحل فتعمى الآذان، في الصمت تتسلل الأصبع، يضع الخاتم.&lt;/p&gt;
 &lt;p&gt;في صمت أيضًا يطفأ المصباح، والظلام يعم في الظلام أيضًا تعمى العيون، الأرملة وبناتها الثلاث، والبيت حجرة والبداية صمت.&lt;/p&gt;
 &lt;p&gt;الأرملة طويلة بيضاء ممشوقة، في الخامسة والثلاثين، بناتها أيضًا طويلات فائرات، لا يخلعن الثوب الكاسي الأسود بحداد أو بغير حداد، صغراهن في السادسة عشرة وكبراهن في العشرين، قبيحات ورثن جسد الأب الأسمر المليء بالكتل غير المتناسقة والفجوات، وبالكاد أخذن من الأم العود.&lt;/p&gt;
 &lt;p&gt;الحجرة، رغم ضيقها تسعهن في النهار، رغم فقرها الشديد مرتبة أنيقة، يشيع فيها جو البيت وتحفل بلمسات الإناث الأربع، في الليل تتناثر أجسادهن كأكوام كبيرة من لحم دافئ حي، بعضها فوق الفراش، وبعضها حوله، تتصاعد منها الأنفاس حارة مؤرقة، أحيانًا عميقة الشهيق.&lt;/p&gt;

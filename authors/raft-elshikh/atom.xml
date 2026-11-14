@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - raft-elshikh</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/raft-elshikh/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/raft-elshikh/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2004-09-26T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/raft-elshikh/atom.xml</id>
+    <id>https://el20at.com/authors/raft-elshikh/atom.xml</id>
     <entry xml:lang="ar">
         <title>العرب وإسرائيل..حروب الرياضة!</title>
         <published>2004-09-26T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/a187/"/>
-        <id>https://20at.mosab.me/articles/a187/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/a187/"/>
+        <id>https://el20at.com/articles/a187/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/a187/">&lt;p&gt;عندما يأتي السلام..&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/a187/">&lt;p&gt;عندما يأتي السلام..&lt;/p&gt;
 &lt;p&gt;سوف تحضر إلى تل أبيب..&lt;/p&gt;
 &lt;p&gt;فرقة مصر لكرة القدم..&lt;/p&gt;
 &lt;p&gt;سوف تهزمنا هنا في تل أبيب&lt;/p&gt;

@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - maram-mahmoud</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/maram-mahmoud/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/maram-mahmoud/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2006-06-27T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/maram-mahmoud/atom.xml</id>
+    <id>https://el20at.com/authors/maram-mahmoud/atom.xml</id>
     <entry xml:lang="ar">
         <title>&quot;مجاهد&quot; ممنوع بالجزائر</title>
         <published>2006-06-27T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-2317/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-2317/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-2317/"/>
+        <id>https://el20at.com/articles/20at-latest-news-2317/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-2317/">&lt;p&gt;وزير المجاهدين الجزائري، محمد الشريف عباس، أوضح أنّ السلطات الجزائرية ستتوقّف عن معالجة أي طلب للاعتراف بصفة &quot;مجاهد&quot;، وأنّ اللجنة المعنية بذلك قد حلّت.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-2317/">&lt;p&gt;وزير المجاهدين الجزائري، محمد الشريف عباس، أوضح أنّ السلطات الجزائرية ستتوقّف عن معالجة أي طلب للاعتراف بصفة &quot;مجاهد&quot;، وأنّ اللجنة المعنية بذلك قد حلّت.&lt;/p&gt;
 &lt;p&gt;وقال عباس خلال اجتماع الحكومة والولاة، أنّ &#39;&#39;لجنة الاعتراف بصفة المجاهد لن تعالج من أي ملف للاعتراف بعد ذلك&#39;&#39;، موضحاً أنّ مهمة اللجنة &#39;&#39;انتهت وليس هناك سبيل لبعثها من جديد&quot;.&lt;/p&gt;
 &lt;p&gt;وكانت اللجنة المشار إليها تقوم بفحص وإسناد صفة &quot;مجاهد&quot; لكل من شارك في حرب التحرير الجزائرية ضد الاستعمار الفرنسي عام 1962م، والتي ذهب ضحيتها أكثر من مليون ونصف المليون جزائري.&lt;/p&gt;
 &lt;p&gt;وتعهّد الوزير الجزائري بأنّ وزارته ستعقد ندوة صحفية توضح فيها الإجراءات التي اتخذتها في هذا الأمر.&lt;/p&gt;

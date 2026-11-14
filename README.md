@@ -1,6 +1,6 @@
 # أرشيف عشرينات · 20at archive (published site)
 
-This repository is the **built** website served at <https://20at.mosab.me>: the HTML, styles, scripts,
+This repository is the **built** website served at <https://el20at.com>: the HTML, styles, scripts,
 search files and media that Zola writes to `public/`. It isn't edited by hand, and nothing is built here.
 
 - **Source:** the archive pipeline and the Zola project (templates, styles, scripts, theme, the

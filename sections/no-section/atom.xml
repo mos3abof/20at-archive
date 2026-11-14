@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - no-section</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/sections/no-section/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/sections/no-section/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2010-03-08T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/sections/no-section/atom.xml</id>
+    <id>https://el20at.com/sections/no-section/atom.xml</id>
     <entry xml:lang="ar">
         <title>فلسطين وليس الحرم الإبراهيمي</title>
         <published>2010-03-08T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-files-15660/"/>
-        <id>https://20at.mosab.me/articles/20at-files-15660/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-files-15660/"/>
+        <id>https://el20at.com/articles/20at-files-15660/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-files-15660/">&lt;p&gt;إذا كانت &quot;إسرائيل&quot; دولة مشروعة، وهى بالطبع ليست كذلك ، فمن حقها أن تضم الحرم الإبراهيمي والمسجد الأقصى وبيت المقدس ، ومن حقها أن تهود القدس الغربية والشرقية ، بل وأن تضم كل فلسطين ، وليس حدود 1948 فقط.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-files-15660/">&lt;p&gt;إذا كانت &quot;إسرائيل&quot; دولة مشروعة، وهى بالطبع ليست كذلك ، فمن حقها أن تضم الحرم الإبراهيمي والمسجد الأقصى وبيت المقدس ، ومن حقها أن تهود القدس الغربية والشرقية ، بل وأن تضم كل فلسطين ، وليس حدود 1948 فقط.&lt;/p&gt;
 &lt;h3&gt;&lt;span style=&quot;color:#FF0000&quot;&gt;لماذا ؟&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;لان مشروعيتها إن صدقت ، وهى كاذبة ، تعنى أن لها حقوقا تاريخية كما تدعى أساطيرهم الصهيونية في ارض الآباء والأجداد ، طبقا لوعد ربهم الذي ورد في توراتهم ، وهو وعد عمره 4000 عاما حيث لم يكن هناك وقتها فلسطين 1948 و لا حدود 1967 . ولم يكن فيها أساسا اى مقدسات إسلامية أو مسيحية.&lt;/p&gt;
 &lt;p&gt;وعلى ذلك فان العرب والمسلمين الذين يعترفون بـ &quot;إسرائيل&quot; الآن ، لا يحق لهم أن يغضبوا من تهويد القدس والاستيلاء على المقدسات الإسلامية ، فباى منطق يرفضون ذلك.&lt;/p&gt;
@@ -67,10 +67,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/consultant-14671/"/>
-        <id>https://20at.mosab.me/articles/consultant-14671/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/consultant-14671/"/>
+        <id>https://el20at.com/articles/consultant-14671/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/consultant-14671/">&lt;p&gt;الإسم:&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/consultant-14671/">&lt;p&gt;الإسم:&lt;/p&gt;
 &lt;p&gt;د.ليلى أحمدالأحدب&lt;/p&gt;
 &lt;p&gt;الشهادات العلمية:&lt;/p&gt;
 &lt;p&gt;حائزة على شهادة دكتوراه في الطب البشري.&lt;/p&gt;
@@ -109,10 +109,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/consultant-14680/"/>
-        <id>https://20at.mosab.me/articles/consultant-14680/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/consultant-14680/"/>
+        <id>https://el20at.com/articles/consultant-14680/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/consultant-14680/">&lt;p&gt;خبرات&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/consultant-14680/">&lt;p&gt;خبرات&lt;/p&gt;
 &lt;p&gt;الاسم: د. سحر محمد طلعت عبد الباري&lt;/p&gt;
 &lt;p&gt;* المؤهلات العلمية:&lt;/p&gt;
 &lt;p&gt;- بكالوريوس الطب والجراحة من كلية طب قصر العيني عام 1988.&lt;/p&gt;
@@ -182,10 +182,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-beauty-15327/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-beauty-15327/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-beauty-15327/"/>
+        <id>https://el20at.com/articles/ask-and-answers-beauty-15327/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-beauty-15327/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-beauty-15327/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية تجربة تستوية&lt;/p&gt;
 &lt;p&gt;السن&lt;/p&gt;
 &lt;p&gt;10&lt;/p&gt;
@@ -209,10 +209,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/books-diary-angry-girl-read-book-book-1/"/>
-        <id>https://20at.mosab.me/articles/books-diary-angry-girl-read-book-book-1/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/books-diary-angry-girl-read-book-book-1/"/>
+        <id>https://el20at.com/articles/books-diary-angry-girl-read-book-book-1/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/books-diary-angry-girl-read-book-book-1/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/books-diary-angry-girl-read-book-book-1/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
 &lt;p&gt;مذكرات بنت مفروسه&lt;/p&gt;
 &lt;p&gt;Download Adobe Flash Player.&lt;/p&gt;
 &lt;p&gt;&quot;مذكراتي اللي بين أيديكم عبارة عن تسجيل لفترة من حياتي.. تقريبا 10 سنين.. من بعد تخرجي ومرورا بفترة العنوسة وانتهاء باللحظة اللي تم فيها إنقاذي من هذا اللقب&quot;..&lt;/p&gt;
@@ -239,10 +239,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/books-loving-online-read-book-book-3/"/>
-        <id>https://20at.mosab.me/articles/books-loving-online-read-book-book-3/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/books-loving-online-read-book-book-3/"/>
+        <id>https://el20at.com/articles/books-loving-online-read-book-book-3/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/books-loving-online-read-book-book-3/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/books-loving-online-read-book-book-3/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
 &lt;p&gt;الحب اون لاين&lt;/p&gt;
 &lt;p&gt;Download Adobe Flash Player.&lt;/p&gt;
 &lt;p&gt;إننا نلعب على شبكة الإنترنت ألعابًا مختلفة سواء ندري بها أو لا ندري، حيث يلجأ الكثير من مستخدمي عالم الإنترنت &quot;المسحور&quot; وخاصة ممكن ينشدون علاقة تخيلية؛ إلى التحايل وممارسة ألعاب نفسية تمكنه من رسم شخصيته كما يتمناها وليس كما هي، وذلك في محاولة للقيام بعملية هروب كبير من واقعه، وأهم هذه الألعاب: الكذب، الصدق الكاذب، التقمص، التمويه والخلط، التمرير..إلخ.&lt;/p&gt;
@@ -268,10 +268,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/books-our-streets-speak-arabic-read-book-book-2/"/>
-        <id>https://20at.mosab.me/articles/books-our-streets-speak-arabic-read-book-book-2/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/books-our-streets-speak-arabic-read-book-book-2/"/>
+        <id>https://el20at.com/articles/books-our-streets-speak-arabic-read-book-book-2/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/books-our-streets-speak-arabic-read-book-book-2/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/books-our-streets-speak-arabic-read-book-book-2/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
 &lt;p&gt;شوارعنا بتكلم عربى&lt;/p&gt;
 &lt;p&gt;Download Adobe Flash Player.&lt;/p&gt;
 &lt;p&gt;المشاهير من الشوارع.. وشوارع المشاهير، هذا باختصار ما يتناوله كتاب (شوارعنا بتتكلم عربي) الصادر حديثا ضمن (سلسلة عشرينات).&lt;/p&gt;
@@ -297,10 +297,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/books-overcom-unemployment-read-book-book-4/"/>
-        <id>https://20at.mosab.me/articles/books-overcom-unemployment-read-book-book-4/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/books-overcom-unemployment-read-book-book-4/"/>
+        <id>https://el20at.com/articles/books-overcom-unemployment-read-book-book-4/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/books-overcom-unemployment-read-book-book-4/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/books-overcom-unemployment-read-book-book-4/">&lt;p&gt;طالع الكتاب&lt;/p&gt;
 &lt;p&gt;روشته ضرب البطاله&lt;/p&gt;
 &lt;p&gt;Download Adobe Flash Player.&lt;/p&gt;
 &lt;p&gt;قصص واقعية عملية ضد البطالة لشباب صنعوا تفاصيلها، وتجارب ناجحة لشباب وضعوا شهاداتهم وراء ظهورهم ولم ينتظروا العمل بها بعد أن أيقنوا أن &quot;محدش بيكلها بالساهل&quot;.. فقرروا أن يتركوا التمني والآمال الوردية وأعلنوا &quot;الشغل مش عيب&quot;.. فنجحوا في &quot;ضرب البطالة&quot; بعد أن &quot;أخذوا الدنيا غلابا&quot;.&lt;/p&gt;
@@ -328,10 +328,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-beauty-14689/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-beauty-14689/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-beauty-14689/"/>
+        <id>https://el20at.com/articles/ask-and-answers-beauty-14689/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-beauty-14689/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-beauty-14689/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;السلام عليكم ورحمة الله وبركاته.. أشكركم على جهودكم، وأشكر الأستاذة دينا الجارم..&lt;/p&gt;
 &lt;p&gt;سؤالي للأستاذة دينا هو: حضرتها قالت في إذاعة إسلام أون لاين أن سر جمال البشرة يرجع إلى نظام غذائي متوازن، ودورة دموية متوازنة، أرجو من الأستاذة دينا الجارم أن تكتب لي نظام الغذاء المتوازن.&lt;/p&gt;
 &lt;p&gt;وهل يجب الانتظام يوميا على هذا النظام الغذائي للاستفادة منه، وما هي الدورة المتوازنة؟&lt;/p&gt;
@@ -388,10 +388,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-beauty-14690/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-beauty-14690/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-beauty-14690/"/>
+        <id>https://el20at.com/articles/ask-and-answers-beauty-14690/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-beauty-14690/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-beauty-14690/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;بسم الله الرحمن الرحيم.. سؤالي هو أنني أضع في شعري كريم شعر، وجربت أنواعا كثيرة من كريمات الشعر لكنها تعمل على تساقط شعري وتجفيفه.&lt;/p&gt;
 &lt;p&gt;فهل هناك كريم للشعر يمكن تصنيعه بالمنزل يناسب كل أنواع الشعر ينعم الشعر ويمنع تساقطه؟ وكيف أحفظه؟ وما هي مدة صلاحيته؟ وكم عدد مرات استخدامه؟&lt;/p&gt;
 &lt;p&gt;سؤالي الثاني: ذكرتم من قبل الشامبو العشبي، أريد معرفة كمية المياه التي نضعها على الأعشاب، وهل الشامبو العشبي يناسب كل أنواع الشعر؟&lt;/p&gt;
@@ -428,10 +428,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-general-14692/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-general-14692/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-general-14692/"/>
+        <id>https://el20at.com/articles/ask-and-answers-general-14692/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-general-14692/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-general-14692/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;السلام عليكم ورحمة الله وبركاته&lt;/p&gt;
 &lt;p&gt;أخي عمره 15 سنة، ويعاني من عدة مشاكل، أحزن عليه كثيرا وأود مساعدته لذلك أحببت مراسلتكم.&lt;/p&gt;
 &lt;p&gt;1. أولى مشكلاته أنه لا يصلي ولا يحب الصلاة وإذا دفع للصلاة دفعا يصلي دون وضوء أو يدعي أنه يذهب للمسجد لكنه يغيب لدقائق ثم لا يلبث أن يعود دون أن يصلي.&lt;/p&gt;
@@ -483,10 +483,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-general-14693/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-general-14693/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-general-14693/"/>
+        <id>https://el20at.com/articles/ask-and-answers-general-14693/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-general-14693/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-general-14693/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;السلام عليكم..&lt;/p&gt;
 &lt;p&gt;لي صديق قريب مني عزيز علي، عمره ٢٢، شخصيته اجتماعية جدا ومهتم بأخبار الناس لكن لا يحب الدراسة ولذلك لا يريد الذهاب إلى الجامعة.&lt;/p&gt;
 &lt;p&gt;ترك عمله منذ أكثر من سنة لأسباب السفر وأدمن على عدم العمل حتى الآن.&lt;/p&gt;
@@ -535,10 +535,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-psychological-14694/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-psychological-14694/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-psychological-14694/"/>
+        <id>https://el20at.com/articles/ask-and-answers-psychological-14694/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-psychological-14694/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-psychological-14694/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;بسم الله الرحمن الرحيم، والصلاة والسلام على أشرف المرسلين سيدنا محمد وعلى آله وصحبه أجمعين.&lt;/p&gt;
 &lt;p&gt;أما بعد، أكتب إليكم رسالتي هذه ودموع الحزن تملأ قلبي على ما مررت به من الأسى.سيدي الدكتور أنا شاب أبلغ من العمر 27 عاما.. بدأت مشكلتي عندما كنت في الصف الثاني بالثانوية العامة توجيهي سنه 1999 عندها كان عمري 17 عاما.&lt;/p&gt;
 &lt;p&gt;كنت في صغري قد أحببت العلم والتعلم حبا جما، فمنذ أن كان عمري 5 سنوات حتى 17 سنة كنت قد أحرزت تقدما هائلا في تحصيلي العلمي فكانت علاماتي في الابتدائية والإعدادية لا تقل عن %90 في كافه المواضيع، كنت طالبا مجتهدا ومحبا للتعلم بصورة لا تصدق. وفي ذلك الوقت أحببت علم الحاسوب والبرمجة منذ صغري، فدخلت دورات تعليمية لبرمجة الحاسوب التي تعتبر اليوم من أقدم الطرازات. فلقد خططت لمستقبلي منذ صغري وعلمت أي طريق يتوجب علي أن أسلكه.&lt;/p&gt;
@@ -597,10 +597,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-social-14669/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-social-14669/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-social-14669/"/>
+        <id>https://el20at.com/articles/ask-and-answers-social-14669/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-social-14669/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-social-14669/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;السلام عليكم&lt;/p&gt;
 &lt;p&gt;أنا فتاة أبلغ من العمر21 سنة ملتزمة ولله الحمد، تزوجت من شهرين تقريبا.&lt;/p&gt;
 &lt;p&gt;تمت خطبتي لهذا الشاب من ثلاث سنوات، ولكني كنت رافضة جدا.. ليس بسبب الشخص ذاته ولكن لم أكن متقبلة فكرة الزواج ولكن بعد إصرار أهلي اضطررت إلى الموافقة فقط لإرضائهم مع إني في قرارة نفسي لم أوافق.&lt;/p&gt;
@@ -646,10 +646,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/ask-and-answers-social-14684/"/>
-        <id>https://20at.mosab.me/articles/ask-and-answers-social-14684/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/ask-and-answers-social-14684/"/>
+        <id>https://el20at.com/articles/ask-and-answers-social-14684/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/ask-and-answers-social-14684/">&lt;p&gt;نص السؤال&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/ask-and-answers-social-14684/">&lt;p&gt;نص السؤال&lt;/p&gt;
 &lt;p&gt;السلام عليكم ورحمة الله وبركاته..&lt;/p&gt;
 &lt;p&gt;في البداية أشكركم على مجهودكم الرائع، وأود أن أشكر صفحة مشاكل وحلول على ما تقدمه لنا، فأنا قد تعلمت الكثير من هذه الصفحة، فجزاكم الله خيرا.&lt;/p&gt;
 &lt;p&gt;أما عما أريد أن أسأل عنه فهو: هل من المفروض أن تكون هناك مشاعر في فترة الخطوبة؟ أعرف أنه لا يمكن أن نعبر عنها لأننا ما زلنا لم نتزوج بعد.&lt;/p&gt;
@@ -687,10 +687,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/archive-7540/"/>
-        <id>https://20at.mosab.me/articles/archive-7540/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/archive-7540/"/>
+        <id>https://el20at.com/articles/archive-7540/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/archive-7540/">&lt;p&gt;&quot;كلنا ولاد تسعة ..في عز النار خليك انت راكب في العربية المكيفة وسيبنا إحنا في خنقة الأتوبيس وزحمة الشوارع ومش لازم نروح بيتنا النهاردة كفاية انك هتروح خليك كده مش حاسس بينا&quot;.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/archive-7540/">&lt;p&gt;&quot;كلنا ولاد تسعة ..في عز النار خليك انت راكب في العربية المكيفة وسيبنا إحنا في خنقة الأتوبيس وزحمة الشوارع ومش لازم نروح بيتنا النهاردة كفاية انك هتروح خليك كده مش حاسس بينا&quot;.&lt;/p&gt;
 &lt;p&gt;جملة طويلة أسمعها كثيرا على ألسنة المصريين البسطاء الذين يتمنون يوما أن يصلوا عملهم في الموعد دون أن تهان إنسانيتهم في وسائل المواصلات العامة ، وقد تكون الجملة موجهة للمسئولين أو لأصحاب السيارات الملاكي المهم أنها أوحت لي بخطة قد تحل الأزمة المرورية في مصر.&lt;/p&gt;
 &lt;p&gt;الخطة تستهدف بشكل خاص السيارات الملاكي وهي ليست نوع من أنواع الحقد الطبقي على هؤلاء فأنا من المنتمين لهذه الفئة والله على ما أقول شهيد، لكن البؤس الواضح على ملامح أغلب المواطنين الواقفين تحت أشعة الشمس الحارقة منتظرين هلت الأوتوبيس أو الميني باص أو الميكروباص كانت السبب الأساسي في محاولة إنقاذ هؤلاء بعدما خلصني الله من &quot;زنقة&quot; الأوتوبيسات.&lt;/p&gt;
 &lt;p&gt;وقبل أن نتعمق في المشكلة و أسبابها هذا ملخص لحلها: تخصيص أوقات للسيارات الملاكي وأوقات أخرى للنقل العام، ضخ مواصلات عامة آدمية تصلح للغني و الفقير ،الخطة ستطبق على العاصمة القاهرة و الجيزة و الإسكندرية و المدن المزدحمة فقط أما المدن الجديدة التي لا تعاني أصلا من أزمة مرورية فهي ليست في حاجة لهذه الخطة ، المشروع سيطبق في جميع أيام الأسبوع ما عدا يوم الجمعة وأخيرا أرجو أن لا يتسرع أحد بالرفض والقول بأنه كلام غير منطقي فالهدف هو &quot;الراحة للجميع&quot;.&lt;/p&gt;
@@ -736,10 +736,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/c11116/"/>
-        <id>https://20at.mosab.me/articles/c11116/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/c11116/"/>
+        <id>https://el20at.com/articles/c11116/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/c11116/">&lt;p&gt;ملمس طفلة&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/c11116/">&lt;p&gt;ملمس طفلة&lt;/p&gt;
 &lt;p&gt;راندا فاروق-سينما عشرينات- 17/7/2007&lt;/p&gt;
 &lt;p&gt;&quot;عندما يغير الملمس قسوة الحياة&quot; تعودت دوما أن يكون ملمس تلك الأشياء التي تعرفها خشن كالأيام التي تعيشها ولكن هذه المرة استطاعت أن تلمس أحد الأشياء الناعمة ولكن صاحبته لم تتركها تلمسه بلا عقاب...&lt;/p&gt;
 &lt;p&gt;ليعود الملمس الخشن إلى حياتها ولكن رغم ذلك تحلم بهذا الملمس الذي عرته لمرة واحدة في حياتها&lt;/p&gt;
@@ -757,10 +757,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/c11117/"/>
-        <id>https://20at.mosab.me/articles/c11117/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/c11117/"/>
+        <id>https://el20at.com/articles/c11117/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/c11117/">&lt;p&gt;البرد قادم حتى بعد فيتامين (سي)&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/c11117/">&lt;p&gt;البرد قادم حتى بعد فيتامين (سي)&lt;/p&gt;
 &lt;p&gt;عشرينات- نشرة9- 19/7/2007&lt;/p&gt;
 &lt;p&gt;أفادت دراسة بأن تناول أقراص فيتامين (سي) لا يقي الإنسان العادي من الإصابة بنزلات البرد الشائعة أو يقصر فترة الإصابة أو شدتها.&lt;/p&gt;
 &lt;p&gt;ومع ذلك فان من يصابون لفترات قصيرة أثناء تدريبات بدنية قاسية أو في درجات حرارة باردة فإن فيتامين (سي) قد يقلل بشكل ملحوظ احتمالات إصابتهم بالبرد.&lt;/p&gt;
@@ -785,10 +785,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/c11120/"/>
-        <id>https://20at.mosab.me/articles/c11120/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/c11120/"/>
+        <id>https://el20at.com/articles/c11120/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/c11120/">&lt;p&gt;&lt;a href=&quot;/articles/c11117/&quot;&gt; البرد قادم حتى بعد فيتامين (سي) &lt;/a&gt;&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/c11120/">&lt;p&gt;&lt;a href=&quot;/articles/c11117/&quot;&gt; البرد قادم حتى بعد فيتامين (سي) &lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/articles/c11116/&quot;&gt; ملمس طفلة&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;لا مزاح في القنابل&lt;/p&gt;
 &lt;p&gt;رويترز- عشرينات- نشرة9-19/7/2007&lt;/p&gt;
@@ -810,10 +810,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/c11059/"/>
-        <id>https://20at.mosab.me/articles/c11059/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/c11059/"/>
+        <id>https://el20at.com/articles/c11059/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/c11059/">&lt;p&gt;وافق الرجل وفى بساطة أن يحضر إلى (صالون عشرينات)، لكنه سأل أولاً: هل منكم من قرأ لي حتى تكون مناقشة ذات معنى؟&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/c11059/">&lt;p&gt;وافق الرجل وفى بساطة أن يحضر إلى (صالون عشرينات)، لكنه سأل أولاً: هل منكم من قرأ لي حتى تكون مناقشة ذات معنى؟&lt;/p&gt;
 &lt;p&gt;رددت: طبعا يا دكتور.. قرأنا &quot;السيرة الذاتية&quot;، و&quot;ماذا حدث للمصريين&quot; و&quot;عصر الجماهير الغفيرة&quot;، وغيرها..&lt;/p&gt;
 &lt;p&gt;هل عرفت عمن نتحدث؟&lt;/p&gt;
 &lt;p&gt;نتحدث عن ضيف صالون عشرينات هذا الشهر الكاتب والمفكر الدكتور (جلال أمين) أستاذ الاقتصاد بالجامعة الأمريكية.&lt;/p&gt;
@@ -844,10 +844,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/archive-5548/"/>
-        <id>https://20at.mosab.me/articles/archive-5548/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/archive-5548/"/>
+        <id>https://el20at.com/articles/archive-5548/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/archive-5548/">&lt;p&gt;بمجرد أن نطق القاضي بحكم يسمح لبناته بالزواج، سقط الأب وفارق الحياة.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/archive-5548/">&lt;p&gt;بمجرد أن نطق القاضي بحكم يسمح لبناته بالزواج، سقط الأب وفارق الحياة.&lt;/p&gt;
 &lt;p&gt;فلم يتحمل الرجل أن يعارض القاضي قراره بمنع بناته الـ3 من الزواج علي مدى نحو 20 عاما فلفظ أنفاسه الأخيرة في قاعة المحكمة الكبرى بمكة.&lt;/p&gt;
 &lt;p&gt;ورفعت البنات التي تراوحت أعمارهن ما بين 36 و 40 عاما قضية ضد والدهن بعد أن فشلت كل السبل لإقناعه برغبتهن في الزواج بحسب صحيفة&quot;المدينة&quot; السعودية.&lt;/p&gt;
 &lt;p&gt;وبعد عدة مداولات أصدر القاضي حكما برفع &quot;العضل&quot; عن البنات وأمر بتزويجهن وأثناء ضبط الحكم شهق الأب ولفظ أنفاسه الأخيرة،وبين تقرير الطبيب الشرعي أن الوفاة طبيعية نتيجة توقف القلب،وكان الأب يعاني من مرضي السكري وارتفاع ضغط الدم.&lt;/p&gt;
@@ -869,10 +869,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/archive-3587/"/>
-        <id>https://20at.mosab.me/articles/archive-3587/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/archive-3587/"/>
+        <id>https://el20at.com/articles/archive-3587/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/archive-3587/">&lt;p&gt;لم يفق بعد المغاربة من صدمة التفجير الانتحاري في 11 مارس الماضي، حتى باغتتهم مجموعة من الأحداث المتوالية، بدأت أمس بالقنابل البشرية في العاصمة الاقتصادية الدار البيضاء، ثم كان آخرها الإشاعة التي أعلنت اليوم عن حدوث تفجير جديد، ثم الإشارة إلى أنه مجرد إطلاق نار من الشرطة للقبض على مشتبه فيه كان مختبئاً داخل منزل.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/archive-3587/">&lt;p&gt;لم يفق بعد المغاربة من صدمة التفجير الانتحاري في 11 مارس الماضي، حتى باغتتهم مجموعة من الأحداث المتوالية، بدأت أمس بالقنابل البشرية في العاصمة الاقتصادية الدار البيضاء، ثم كان آخرها الإشاعة التي أعلنت اليوم عن حدوث تفجير جديد، ثم الإشارة إلى أنه مجرد إطلاق نار من الشرطة للقبض على مشتبه فيه كان مختبئاً داخل منزل.&lt;/p&gt;
 &lt;p&gt;على أي حال، صدقت الإشاعة أو كذبت، أصبحت التفجيرات الإرهابية حديث الساعة عند الخاصة والعامة، الصغير والكبير.. وهو ما دعاني للتوجه إلى منطقة التفجيرات لمعرفة أحوال هؤلاء عن قرب..&lt;/p&gt;
 &lt;h3&gt;مكان التفرقيع&lt;/h3&gt;
 &lt;p&gt;بمجرد وصولي إلى محطة الدار البيضاء، ركبت سيارة أجرة في اتجاه &quot;حي فرح&quot; الذي أطلق عليه البيضاويون &quot;حي الحزن&quot; بعد التفجيرات.. بادرنا السائق إلى أين؟ فأجابته بعض النسوة في المقاعد الخلفية: إلى حي الفرح، فردّ السائق قائلا: إلى مكان (التفرقيع)، فغمغمت النسوة: الله يستر .. الله ينجينا.&lt;/p&gt;
@@ -901,10 +901,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/c5117/"/>
-        <id>https://20at.mosab.me/articles/c5117/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/c5117/"/>
+        <id>https://el20at.com/articles/c5117/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/c5117/">&lt;p&gt;يجلس هادئاً تماماً في مكانه المفضل في البيت، لا يقطع الهدوء سوى بنداءات متقطعة طالباً قدحا من القهوة أو كوباً من الشاي أو مطفأة فارغة..فأجيبه وأجلب له ما يطلب على مضض فقد شغلني عن شيء ما.. وقتها يداعبني ويجعلني أضحك، فأجلس معه وأنسى ما قاطعني عنه..&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/c5117/">&lt;p&gt;يجلس هادئاً تماماً في مكانه المفضل في البيت، لا يقطع الهدوء سوى بنداءات متقطعة طالباً قدحا من القهوة أو كوباً من الشاي أو مطفأة فارغة..فأجيبه وأجلب له ما يطلب على مضض فقد شغلني عن شيء ما.. وقتها يداعبني ويجعلني أضحك، فأجلس معه وأنسى ما قاطعني عنه..&lt;/p&gt;
 &lt;p&gt;دائماً نتشاجر على المحطة التليفزيونية.. فدائماً هو يريد الأخبار وأنا أريد هذا البرنامج الذي يقدمه هذا المذيع الوسيم.. وهو يعلم ذلك، فيظل يعاكسني ويناوشني بوصفي فتاة شقية خبيثة، نغلق التلفزيون ونظل نتحدث لساعات طويلة عن كل شيء وأي شيء، ولا يقطع تلك الساعات سوى صوت أمي المتذمر المطالب أن ننتهي من تلك السفسطة ونتركها تنام.. فنبتسم أنا وهو .. وأذهب لأنام في غرفتي..&lt;/p&gt;
 &lt;p&gt;لا يكف عن العطاء ولا يمل منه.. ففي مرة لاحظت أنه مر عليه عامان دون أن يذهب ليشتري ملابس له، فأمي دائماً تشتري له وهو يشكرها في امتنان، ويلبسها في اليوم التالي وهو فخور بما جلبته له حبيبته..&lt;/p&gt;
 &lt;h3&gt;لماذا أحبه ؟&lt;/h3&gt;
@@ -954,10 +954,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/c4951/"/>
-        <id>https://20at.mosab.me/articles/c4951/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/c4951/"/>
+        <id>https://el20at.com/articles/c4951/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/c4951/">&lt;p&gt;&lt;span class=&quot;ar-dead-link&quot; title=&quot;لم يحفظها الأرشيف&quot;&gt; أ‡أˆأ¤أ‰ أŒأ­أٹأ“: أچأ‘أ£أ¦أ¤أ­ أ£أ¤ أ‡أ،أںأ£أˆأ­أ¦أٹأ‘!&lt;/span&gt;&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/c4951/">&lt;p&gt;&lt;span class=&quot;ar-dead-link&quot; title=&quot;لم يحفظها الأرشيف&quot;&gt; أ‡أˆأ¤أ‰ أŒأ­أٹأ“: أچأ‘أ£أ¦أ¤أ­ أ£أ¤ أ‡أ،أںأ£أˆأ­أ¦أٹأ‘!&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;ar-dead-link&quot; title=&quot;لم يحفظها الأرشيف&quot;&gt; أ“أٹأ‡أ‘ أƒأںأ‡أڈأ­أ£أ­ .. Game over&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;ar-dead-link&quot; title=&quot;لم يحفظها الأرشيف&quot;&gt; أ›أ’أ‰ .. (أˆأ“أکأ‰) أ£أ¦أ، !&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;ar-dead-link&quot; title=&quot;لم يحفظها الأرشيف&quot;&gt; أ‡أ،أٹأ‌أچأ­أک .. أ‡أ،أ¥أ‘أ“ أ‡أ،أ£أ‹أ­أ‘ &lt;/span&gt;&lt;/p&gt;
@@ -1004,10 +1004,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/archive-2799/"/>
-        <id>https://20at.mosab.me/articles/archive-2799/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/archive-2799/"/>
+        <id>https://el20at.com/articles/archive-2799/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/archive-2799/">&lt;p&gt;&quot;شعب العراق لن يفترق ولن تتقاتل السنة والشيعة.. فكلنا علي قلب رجل واحد لمواجهة الاحتلال &quot; !!&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/archive-2799/">&lt;p&gt;&quot;شعب العراق لن يفترق ولن تتقاتل السنة والشيعة.. فكلنا علي قلب رجل واحد لمواجهة الاحتلال &quot; !!&lt;/p&gt;
 &lt;p&gt;&quot;تقوم قوات الاحتلال حالياً ومعها الحكومة بتغطية الفتنة الطائفية.. من خلال تهيئة الأجواء للمليشيات وعصابات الإجرام&quot;&lt;/p&gt;
 &lt;p&gt;أناشد الدول العربية والصديقة والمجتمع الدولي التدخل لايقاف الحكومة المنحازة التي تدعم المليشيات.. بل تدعمها المليشيات لتجبر ضعفها ضد أبناء شعبها العزل من السلاح&quot;&lt;/p&gt;
 &lt;p&gt;كانت هذه بعض المقتطفات من الكلمة التي ألقاها الأمين العام لهيئة العلماء المسلمين بالعراق الدكتور الحارث الضاري، اليوم بالقاهرة.. وفي حواره التالي مع عشرينات، أوضح لنا الشيخ المزيد من أرائه ومواقفه...&lt;/p&gt;
@@ -1051,10 +1051,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b1246/"/>
-        <id>https://20at.mosab.me/articles/b1246/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b1246/"/>
+        <id>https://el20at.com/articles/b1246/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b1246/">&lt;p&gt;لم يستطع عدد من الموظفين الذين قضوا إجازات العيد في المدينة المنورة من مباشرة أعمالهم في يوم السبت الموافق 7-10-82هـ وذلك بسبب نفاذ البنزين في سياراتهم عند وصولهم إلى محطة رابغ .. وعدم وجود بنزين في المحطة الوحيدة العاملة برابع والتابعة لشركة عبدالعزيز كعكي.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b1246/">&lt;p&gt;لم يستطع عدد من الموظفين الذين قضوا إجازات العيد في المدينة المنورة من مباشرة أعمالهم في يوم السبت الموافق 7-10-82هـ وذلك بسبب نفاذ البنزين في سياراتهم عند وصولهم إلى محطة رابغ .. وعدم وجود بنزين في المحطة الوحيدة العاملة برابع والتابعة لشركة عبدالعزيز كعكي.&lt;/p&gt;
 &lt;p&gt;وقد تسبب انقطاع البنزين في المحطة إلى تعطيل عدد كبير من السيارات عن السفر كما تسبب في إيقاف سير البريد القادم من المدينة المنورة في تلك الليلة لنفاذ البنزين لديه هو الأخر.&lt;/p&gt;
 &lt;p&gt;وقد اغتنم أصحاب المقاهي في محطة رابغ فرصة عطل هذه السيارات ونزول ركابها للمبيت في المقاهي من رفع أسعار الحاجيات حتى بلغ سعر الأقة الحوت إلى تسعة ريالات كما وصل سعر المبيت على الكرسي الواحد إلى ريالين وثلاثة.&lt;/p&gt;
 &lt;p&gt;وقد تأكد لدينا بأن محطة البنزين هذه هي الوحيدة الموجودة برابع وقد كانت سبباً في أكثر من مرة لقطع المسافرين إلى المدينة المنورة وغيرها والمعتمدين على تموين سياراتهم بالبنزين منها.&lt;/p&gt;
@@ -1073,10 +1073,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b1391/"/>
-        <id>https://20at.mosab.me/articles/b1391/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b1391/"/>
+        <id>https://el20at.com/articles/b1391/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b1391/">&lt;h3&gt;30/10/2006&lt;/h3&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b1391/">&lt;h3&gt;30/10/2006&lt;/h3&gt;
 &lt;h3&gt;&lt;span style=&quot;color:#CC0000&quot;&gt; نشرة 9 - رويترز&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;لماذا يقتصر العنف علي العراق وفلسطين ودول المشرق فقط مع أن هناك دول أيضاً من حقها أن يقع فيها حوادث عنف.&lt;/p&gt;
 &lt;p&gt;فقد قال شهود أن شخصين قتلا وجرح 17 حين فجر متمردون إسلاميون شاحنتين ملغومتين أمام مركزين للشرطة الجزائرية خلال الليل، وذكر الشهود أن هجوميين متزامنين وقعا على بلدة رغاية على بعد 30 كيلومترا شرقي العاصمة الجزائرية وضاحية درغانة بشرق العاصمة وأنهما كانا من أكثر الهجمات اتقانا خلال سنوات من حملة متمردين إسلاميين ضد الحكومة الجزائرية.&lt;/p&gt;
@@ -1099,10 +1099,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b1396/"/>
-        <id>https://20at.mosab.me/articles/b1396/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b1396/"/>
+        <id>https://el20at.com/articles/b1396/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b1396/">&lt;h3&gt;31/10/2006&lt;/h3&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b1396/">&lt;h3&gt;31/10/2006&lt;/h3&gt;
 &lt;h3&gt;&lt;span style=&quot;color:#CC0000&quot;&gt; عاطف دغلس - نابلس – نشرة 9&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;عرفت فلسطين أطول إضراب عن كل شيء في سجون الاحتلال ...&lt;/p&gt;
 &lt;p&gt;فقط كان يضرب الأسرى عن الطعام مدة تتجاوز الشهر أحيانا وذلك لنيل حقوقهم العادلة والمشروعة، لكن ولأول مرة في فلسطين، الإضراب يستمر إلى هذا الوقت وليس في سجون الاحتلال...&lt;/p&gt;
@@ -1130,10 +1130,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b1397/"/>
-        <id>https://20at.mosab.me/articles/b1397/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b1397/"/>
+        <id>https://el20at.com/articles/b1397/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b1397/">&lt;h3&gt;31/10/2006&lt;/h3&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b1397/">&lt;h3&gt;31/10/2006&lt;/h3&gt;
 &lt;h3&gt;&lt;span style=&quot;color:#CC0000&quot;&gt; محمد فاروق عجم - القاهرة - نشرة 9&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;خرجت الصحف المصرية بعد مباراة الأهلي والصفاقسي في ذهاب دوري الأبطال الأفريقي لكرة القدم والتي انتهت بالتعادل الايجابي 1/1، وهي تصب جام غضبها على فريق الأهلي ومديره الفني مانويل جوزيه، مشيرة إلى ضياع البطولة من القاهرة، ومعه ضاع الحلم باللعب في بطولة كأس العالم للأندية باليابان..&lt;/p&gt;
 &lt;p&gt;وعلى العكس تماما خرجت الصحف التونسية وهي تبارك تعادل فريقها في القاهرة، مشيرة إلى اقتراب الكأس بشدة من الصفاقسي، وأجمعت الصحف الصادرة الأحد والاثنين على أن فريق الصفاقسي هو الأجدر بالتتويج بهذا اللقب القاري..&lt;/p&gt;
@@ -1159,10 +1159,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b1399/"/>
-        <id>https://20at.mosab.me/articles/b1399/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b1399/"/>
+        <id>https://el20at.com/articles/b1399/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b1399/">&lt;h3&gt;01/11/2006&lt;/h3&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b1399/">&lt;h3&gt;01/11/2006&lt;/h3&gt;
 &lt;h3&gt;&lt;span style=&quot;color:#CC0000&quot;&gt; عمرو حسين – اشتباك - القاهرة&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;ما بين الحدود المصرية – الفلسطينية وبين الأراضي الفلسطينية المحتلة عام 1948 وبمحاذاة ساحل البحر الأبيض المتوسط يمتد قطاع غزة، هذا القطاع رغم صغر مساحته الجغرافية إلا أن تركيبته السكانية والتاريخية جعلت منه مصدر قلق وتهديد دائم بالنسبة للمحتل الإسرائيلي على المستويات السياسية والعسكرية والديموغرافية، وهو ما جعل بعض الساسة الإسرائيليين يتمنوا أن&quot; يبتلع البحر غزة&quot; ليريحهم منها.&lt;/p&gt;
 &lt;h3&gt;موطن اللاجئين&lt;/h3&gt;

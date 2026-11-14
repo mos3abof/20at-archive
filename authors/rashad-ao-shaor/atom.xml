@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - rashad-ao-shaor</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/rashad-ao-shaor/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/rashad-ao-shaor/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2006-09-24T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/rashad-ao-shaor/atom.xml</id>
+    <id>https://el20at.com/authors/rashad-ao-shaor/atom.xml</id>
     <entry xml:lang="ar">
         <title>أيها الحكام خذوا حريّتكم!</title>
         <published>2006-09-24T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/b1271/"/>
-        <id>https://20at.mosab.me/articles/b1271/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/b1271/"/>
+        <id>https://el20at.com/articles/b1271/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/b1271/">&lt;p&gt;&quot;أنا لا أريد لأبنى أن يكون يوماً رئيساً لليمن لأنها عملية شاقة وحمل متعب للغاية&quot;.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/b1271/">&lt;p&gt;&quot;أنا لا أريد لأبنى أن يكون يوماً رئيساً لليمن لأنها عملية شاقة وحمل متعب للغاية&quot;.&lt;/p&gt;
 &lt;p&gt;هذا هو لسان حكامنا العرب عندما يحاورهم أحد عن مناصبهم، فهم يتحدثون عن افتقاد رفاهية ونعيم أن تكون مجرد مواطن عادى..&lt;/p&gt;
 &lt;p&gt;يروجوا في مقولاتهم - الصريحة أو المتوارية - عن المعاناة من جحيم بروتوكولات حياة الحاكم وأكليشيهات أيامه المحفوظة..&lt;/p&gt;
 &lt;p&gt;ولا نعرف ماذا نقول لهم .. إذا كان الأمر بهذا الألم والملل فخذوا راحتكم أو حريتكم وارحلوا عنا واتركوا المشقة لغيركم !.&lt;/p&gt;

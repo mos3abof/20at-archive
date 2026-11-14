@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - latest-news</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/sections/latest-news/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/sections/latest-news/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2010-03-11T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/sections/latest-news/atom.xml</id>
+    <id>https://el20at.com/sections/latest-news/atom.xml</id>
     <entry xml:lang="ar">
         <title>لبناني..أغنى رجل في العالم</title>
         <published>2010-03-11T00:00:00+00:00</published>
@@ -16,10 +16,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15707/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15707/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15707/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15707/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15707/">&lt;p&gt;أعلنت المجلة الأمريكية &quot;فوربس&quot; المتخصصة في الاقتصاد أن رجل الأعمال المكسيكي اللبناني الأصل كارلوس سليم أصبح أغنى أغنياء العالم دافعا بيل جيتس مؤسس شركة مايكروسوفت إلى المركز الثاني.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15707/">&lt;p&gt;أعلنت المجلة الأمريكية &quot;فوربس&quot; المتخصصة في الاقتصاد أن رجل الأعمال المكسيكي اللبناني الأصل كارلوس سليم أصبح أغنى أغنياء العالم دافعا بيل جيتس مؤسس شركة مايكروسوفت إلى المركز الثاني.&lt;/p&gt;
 &lt;p&gt;وقالت المجلة إن هذه هي ثاني مرة فقط منذ عام 1995 التي يفقد فيها جيتس عرشه، مقدرة صافي ثروة سليم بقيمة 53.5 مليار دولار، مقارنة مع 53 مليار دولار يملكها جيتس، بينما جاء المستثمر وارن بافيت في المركز الثالث بثروة قدرها 47 مليار دولار، واستعادوا الثلاثة 41.5 مليار دولار من أصل 68 مليار دولار فقدوها العام السابق.&lt;/p&gt;
 &lt;p&gt;وعاد عدد المليارديرات في أنحاء العالم إلى سابق عهده تقريبا في 2010، بعد أن تراجع بنحو الثلث العام الماضي خلال الأزمة المالية العالمية، ويوجد الآن 1011 مليارديرا مقارنة مع 793 العام الماضي، و1125 في عام 2008.&lt;/p&gt;
 &lt;p&gt;وتشير القائمة السنوية الرابعة والعشرون لفوربس إلى أن صافي ثروة هؤلاء المليارديرات نما إلى 3.6 تريليون دولار مقارنة مع 2.4 تريليون العام الماضي، ولكن هذا الرقم يقل مع ذلك عن 4.4 تريليون دولار في 2008.&lt;/p&gt;
@@ -41,10 +41,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15712/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15712/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15712/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15712/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15712/">&lt;p&gt;أعلنت وزارة الدفاع الإسبانية &quot;إنهاء خدمة&quot; حمام نقل الرسائل، أو &quot;حمام الزاجل&quot;، منذ يوم الاثنين الماضي، وأمرت بتسريحه بعدما خدم في الجيش الإسباني منذ عام 1879.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15712/">&lt;p&gt;أعلنت وزارة الدفاع الإسبانية &quot;إنهاء خدمة&quot; حمام نقل الرسائل، أو &quot;حمام الزاجل&quot;، منذ يوم الاثنين الماضي، وأمرت بتسريحه بعدما خدم في الجيش الإسباني منذ عام 1879.&lt;/p&gt;
 &lt;p&gt;كان هذا الحمام قد أسدى خدمات كبيرة للجيش الإسباني، ونقل الرسائل بسرعة كبيرة بين قطاعاته ووحداته المختلفة، وفي مناطق متباعدة، ووصل إلى مستوى عال من التدريب والسرعة والقوة.&lt;/p&gt;
 &lt;p&gt;بيد أن التطور التقني ووسائل الاتصال، خاصة الهاتف الجوال (الموبايل)، قللت من الاهتمام به، وبدأ عدد طيور الحمام المستخدمة لهذه المهام يتناقص، كما تقلصت عمليتا رعايته وإعداده، ولم يبق عند وزارة الدفاع غير 300 منها فقط.&lt;/p&gt;
 &lt;p&gt;أثار القرار امتعاض البعض ومنهم أنخيل توري، رئيس جمعية مربي حمام الزاجل في إقليم جاليسيا (جليقية) شمال غربي إسبانيا، الذي قال معلقا: &quot;على الرغم من تطور وسائل الاتصال والتكنولوجيا، فإن هذا النوع من الحمام مدرب على الاتصال بشكل دقيق ومدهش، كما أنه يشكل الوسيلة الأكثر ضمانا في حالات انقطاع الاتصالات&quot;.&lt;/p&gt;
@@ -64,10 +64,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15694/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15694/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15694/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15694/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15694/">&lt;p&gt;(لولا) سيارة تعمل بوقود من مخلفات الشوكولاتة والجزر والبطاطا والكتان، وهي أول سيارة سباقات الفورميولا 3 التي تعمل بالطاقة المتجددة وتبلغ سرعتها القصوى 135 ميلا في الساعة ويمكنها الوصول إلى سرعة 60 ميلا خلال 2.5&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15694/">&lt;p&gt;(لولا) سيارة تعمل بوقود من مخلفات الشوكولاتة والجزر والبطاطا والكتان، وهي أول سيارة سباقات الفورميولا 3 التي تعمل بالطاقة المتجددة وتبلغ سرعتها القصوى 135 ميلا في الساعة ويمكنها الوصول إلى سرعة 60 ميلا خلال 2.5&lt;/p&gt;
 &lt;p&gt;ثانية من انطلاقها.&lt;/p&gt;
 &lt;p&gt;ونجحت جامعة &quot;وارويك&quot; البريطانية من خلال السيارة &quot;لولا&quot; في المزج بين القوة وحماية البيئة، وهي أول سيارة سباق في العالم مجهزة بمواد متجددة، وعرض الباحثون من الجامعة البريطانية السيارة في مؤتمر معهد &quot;مساتشوسيتس&quot; للتكنولوجيا للطاقة في بوسطن.&lt;/p&gt;
 &lt;p&gt;وقال كيري كيروان أحد مصممي السيارة في الجامعة &quot;إنها صديقة للبيئة تماما تعمل بمواد كانت ستلقى في القمامة. إنها تشرك الناس في عمليات إعادة التدوير دون إرشادات&quot;.&lt;/p&gt;
@@ -91,10 +91,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15699/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15699/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15699/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15699/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15699/">&lt;p&gt;وهبت ميشال أوباما فستان السهرة الذي ارتدته في حفل تنصيب زوجها في 20 يناير 2009 إلى متحف التاريخ الأمريكي حيث سينضم الفستان الأبيض إلى مجموعة فساتين زوجات الرؤساء الأمريكيين.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15699/">&lt;p&gt;وهبت ميشال أوباما فستان السهرة الذي ارتدته في حفل تنصيب زوجها في 20 يناير 2009 إلى متحف التاريخ الأمريكي حيث سينضم الفستان الأبيض إلى مجموعة فساتين زوجات الرؤساء الأمريكيين.&lt;/p&gt;
 &lt;p&gt;وقالت زوجة الرئيس الرابع والأربعين للولايات المتحدة خلال الحفل الذي أقيم في المتحف وقد رافقها إليه مصمم الفستان جايسون وو &quot; لم أره منذ خلعته في تلك الليلة. هو الذكرى الملموسة الوحيدة التي بقيت لي من ذلك اليوم الرائع&quot;.&lt;/p&gt;
 &lt;p&gt;والفستان مصنوع من الحرير المثني عند الصدر ويترك احد الكتفين عاريا وقد زين بزهور أورجنزا بيضاء طرز قلبها بالكريستال.&lt;/p&gt;
 &lt;p&gt;وقد شاركت ميشال اوباما الحضور ذكريات تلك الأمسية،&lt;/p&gt;
@@ -112,10 +112,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15656/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15656/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15656/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15656/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15656/">&lt;p&gt;أعلنت بعض العواصم الأوروبية عن بدء تجربة استخدام السيارات التي تعمل بنظام إرشاد وتوجيه بوحدة إرسال واستقبال ويمكنها السير بدون سائق.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15656/">&lt;p&gt;أعلنت بعض العواصم الأوروبية عن بدء تجربة استخدام السيارات التي تعمل بنظام إرشاد وتوجيه بوحدة إرسال واستقبال ويمكنها السير بدون سائق.&lt;/p&gt;
 &lt;p&gt;وتدخل هذه السيارة ضمن مشروع أوروبي يتكون من مجموعة من السيارات يتراوح عددها ما بين 6 و8 تمكن المسافر من الاسترخاء فيها، وقراءة الجرائد والتحدث على الهاتف خلال توجههم إلى أماكن عملهم.&lt;/p&gt;
 &lt;p&gt;وأشار العلماء إلى احتمالية أن تكون هذه التجربة تاكسي أو حافلة أو شاحنة، والتي يمكنها السير بشكل طبيعي على الطرق السريعة، وسوف يكون باستطاعة السائقين الذين يركبون تلك السيارات ترك السيارة عند الاقتراب من الجهة التي يريدون الذهاب إليها.&lt;/p&gt;
 &lt;p&gt;وأكد العلماء أن هذا المشروع في حال تنفيذه سوف يقلل من حوادث الطرق والتلوث ويقلل من استهلاك الوقود.&lt;/p&gt;
@@ -134,10 +134,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15617/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15617/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15617/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15617/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15617/">&lt;p&gt;صادرت الجمارك النيوزيلندية أقراص فياجرا مغشوشة تبين أنها مصنعة من مواد مستخلصة من فضلات الخفافيش والطيور!.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15617/">&lt;p&gt;صادرت الجمارك النيوزيلندية أقراص فياجرا مغشوشة تبين أنها مصنعة من مواد مستخلصة من فضلات الخفافيش والطيور!.&lt;/p&gt;
 &lt;p&gt;وقال دالاس ميلدينهال، رئيس فريق العلماء في منظمة &quot;جي.إن.إس ساينس&quot; للأبحاث، &quot;إن هناك بعض الأدوية الأخرى التي تم مصادرتها تحتوي على مواد مستخلصة من حشرات كاملة وعث الغبار (حشرة الفراش) وخصلات شعر وفحم&quot;.&lt;/p&gt;
 &lt;p&gt;وعلقت كلير ستراتشان، وهي باحثة في جامعة أوتاجو، بالقول &quot;يمثل ذلك خطرا كبيرا على السلامة العامة&quot;، مضيفة إن هناك دراسة حول الأدوية المستوردة التي تم مصادرتها أظهرت أن العديد من تلك الأدوية متعفنة، وتحتوي على كمية أقل أو أكثر من الدواء المسجل على العبوة، بينما يحتوي بعضها على عقار مختلف تماما عن الوصف المسجل.&lt;/p&gt;
 &lt;p&gt;ـــــــــــــــــــــــــــــ&lt;/p&gt;
@@ -154,10 +154,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15607/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15607/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15607/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15607/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15607/">&lt;p&gt;عوضا عن الاعتناء بطفلتهما البالغة ثلاث سنوات، انشغل أبوان في كوريا الجنوبية بلعبة تربية الأطفال على الإنترنت، متسببين في وفاة الصغيرة جوعا بعدما تردد أنهما يطعمانها مرة واحدة في اليوم ويتركانها في المنزل وحدها 12 ساعة ليلعبا في مقهى للإنترنت.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15607/">&lt;p&gt;عوضا عن الاعتناء بطفلتهما البالغة ثلاث سنوات، انشغل أبوان في كوريا الجنوبية بلعبة تربية الأطفال على الإنترنت، متسببين في وفاة الصغيرة جوعا بعدما تردد أنهما يطعمانها مرة واحدة في اليوم ويتركانها في المنزل وحدها 12 ساعة ليلعبا في مقهى للإنترنت.&lt;/p&gt;
 &lt;p&gt;وقد قبضت الشرطة الكورية الجنوبية على الأبوين هذا الأسبوع بعد استدعائهما إثر عودتهما من جلسة في مقهى للإنترنت قريب من منزلهما بأحد ضواحي العاصمة سول ليجدا ابنتهما قد فارقت الحياة.&lt;/p&gt;
 &lt;p&gt;ويتردد أن الزوجين كانا يطعمان ابنتهما الصغيرة التي ولدت مبتسرة (أي غير مكتملة النمو) مرة واحدة في اليوم، ثم يتركانها وحدها 12 ساعة يوميا حيث يذهبان إلى مقهى إنترنت ليلعبا لعبة يقومان خلالها بتربية طفل إلكتروني.&lt;/p&gt;
 &lt;p&gt;ونقلت وكالة أنباء يونهاب الكورية عن الشرطي شونغ ين وون قوله إن &quot;الزوجين فقدا -على ما يبدو- إرادتهما في عيش حياة طبيعية لأنه ليس لديهما وظيفة وأنجبا مولودا مبتسرا&quot;.&lt;/p&gt;
@@ -175,10 +175,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15614/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15614/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15614/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15614/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15614/">&lt;p&gt;أعلنت شركة Google العملاقة في مجال محركات البحث علي الانترنت أنها ستضيف تعليقات مصاحبة لعشرات الملايين من التسجيلات المصورة باللغة الإنجليزية على موقع youTube .&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15614/">&lt;p&gt;أعلنت شركة Google العملاقة في مجال محركات البحث علي الانترنت أنها ستضيف تعليقات مصاحبة لعشرات الملايين من التسجيلات المصورة باللغة الإنجليزية على موقع youTube .&lt;/p&gt;
 &lt;p&gt;وقال محللون إن هذه الخطوة سوف تجعل التسجيلات المصورة متاحة بصورة أكبر لمتصفحي الموقع من فاقدي السمع، كما أنها ستسمح أيضا لـ Google بتبويب المحتوى ووضع إعلانات ذات صلة إلى جانبه.&lt;/p&gt;
 &lt;p&gt;وأجرت Google اختبارات علي تقنية هذه التعليقات لعدة أشهر مع مجموعة من الشركاء البارزين أمثال &quot;جامعة كاليفورنيا في بيركلي&quot; و&quot;جامعة ييل&quot; و&quot;مجلة ناشيونال جيوجرافيك&quot;، كما سيتم إتاحة كافة النصوص الأخرى على التسجيلات المصورة الموجودة على YouTube من خلال منتجي تلك التسجيلات.&lt;/p&gt;
 &lt;p&gt;وتعكف شركة Google على تقنية التعرف على الكلام منذ 5 سنوات، وتستخدم هذه التكنولوجيا لعمل رموز صوتية لرسائل البريد الإلكتروني الصوتية من خلال خدمتها الصوتية Google voice وستوفر عمليات بحث على الإنترنت من خلال الهواتف الذكية.&lt;/p&gt;
@@ -197,10 +197,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15589/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15589/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15589/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15589/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15589/">&lt;p&gt;في إطار استعدادات الفرق المشاركة في نهائيات بطولة كأس العالم لكرة القدم 2010 التي تستضيفها جنوب أفريقيا هذا العام، أقيمت بالأمس العديد من المباريات الودية في جميع أنحاء العالم، حيث تألقت التانجو الأرجنتينية على الماكينات الألمانية، واحتفل الماتادور الإسباني بالفوز على الديوك، وبرغم الهزيمة قدم منتخب الفراعنة أداء مشرفا على ملعب ويمبلي أمام المنتخب الإنجليزي.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15589/">&lt;p&gt;في إطار استعدادات الفرق المشاركة في نهائيات بطولة كأس العالم لكرة القدم 2010 التي تستضيفها جنوب أفريقيا هذا العام، أقيمت بالأمس العديد من المباريات الودية في جميع أنحاء العالم، حيث تألقت التانجو الأرجنتينية على الماكينات الألمانية، واحتفل الماتادور الإسباني بالفوز على الديوك، وبرغم الهزيمة قدم منتخب الفراعنة أداء مشرفا على ملعب ويمبلي أمام المنتخب الإنجليزي.&lt;/p&gt;
 &lt;p&gt;- في أهم لقاءات أمس، أحرز جونزالو هيجوين هدفا مباغتا ليمنح المنتخب الأرجنتيني فوزا معنويا مهما بهدف دون رد على منتخب ألمانيا.&lt;/p&gt;
 &lt;p&gt;وقام الجمهور الألماني الذي شعر بخيبة الأمل بتشجيع اللاعبين الأرجنتينيين الذين سيطروا على الكرة في الدقائق الأخيرة، وعلى النقيض من ذلك ردد الجمهور الألماني هتافات الاستهجان ضد فريقه.&lt;/p&gt;
 &lt;p&gt;وبرغم أن البداية كانت بطيئة إلا أن الأرجنتين سيطرت على المباراة تدريجيا ووضعت دفاع ألمانيا تحت ضغط متواصل، ولجأ دفاع الأخير إلى العنف لإيقاف ليونيل ميسي وانخيل دي ماريا، لكنه لم ينجح فعليا في إيقاف الأخير.&lt;/p&gt;
@@ -233,10 +233,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15600/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15600/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15600/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15600/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15600/">&lt;p&gt;عرضت في أهم معرض عالمي للتكنولوجيات الحديثة (سيبيت) يقام في هانوفر، تكنولوجيا جديدة تحول حركة الشفاه إلى صوت يصل إلى الآخرين... من دون كلام.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15600/">&lt;p&gt;عرضت في أهم معرض عالمي للتكنولوجيات الحديثة (سيبيت) يقام في هانوفر، تكنولوجيا جديدة تحول حركة الشفاه إلى صوت يصل إلى الآخرين... من دون كلام.&lt;/p&gt;
 &lt;p&gt;وتسمح وسيلة &quot;الصوت الصامت&quot;، التي اخترعها معهد كارلسروه للتكنولوجيا (كيت) في جنوب ألمانيا، بتبيان حركات عضلات الفم وترجمتها إلى موجات كهربائية، تتحول الأخيرة بدورها إلى كلام محكي.&lt;/p&gt;
 &lt;p&gt;عمليا تقدم هذه التكنولوجيا إمكانية إجراء محادثة هاتفية مع شخص يكتفي بتحريك شفتيه من دون إصدار أي صوت، وتمكن الطرف الآخر من تلقي الرسالة عبر صوت صناعي.&lt;/p&gt;
 &lt;p&gt;وتسمح هذه التكنولوجيا لمن فقدوا صوتهم، بسبب مرض أو حادث مثلا، بالتواصل مع الآخرين، كما تجنب الآخرين الإزعاج الناتج عن المحادثات الهاتفية التي يجريها مستخدمو الهواتف المحمولة بصوت مرتفع في الأماكن العامة غير آبهين بمبادئ احترام حرية الآخر.&lt;/p&gt;
@@ -255,10 +255,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15568/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15568/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15568/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15568/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15568/">&lt;p&gt;يستطيع الأصدقاء على موقع فيسبوك الاجتماعي أن يرسلوا لبعضهم البعض مباشرة دفعات مالية صغيرة عن طريق تطبيق جديد يسمى بوكستر Buxter.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15568/">&lt;p&gt;يستطيع الأصدقاء على موقع فيسبوك الاجتماعي أن يرسلوا لبعضهم البعض مباشرة دفعات مالية صغيرة عن طريق تطبيق جديد يسمى بوكستر Buxter.&lt;/p&gt;
 &lt;p&gt;وتقتصر المعاملات المالية في الوقت الحالي من خلال هذه الخدمة الجديدة على عملتي الدولار واليورو، لكن توجد خطط لإدراج الإسترليني خلال الأسابيع الأربعة المقبلة.&lt;/p&gt;
 &lt;p&gt;والشركة التي توفر هذه الخدمة على موقع فيسبوك هي شركة ClickandBuy التي تقوم بتشغيل خدمة الدفع عن طريق الانترنت على شبكة الاتصالات الدولية.&lt;/p&gt;
 &lt;p&gt;ويصل عدد من لهم حسابات مع هذه الشركة إلى ما يقرب من 13 مليون شخص في أنحاء العالم، وهو ما يعتبر شرطا لاستخدام خدمة بوكستر.&lt;/p&gt;
@@ -280,10 +280,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15566/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15566/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15566/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15566/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15566/">&lt;p&gt;أخيرا وبعد طول انتظار، تم رفع الحظر عن أفراد الجيش الأمريكي ووزارة الدفاع باستخدام المواقع الاجتماعية على شبكة الإنترنت، إذ أصبح بإمكانهم إرسال الرسائل القصيرة على Twitter، والتواصل مع أصدقائهم على Facebook.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15566/">&lt;p&gt;أخيرا وبعد طول انتظار، تم رفع الحظر عن أفراد الجيش الأمريكي ووزارة الدفاع باستخدام المواقع الاجتماعية على شبكة الإنترنت، إذ أصبح بإمكانهم إرسال الرسائل القصيرة على Twitter، والتواصل مع أصدقائهم على Facebook.&lt;/p&gt;
 &lt;p&gt;فالقوانين الجديدة تسمح باستخدام Facebook، وTwitter، ويوتيوب، وجميع المواقع الاجتماعية على شبكة الإنترنت، ما دام هذا الاستخدام لا يؤثر على العمليات السرية في الجيش، وهو ما قد يؤدي إلى نشاطات غير موثوقة.&lt;/p&gt;
 &lt;p&gt;وحتى اليوم، تختلف أجهزة الجيش الأمريكي في تعاملها مع سياسات استخدام المواقع الاجتماعية على الإنترنت، فوفقا للبنتاجون، تمنع البحرية الأمريكية استخدام هذه المواقع منذ عام 2007.&lt;/p&gt;
 &lt;p&gt;واستخدم البنتاجون Facebook و Twitter لإطلاق هذا الإعلان، بالإضافة إلى موقعه على شبكة الإنترنت.&lt;/p&gt;
@@ -302,10 +302,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15528/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15528/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15528/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15528/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15528/">&lt;p&gt;أعلنت شركة كاسبرسكي لاب أن منتج كاسبرسكي لمكافحة الفيروسات Kaspersky Anti-Virus 2010 حاز على الجائزة الذهبية لمعالجة البرامج الخبيثة من مختبرات فحص أداء مكافحة البرامج الخبيثة Anti-Malware Test Lab، البوابة الرسمية للبحث في أمن المعلومات.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15528/">&lt;p&gt;أعلنت شركة كاسبرسكي لاب أن منتج كاسبرسكي لمكافحة الفيروسات Kaspersky Anti-Virus 2010 حاز على الجائزة الذهبية لمعالجة البرامج الخبيثة من مختبرات فحص أداء مكافحة البرامج الخبيثة Anti-Malware Test Lab، البوابة الرسمية للبحث في أمن المعلومات.&lt;/p&gt;
 &lt;p&gt;تم اختبار سبعة عشر منتج للأمن من قبل مختبرات فحص أداء مكافحة البرامج الخبيثة لتقييم فعالية كل منها في معالجة التلوثات النشطة، وتضمنت المنتجات الخاضعة للاختبار: Microsoft Security Essentials 1.0، ونورتن لمكافحة الفيروسات 2010، وسوفوس لمكافحة الفيروسات 9.0، وMcAfee VirusScan Plus 2010.&lt;/p&gt;
 &lt;p&gt;تم إجراء الاختبارات خلال شهري يناير وفبراير 2010 على الأجهزة الحقيقية التي تشغل برنامج Windows Xp SP3، ووفقا لمنهجية صممت خصيصا لتقييم قدرة المنتجات على مكافحة البرامج الخبيثة التي تخترق النظام وتخفي آثار نشاطها.&lt;/p&gt;
 &lt;p&gt;ووفقا لنتائج الاختبار، احتل كل من منتج كاسبرسكي لمكافحة الفيروسات 2010، ومنتج Dr. Web لمكافحة الفيروسات 5.00 المرتبة الأولى، في حين حازت خمسة منتجات أخرى على جوائز، بينما بقية المشاركين ومن بينهم Trend Micro Antivirus plus Antispyware 2010، وMcAfee VirusScan Plus 2010، وEset NOD32 Antivirus 4.0 فشلوا في الاختبار ولم يتمكنوا من مكافحة التهديدات النشطة.&lt;/p&gt;
@@ -323,10 +323,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15531/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15531/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15531/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15531/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15531/">&lt;p&gt;قال أطباء الرئيس الأمريكي باراك أوباما في تقرير بعد خضوعه لفحص طبي معتاد أمس الأحد إنه في &quot;صحة ممتازة&quot; على العموم، لكنه لا يزال يكافح للإقلاع عن التدخين.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15531/">&lt;p&gt;قال أطباء الرئيس الأمريكي باراك أوباما في تقرير بعد خضوعه لفحص طبي معتاد أمس الأحد إنه في &quot;صحة ممتازة&quot; على العموم، لكنه لا يزال يكافح للإقلاع عن التدخين.&lt;/p&gt;
 &lt;p&gt;وزار أوباما (48 عاما) المركز الطبي البحري القومي في بيثيسدا بولاية ماريلاند، لإجراء فحص شامل استغرق 90 دقيقة هو الأول من نوعه منذ تولى منصبه قبل أكثر من عام.&lt;/p&gt;
 &lt;p&gt;ووجد فريق من الأطباء بقيادة جيفري كولمان رئيس الوحدة الطبية في البيت الأبيض، أوباما &quot;مؤهلا لواجبه&quot; وقال إنه سيظل على هذا الحال باقي فترة رئاسته على الأرجح.&lt;/p&gt;
 &lt;p&gt;لكن الأطباء أوصوا بأن يواصل &quot;جهده للإقلاع عن التدخين&quot;، وبأن يغير عاداته الغذائية أيضا ليقلل معدل الكولسترول المرتفع نسبيا.&lt;/p&gt;
@@ -348,10 +348,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15506/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15506/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15506/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15506/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15506/">&lt;p&gt;سيرتدي الكثير من كبار لاعبي كرة القدم في العالم، بما فيهم البرتغالي كريستيانو رونالدو، قمصانا مصنوعة من زجاجات بلاستيكية قديمة، خلال مشاركتهم في نهائيات كأس العالم لكرة القدم في جنوب إفريقيا التي ستقام في يونيو المقبل.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15506/">&lt;p&gt;سيرتدي الكثير من كبار لاعبي كرة القدم في العالم، بما فيهم البرتغالي كريستيانو رونالدو، قمصانا مصنوعة من زجاجات بلاستيكية قديمة، خلال مشاركتهم في نهائيات كأس العالم لكرة القدم في جنوب إفريقيا التي ستقام في يونيو المقبل.&lt;/p&gt;
 &lt;p&gt;وقالت شركة نايكي NIKE &quot;إن القمصان الخاصة بالمنتخبات التسعة المتعاقدة على ارتداء ملابسها الرياضية بما في ذلك البرازيل وهي إحدى الدول المرشحة للفوز باللقب، ستصنع من مادة البوليستر التي تم إعادة تدويرها واستخراجها من زجاجات مستعملة&quot;.&lt;/p&gt;
 &lt;p&gt;وأضافت نايكي، وهي من كبرى شركات العالم المصنعة للمنتجات الرياضية، إن كل قميص سيستخدم في صنعه ما يصل إلى ثماني زجاجات بلاستيكية تم تجميعها من مواقع لتجميع النفايات في اليابان وتايوان، وسترتدي كافة المنتخبات التسعة التي تضم أيضا البرتغال وهولندا والولايات المتحدة هذه القمصان.&lt;/p&gt;
 &lt;p&gt;وأكدت الشركة إن هذه القمصان ستبقي على اللاعبين في حالة جفاف وبرودة مقارنة بالملابس السابقة، إضافة إلى أنها قللت من استهلاك الطاقة المستخدمة في عملية التصنيع بنسبة 30% مقارنة بمادة البوليستر العادية.&lt;/p&gt;
@@ -373,10 +373,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15499/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15499/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15499/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15499/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15499/">&lt;p&gt;قالت صحيفة «جارديان» البريطانية إن صحيفة «بوليتيكن» الدنماركية اعتذرت أمس لـ٨ منظمات إسلامية، عن الإساءة التى تسببت بها جراء إعادة نشرها رسومات كارتونية جدلية تصور الرسول محمد، عليه الصلاة والسلام، مقابل تنازل المنظمات الثمانى عن دعوى قضائية ضد الصحيفة.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15499/">&lt;p&gt;قالت صحيفة «جارديان» البريطانية إن صحيفة «بوليتيكن» الدنماركية اعتذرت أمس لـ٨ منظمات إسلامية، عن الإساءة التى تسببت بها جراء إعادة نشرها رسومات كارتونية جدلية تصور الرسول محمد، عليه الصلاة والسلام، مقابل تنازل المنظمات الثمانى عن دعوى قضائية ضد الصحيفة.&lt;/p&gt;
 &lt;p&gt;وقالت «جارديان»، فى تقرير لها أمس، إن «بوليتيكن» توصلت لتسوية مع ٨ منظمات تمثل ٩٤ ألفاً و٩٢٣ مسلماً، من خلال طباعة اعتذار على واجهة الرسومات المسيئة، دون التخلى عن حقها فى إعادة نشر هذه الرسومات أو حتى الاعتذار عن نشرها فى إطار تغطيتها الخبرية.&lt;/p&gt;
 &lt;p&gt;ونقلت «جارديان» عن الطرفين قولهما فى بيان مشترك إنهما يرغبان فى التعبير عن الرضا بهذه التسوية والتفاهم الودى بينهما، وأملهما فى أن يساهم هذا فى الحد من التوتر الحالى.&lt;/p&gt;
 &lt;p&gt;وقالت الصحيفة البريطانية إن القرار أثار جدلاً فى الأوساط السياسية الدنماركية التى اتهمت بوليتيكن بالرضوخ والتضحية بحرية التعبير التى تعتبر حجر الأساس فى الديمقراطية الدنماركية، بينما لم يعلق رئيس الوزراء ووزير الخارجية الجديد على القرار.&lt;/p&gt;
@@ -395,10 +395,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15475/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15475/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15475/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15475/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15475/">&lt;p&gt;يعتزم المئات من التويتريين (مستخدمي موقع التويتر) عبر العالم، عقد مؤتمر في الفترة الممتدة ما بين 14 إلى 15 أبريل المقبل، سيدور حول الحلول الاستثمارية والخطط المستقبلية لتطوير هذا الموقع.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15475/">&lt;p&gt;يعتزم المئات من التويتريين (مستخدمي موقع التويتر) عبر العالم، عقد مؤتمر في الفترة الممتدة ما بين 14 إلى 15 أبريل المقبل، سيدور حول الحلول الاستثمارية والخطط المستقبلية لتطوير هذا الموقع.&lt;/p&gt;
 &lt;p&gt;ويعتبر مؤتمر Chirp (ويعني زقزقة العصفور الصغير)، المؤتمر الأول من نوعه الذي يحظى بتنظيم رسمي من مالكي التويتر أنفسهم الذين سوف تكون لهم الكلمة مع بداية أشغاله، ومن بينهم إيفان ويليامز، بيز ستون، رايان سارفر، وديك كوستولو.&lt;/p&gt;
 &lt;p&gt;سيعقد هذا اللقاء الهام بقصر الفنون الجميلة بسان فرانسيسكو، بينما ستقام الورش بمركز &quot;فورت مايسون&quot;.&lt;/p&gt;
 &lt;p&gt;ولمن يريد المشاركة في أعمال المؤتمر، يمكنه التسجيل مباشرة من موقع التويتر، وتبلغ تسعيرة المشاركة 469 دولارا أمريكيا.&lt;/p&gt;
@@ -416,10 +416,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15452/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15452/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15452/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15452/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15452/">&lt;p&gt;أصبح الآن الكلب &quot;جاينت جورج&quot; من ولاية أريزونا الأمريكية أطول كلب في العالم بعد أن منحته موسوعة &quot;جينيس&quot; للأرقام القياسية هذا اللقب، ويبلغ طول جورج 1.09 متر ووزنه 111 كيلوجراما.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15452/">&lt;p&gt;أصبح الآن الكلب &quot;جاينت جورج&quot; من ولاية أريزونا الأمريكية أطول كلب في العالم بعد أن منحته موسوعة &quot;جينيس&quot; للأرقام القياسية هذا اللقب، ويبلغ طول جورج 1.09 متر ووزنه 111 كيلوجراما.&lt;/p&gt;
 &lt;p&gt;واستطاع الكلب البالغ من العمر أربع سنوات من فصيلة &quot;جريت دان&quot; دخول موسوعة الأرقام القياسية بعد أن أرسلت جينيس مفتشا لها للتحقق من هذا الطول الذي تم قياسه من المخلب إلى الكتف.&lt;/p&gt;
 &lt;p&gt;وتمكن جورج الذي صمم أصحابه موقعا خاص له على الانترنت وصفحة على موقعي التواصل الاجتماعي &quot;فيسبوك&quot; و&quot;تويتر&quot; من التغلب على أقرب منافسيه وهو تيتان من فصيلة &quot;جريت دان&quot; من سان دييجو بكاليفورنيا.&lt;/p&gt;
 &lt;p&gt;ولا يوجد بيت لهذا الكلب الضخم الذي يستهلك 50 كيلوجراما من الطعام شهريا. ويقول صاحبه &quot;ديف ناصر&quot; أن جورج ينام على فراشه الضخم داخل المنزل.&lt;/p&gt;
@@ -437,10 +437,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15459/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15459/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15459/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15459/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15459/">&lt;p&gt;المواطنة الأردنية فضة خليل البشتاوي (89 عاما) هي أكبر طالبة على مقاعد الدراسة، ليس في الأردن فحسب بل في العالم أجمع.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15459/">&lt;p&gt;المواطنة الأردنية فضة خليل البشتاوي (89 عاما) هي أكبر طالبة على مقاعد الدراسة، ليس في الأردن فحسب بل في العالم أجمع.&lt;/p&gt;
 &lt;p&gt;التحقت فضة منذ عامين بأحد مراكز محو الأمية في بلدة وقاص في لواء الأغوار (شمال الأردن). وعلى الرغم من سنها المتقدمة وانحناء ظهرها فإن ذلك لم يمنعها من طلب العلم الذي حرمت منه في صغرها نتيجة ظروف عائلتها الاقتصادية آنذاك.&lt;/p&gt;
 &lt;p&gt;وقالت فضة، المولودة عام 1921 في بيسان- فلسطين، إنها طيلة حياتها كانت تحلم بتعلم القراءة والكتابة إلا أن ظروفها المعيشية الصعبة حالت دون ذلك، مشيرة إلى أنها رأت في منامها أنها تقرأ القرآن مما دفعها في اليوم التالي للذهاب إلى مركز محو الأمية في البلدة وتسجيل اسمها لتصبح أكبر طالبة تدخل مراكز محو الأمية في المملكة.&lt;/p&gt;
 &lt;p&gt;وتضيف فضة وهي أرملة منذ عام 1968، &quot;شجعت بعض جاراتي من كبيرات السن على ضرورة التسجيل بمركز محو الأمية وعدم تفويت نعمة القراءة والكتابة ليتمكن من معرفة ما يدور حولهن ولقراءة القرآن الكريم والعبادة بالشكل الصحيح&quot;.&lt;/p&gt;
@@ -458,10 +458,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15433/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15433/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15433/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15433/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15433/">&lt;p&gt;لم تعد المواقع الاجتماعية وسيلة للتواصل مع الآخرين فحسب، بل أصبحت أيضا أداة لمساعدة المستخدمين على تذكر مواعيدهم اليومية، والمناسبات المهمة التي قد ينسونها بسبب تعقيدات ومشاغل الحياة.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15433/">&lt;p&gt;لم تعد المواقع الاجتماعية وسيلة للتواصل مع الآخرين فحسب، بل أصبحت أيضا أداة لمساعدة المستخدمين على تذكر مواعيدهم اليومية، والمناسبات المهمة التي قد ينسونها بسبب تعقيدات ومشاغل الحياة.&lt;/p&gt;
 &lt;p&gt;موقع Remember the Milk هو أحد تلك المواقع المتصلة بـTwitter، والذي من خلاله، يمكن للمستخدم إرسال المهام التي يجب أن يقوم بها مسبقا، ليقوم بدوره بتذكيره بها، عبر Twitter لاحقا.&lt;/p&gt;
 &lt;p&gt;الشرط الوحيد للتواصل مع هذا الموقع هو أن تكون مشتركا في Twitter، فالتذكير بالمهام لن يتم إرساله إلى بريدك الشخصي، بل إلى صفحتك على Twitter.&lt;/p&gt;
 &lt;p&gt;ويدرج هذا الموقع مجموعة من الجمل التي تعني أمرا معينا، ويمكن استخدامها على Remember my Milk، فمثلا، استخدام !complete، ومن ثم المهمة التي يجب القيام بها، تعني ضرورة إتمام هذا العمل، أما كتابة !postpone فتعني تأجيل المهمة.&lt;/p&gt;
@@ -482,10 +482,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15387/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15387/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15387/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15387/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15387/">&lt;p&gt;كشفت وزارة الدفاع البريطانية والأرشيف الوطني عن مجموعاتها الخامسة من الوثائق المتعلقة بالمخلوقات الفضائية والأطباق الطائرة، في خطوة لتعريف الجمهور بهذه الأجسام الفضائية.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15387/">&lt;p&gt;كشفت وزارة الدفاع البريطانية والأرشيف الوطني عن مجموعاتها الخامسة من الوثائق المتعلقة بالمخلوقات الفضائية والأطباق الطائرة، في خطوة لتعريف الجمهور بهذه الأجسام الفضائية.&lt;/p&gt;
 &lt;p&gt;وتعتبر هذه المجموعة الأكبر، إذ يصل عدد صفحاتها إلى ستة آلاف صفحة، وهي تتضمن حوادث وقعت بين 1994 و 2000.&lt;/p&gt;
 &lt;p&gt;ومن الحوادث التي تضمنها التقرير، رؤية أحد الأشخاص في بيرمينجهام لطبق مثلث الشكل وأزرق اللون، يحلق في الباحة الخلفية لمنزله الساعة الرابعة صباحا، في شهر مارس 1997.&lt;/p&gt;
 &lt;p&gt;وقال الرجل حينها: &quot;إنه لم يسمع أي صوت يصدر من ذلك الطبق، وبعد مرور ثلاث دقائق، اختفى عن الأنظار، مخلفا وراءه مادة حريرية بيضاء، وضعها الرجل في جرة واحتفظ بها&quot;..إلا أن التقرير لم يذكر ما حدث للجرة أو محتواها لاحقا.&lt;/p&gt;
@@ -508,10 +508,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15364/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15364/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15364/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15364/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15364/">&lt;p&gt;أطلقت شركة &quot;مايكروسوفت&quot; المتخصصة في برمجيات ونظم تشغيل الكمبيوتر، آخر برمجياتها الجديدة لتشغيل الهواتف المحمولة، والذي حمل اسمWindows phone 7 series، في مؤتمر حول الهواتف المحمولة عقد في مدينة برشلونة الإسبانية.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15364/">&lt;p&gt;أطلقت شركة &quot;مايكروسوفت&quot; المتخصصة في برمجيات ونظم تشغيل الكمبيوتر، آخر برمجياتها الجديدة لتشغيل الهواتف المحمولة، والذي حمل اسمWindows phone 7 series، في مؤتمر حول الهواتف المحمولة عقد في مدينة برشلونة الإسبانية.&lt;/p&gt;
 &lt;p&gt;وتقول الشركة إن نظام التشغيل الجديد أعيد تصميمه لكي يتوافق ويتفاعل مع العديد من خدمات &quot;مايكروسوفت&quot; الأخرى، مثل لعبة اكس بوكس لايف Xbox LIVE، وخدمة زون ميوزيك Zune music.&lt;/p&gt;
 &lt;p&gt;وتقول شركة &quot;كناليز&quot; للبحوث التسويقية إن حصة &quot;مايكروسوفت&quot; من سوق المحمول الذكي في العالم بلغت 9%، وهي بذلك تأتي في المرتبة الرابعة عالمياً بعد سيمبيان Symbian، وRim التي تصنع محمول بلاكبيري، وآبل المنتجة لمحمول آيفون iPhone.&lt;/p&gt;
 &lt;p&gt;وصمم هذا النظام الجديد، الذي يعتبر النسخة المطورة لنظام &quot;ويندوز موبايل 6.5&quot; الذي أطلق في أكتوبر الماضي، لكي يستوعب تحميل وإنزال محتويات ومواد بالزمن الحقيقي أثناء حدوثها على مواقع الانترنت، وشبكات التعارف الاجتماعية مثل &quot;فيس بوك&quot; وغيره.&lt;/p&gt;
@@ -530,10 +530,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15365/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15365/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15365/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15365/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15365/">&lt;p&gt;أعلن المدير العام لقناة الجزيرة الرياضية ناصر بن غانم الخليفي أن القناة ستبث بطولة كأس العالم لكرة القدم، التي تستضيفها جنوب أفريقيا في الفترة بين 11 يونيو و11 يوليو القادمين، بالتقنية ثلاثية الأبعاد &quot;3D&quot;، بالتعاون إنتاجياً مع الاتحاد الدولي لكرة القدم (فيفا).&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15365/">&lt;p&gt;أعلن المدير العام لقناة الجزيرة الرياضية ناصر بن غانم الخليفي أن القناة ستبث بطولة كأس العالم لكرة القدم، التي تستضيفها جنوب أفريقيا في الفترة بين 11 يونيو و11 يوليو القادمين، بالتقنية ثلاثية الأبعاد &quot;3D&quot;، بالتعاون إنتاجياً مع الاتحاد الدولي لكرة القدم (فيفا).&lt;/p&gt;
 &lt;p&gt;وقال الخليفي إنه سيكون بإمكان المشاهدين متابعة فعاليات كأس العالم فقط عبر بطاقات الجزيرة الرياضية بقيمة إضافية رمزية.&lt;/p&gt;
 &lt;p&gt;ووعد بأن تواكب القناة الحدث بأفضل طريقة ممكنة عبر شبكة برامج خاصة، مشيراً إلى وجود مفاجآت عديدة ستصاحب انطلاق فعاليات مونديال جنوب أفريقيا.&lt;/p&gt;
 &lt;p&gt;ويعتبر البث ثلاثي الأبعاد ثورة تقنية، بحيث سيتيح هذا النظام المتطور لمشاهد الجزيرة الرياضية رؤية صور مجسمة ثلاثية الأبعاد، بجودة فائقة تضعه على تماس مباشر مع الحدث المنقول، ليشعر كأنه موجود داخل الملعب.&lt;/p&gt;
@@ -552,10 +552,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15348/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15348/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15348/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15348/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15348/">&lt;p&gt;هل لاحظت في أحد الأيام أن شخصا من أصدقائك على &quot;Twitter&quot; توقف عن تتبعك على الموقع الاجتماعي؟ وإن حدث ذلك فهل تساءلت يوما ما عن السبب؟، لعل هذا الأمر حصل للكثيرين، إلا أن الأمر يستغرق وقتا حتى يدرك المرء ذلك.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15348/">&lt;p&gt;هل لاحظت في أحد الأيام أن شخصا من أصدقائك على &quot;Twitter&quot; توقف عن تتبعك على الموقع الاجتماعي؟ وإن حدث ذلك فهل تساءلت يوما ما عن السبب؟، لعل هذا الأمر حصل للكثيرين، إلا أن الأمر يستغرق وقتا حتى يدرك المرء ذلك.&lt;/p&gt;
 &lt;p&gt;غير أن برنامج &quot;&quot;Qwitter الجديد يمنح لمستخدمي موقع twitter&quot;&quot; فرصة التعرف إلى أولئك الذين توقفوا عن تتبعهم في أي لحظة.&lt;/p&gt;
 &lt;p&gt;والشعار الذي يستخدمه موقع &quot;&quot;Qwitter هو &quot;الإمساك بمغادري &quot;Twitter&quot;، وحين يتوقف أحد متتبعيك عن اللحاق بك، يقوم &quot;&quot;Qwitter بإرسال رسالة إلكترونية إليك، يحدد فيها هوية المتتبع الذي قرر &quot;هجرك،&quot; كما يلفت انتباهك إلى آخر رسالة نشرتها قبل رحيله، وذلك بهدف مساعدتك على تحديد سبب تركه لك.&lt;/p&gt;
 &lt;p&gt;وللتمكن من تتبع أشخاص محددين، ما عليك إلا الدخول إلى Qwitter.com، وإدخال اسم الشخص الذي تود تتبعه، وبريدك الإلكتروني.&lt;/p&gt;
@@ -574,10 +574,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15354/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15354/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15354/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15354/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15354/">&lt;p&gt;أفادت صحيفة الجريدة الكويتية أنه تم تغريم صحيفة &quot;الوطن&quot; ثلاثة آلاف دينار (10400 دولار) بسبب نشر إعلان مؤيد لإسرائيل يبرر الحرب الإسرائيلية على قطاع غزة، بعد تقدم ثلاثة محامين كويتيين بشكوى ضد الصحيفة رغم تقديمها اعتذارا في وقت سابق.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15354/">&lt;p&gt;أفادت صحيفة الجريدة الكويتية أنه تم تغريم صحيفة &quot;الوطن&quot; ثلاثة آلاف دينار (10400 دولار) بسبب نشر إعلان مؤيد لإسرائيل يبرر الحرب الإسرائيلية على قطاع غزة، بعد تقدم ثلاثة محامين كويتيين بشكوى ضد الصحيفة رغم تقديمها اعتذارا في وقت سابق.&lt;/p&gt;
 &lt;p&gt;وغرمت &quot;الوطن&quot; بسبب السماح بنشر إعلان في النسخة الكويتية من صحيفة &quot;انترناشونال هيرالد تريبيون&quot; الأمريكية التي تطبع وتوزع في الكويت.&lt;/p&gt;
 &lt;p&gt;ونشرت الإعلان &quot;الرابطة المناهضة للتشهير&quot; وهي جمعية يهودية، خلال الحرب على غزة التي بدأت في ديسمبر 2008، وراح ضحيتها أكثر من 1300 فلسطيني و13 إسرائيليا.&lt;/p&gt;
 &lt;p&gt;من جهته، صرح محامي&quot;الوطن&quot; أنه طعن بحكم التغريم أمام محكمة الاستئناف، وأكد أن &quot;عملية نشر الإعلان لم تكن متعمدة بل حصل فيها لبس&quot;، مشيرا إلى أن الصحيفة &quot;نشرت توضيحا في اليوم التالي&quot; لنشر الإعلان.&lt;/p&gt;
@@ -595,10 +595,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15342/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15342/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15342/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15342/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15342/">&lt;p&gt;نقلت السلطات الإندونيسية تمثالا للرئيس الأمريكي باراك أوباما، من حديقة بوسط جاكرتا إلى مدرسته القديمة في المدينة.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15342/">&lt;p&gt;نقلت السلطات الإندونيسية تمثالا للرئيس الأمريكي باراك أوباما، من حديقة بوسط جاكرتا إلى مدرسته القديمة في المدينة.&lt;/p&gt;
 &lt;p&gt;وأفادت تقارير إندونيسية أن التمثال المصنوع من البرونز لأوباما وهو في سن العاشرة، نقل بعد سلسة من الاحتجاجات والانتقادات من الذين رأوا أن التماثيل المعروضة في الأماكن العامة يجب أن تقتصر على الأبطال الإندونيسيين.&lt;/p&gt;
 &lt;p&gt;وحسب صحيفة &quot;كوران تيمبو&quot; فإن رون مولر رئيس مؤسسة أصدقاء أوباما التي بني التمثال بناء على طلبها، كان موجودا أثناء نقل التمثال الذي يبلغ ارتفاعه 110 سنتيمترات من حديقة &quot;مينتينج بارك&quot; بوسط جاكرتا مساء أمس الأحد.&lt;/p&gt;
 &lt;p&gt;وقالت عمدة جاكرتا سلفيانا مورني: &quot;إن المدرسة التي درس فيها أوباما بين عامي 1967 و1971 قد عرضت استضافة التمثال بعد الاحتجاجات&quot;.&lt;/p&gt;
@@ -619,10 +619,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15291/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15291/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15291/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15291/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15291/">&lt;p&gt;نشرت صحيفة وول ستريت جورنال في موقعها على الإنترنت إن الحكومة الإيرانية تعتزم غلق خدمة جوجل البريدية &quot;جي ميل&quot; في البلاد بصفة دائمة.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15291/">&lt;p&gt;نشرت صحيفة وول ستريت جورنال في موقعها على الإنترنت إن الحكومة الإيرانية تعتزم غلق خدمة جوجل البريدية &quot;جي ميل&quot; في البلاد بصفة دائمة.&lt;/p&gt;
 &lt;p&gt;وأعلنت جوجل إنها لمست هبوطا حادا في حركة البريد الالكتروني في إيران، وأن بعض المستخدمين في البلاد يجدون صعوبة في الوصول إلى موقع بريدها الالكتروني &quot;جي ميل&quot;، لكنها أضافت أن شبكاتها تعمل بشكل جيد.&lt;/p&gt;
 &lt;p&gt;جاء هذا النبأ في حين تتأهب إيران لاحتجاجات جديدة للمعارضة في تظاهرات حاشدة احتفالا بالذكرى السنوية للثورة الإسلامية عام 1979.&lt;/p&gt;
 &lt;p&gt;واستغل المحتجون وسائل التواصل الاجتماعي الحديثة مثل تويتر، وإرسال الرسائل الفورية لخدمة &quot;جي ميل&quot; في يونيو الماضي، لنقل أحداث انتخاب رئيس الجمهورية، ونقل كافة الفعاليات السياسية في البلاد.&lt;/p&gt;
@@ -641,10 +641,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15265/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15265/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15265/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15265/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15265/">&lt;p&gt;أدخلت شركة جوجل أدوات جديدة للتواصل الاجتماعي على بريدها الالكتروني &quot;جي ميل&quot;، في خطوة لمنافسة موقعي فيسبوك وتويتر.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15265/">&lt;p&gt;أدخلت شركة جوجل أدوات جديدة للتواصل الاجتماعي على بريدها الالكتروني &quot;جي ميل&quot;، في خطوة لمنافسة موقعي فيسبوك وتويتر.&lt;/p&gt;
 &lt;p&gt;ويسمح المنتج الجديد &quot;جوجل باز&quot; للمستخدمين بأن يتبادلوا مع الأصدقاء والزملاء الرسائل وروابط الانترنت والصور بشكل سريع ومباشر من داخل بريد &quot;جي ميل&quot;.&lt;/p&gt;
 &lt;p&gt;وكشفت الشركة عن منتجات جديدة مصممة لجعل خواص التواصل الاجتماعي الجديدة ملائمة للأجهزة المحمولة، مثل الهواتف الذكية التي تعتمد على برنامج التشغيل &quot;اندرويد&quot; الخاص بجوجل.&lt;/p&gt;
 &lt;p&gt;وتحاكي تكنولوجيا التواصل الاجتماعي الجديدة من جوجل بعض الخواص الأساسية على مواقع التواصل الاجتماعي الشهيرة مثل تويتر وفيس بوك، التي تتحدى جوجل بصورة متزايدة في الاستئثار بوقت المتصفحين على الانترنت.&lt;/p&gt;
@@ -665,10 +665,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15284/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15284/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15284/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15284/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15284/">&lt;p&gt;أعلنت الأمين العام للمجلس الأعلى للاتصالات القطري الدكتورة حصة الجابر أن دولة قطر تعتزم تطوير أرشيف رقمي للنصوص العربية والتاريخية الهامة بحلول عام 2015، وذلك بهدف نشرها إلكترونيا، إلى جانب توفير برنامج منح للأفراد والمؤسسات التي تعمل على تطوير المحتوى الرقمي باللغة العربية.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15284/">&lt;p&gt;أعلنت الأمين العام للمجلس الأعلى للاتصالات القطري الدكتورة حصة الجابر أن دولة قطر تعتزم تطوير أرشيف رقمي للنصوص العربية والتاريخية الهامة بحلول عام 2015، وذلك بهدف نشرها إلكترونيا، إلى جانب توفير برنامج منح للأفراد والمؤسسات التي تعمل على تطوير المحتوى الرقمي باللغة العربية.&lt;/p&gt;
 &lt;p&gt;جاء ذلك لدى افتتاح الدكتورة حصة الجابر ملتقى الثقافة الرقمية الدولي والذي نظمته قطر اليوم الأربعاء، بمناسبة احتفال العالم بـ&quot;اليوم العالمي للإنترنت&quot;، وبحث احتياجات الثقافة الرقمية ومهاراتها في القرن الحادي والعشرين.&lt;/p&gt;
 &lt;p&gt;وأضافت إن المجلس الأعلى للاتصالات بصدد تدشين موقع خاص للأطفال وأولياء الأمور والمدرسين حول كيفية الاستخدام الآمن للإنترنت تحت اسم &quot;سيف سبيس&quot; (Safe Space)، موضحة أن الموقع سيقدم إرشادات للأطفال وأولياء الأمور والمعلمين حول كيفية استخدام الإنترنت بشكل آمن وفعال، وتمكين الشباب من تفادي مخاطره.&lt;/p&gt;
 &lt;p&gt;وقالت الدكتورة حصة: &quot;مع اختيار الدوحة عاصمة الثقافة العربية لعام 2010 ، فإنه الوقت الأمثل لنشر ثقافتنا والمحافظة عليها رقمياً، ولدينا بالفعل في هذه القاعة نماذج لنجاحات في هذا المجال، حيث يشاركنا ضمن الحضور ممثلين عن إسلام ويب وقناة الجزيرة&quot;.&lt;/p&gt;
@@ -688,10 +688,10 @@
           <name>Unknown</name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-latest-news-15253/"/>
-        <id>https://20at.mosab.me/articles/20at-latest-news-15253/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-latest-news-15253/"/>
+        <id>https://el20at.com/articles/20at-latest-news-15253/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-latest-news-15253/">&lt;p&gt;أصدر موقع الفيس بوك اليوم إضافة جديدة للمتصفح، تسمح برفع الصور مباشرة من الجهاز عبر هذه الإضافة إلى حساب المستخدم في الموقع، بطريقة سهلة وأكثر سرعة وثابتة بشكل أفضل.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-latest-news-15253/">&lt;p&gt;أصدر موقع الفيس بوك اليوم إضافة جديدة للمتصفح، تسمح برفع الصور مباشرة من الجهاز عبر هذه الإضافة إلى حساب المستخدم في الموقع، بطريقة سهلة وأكثر سرعة وثابتة بشكل أفضل.&lt;/p&gt;
 &lt;p&gt;كما أن بها ميزة الرفع في الخلفية، أي يمكنك وأنت ترفع صورك، أن تغادر صفحة الرفع وحتى موقع الفيسبوك من دون أن يتعطل الرفع، وبعد أن ينتهي الرفع ستظهر لك رسالة تخبرك بنجاح العملية.&lt;/p&gt;
 &lt;p&gt;لتحميل التعديلات الجديدة..&lt;a href=&quot;https://web.archive.org/web/20100211043154/http://www.codeplex.com/liveuploadfacebook/&quot;&gt;اضغط هنا&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;ـــــــــــــــــــــــــــــــ&lt;/p&gt;

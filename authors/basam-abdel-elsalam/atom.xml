@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - basam-abdel-elsalam</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/basam-abdel-elsalam/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/basam-abdel-elsalam/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2007-03-15T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/basam-abdel-elsalam/atom.xml</id>
+    <id>https://el20at.com/authors/basam-abdel-elsalam/atom.xml</id>
     <entry xml:lang="ar">
         <title>الأطلال .. سكرة حب</title>
         <published>2007-03-15T00:00:00+00:00</published>
@@ -24,10 +24,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/20at-klam-rosas-3430/"/>
-        <id>https://20at.mosab.me/articles/20at-klam-rosas-3430/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/20at-klam-rosas-3430/"/>
+        <id>https://el20at.com/articles/20at-klam-rosas-3430/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/20at-klam-rosas-3430/">&lt;p&gt;قال أحد النقاد: لو لم تغن أم كلثوم غير الأطلال لكفتها، ووضعتها جريدة (لو موند الفرنسية) في المركز الثاني ضمن أعظم مئة عمل موسيقي بعد سيمفوينة بيتهوفن التاسعة.&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/20at-klam-rosas-3430/">&lt;p&gt;قال أحد النقاد: لو لم تغن أم كلثوم غير الأطلال لكفتها، ووضعتها جريدة (لو موند الفرنسية) في المركز الثاني ضمن أعظم مئة عمل موسيقي بعد سيمفوينة بيتهوفن التاسعة.&lt;/p&gt;
 &lt;h3&gt;يا فؤادي رحم الله الهوى كان صرحا من خيال فهوى&lt;/h3&gt;
 &lt;p&gt;قصيدة الأطلال، تلك التي كتبها إبراهيم ناجي وتمنى أن تغنيها أم كلثوم.. تلك الأمنية التي لم تتحقق إلا بعد ثلاثة عشر عاما من وفاة الشاعر فقد غنتها أم كلثوم عام 1966 بعد فترة من توقفها عن غناء القصائد وانشغالها (بالطقاطيق)، مما صرف الجمهور نوعا ما عن قصائدها وجعل من الأطلال اختبارا صعبا لأم كلثوم.&lt;/p&gt;
 &lt;h3&gt;رحم الله الهوى&lt;/h3&gt;

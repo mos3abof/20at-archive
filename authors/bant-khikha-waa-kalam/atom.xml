@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - bant-khikha-waa-kalam</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/bant-khikha-waa-kalam/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/bant-khikha-waa-kalam/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2009-11-04T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/bant-khikha-waa-kalam/atom.xml</id>
+    <id>https://el20at.com/authors/bant-khikha-waa-kalam/atom.xml</id>
     <entry xml:lang="ar">
         <title>نبذة عن الحملة الخيخية للتبرع بالدم</title>
         <published>2009-11-04T00:00:00+00:00</published>
@@ -24,10 +24,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-egyptian-blogs-13917/"/>
-        <id>https://20at.mosab.me/articles/masr-egyptian-blogs-13917/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-egyptian-blogs-13917/"/>
+        <id>https://el20at.com/articles/masr-egyptian-blogs-13917/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-egyptian-blogs-13917/">&lt;p&gt;البوست ده توضيح لفكرة الحملة الخيخية&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-egyptian-blogs-13917/">&lt;p&gt;البوست ده توضيح لفكرة الحملة الخيخية&lt;/p&gt;
 &lt;p&gt;علشان فيه اكتر من شخص بعتولي ايميلات&lt;/p&gt;
 &lt;p&gt;مش فاهمين قصة التبرع بالدم&lt;/p&gt;
 &lt;p&gt;الفكرة يا جماعة جت من انى قبل ما ادخل عالم التدوين&lt;/p&gt;
@@ -188,10 +188,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-blog-12450/"/>
-        <id>https://20at.mosab.me/articles/masr-blog-12450/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-blog-12450/"/>
+        <id>https://el20at.com/articles/masr-blog-12450/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-blog-12450/">&lt;p&gt;&lt;span style=&quot;color:#0000FF&quot;&gt;&lt;strong&gt;ازاى تعرف انك بقيت مدون مغرور :&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-blog-12450/">&lt;p&gt;&lt;span style=&quot;color:#0000FF&quot;&gt;&lt;strong&gt;ازاى تعرف انك بقيت مدون مغرور :&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;لما وقت فراغك تقضيه فى قراية اللى انت كتبته قبل كدة وماتحاولش تقرا غيرك كتب ايه&lt;/p&gt;
 &lt;p&gt;لما تبطل ترد على تعليقات الناس، لما تبطل تروح تزور حد فى مدونته وتكتفى ان الناس هى اللى بتزورك&lt;/p&gt;
 &lt;p&gt;لما تحس بحالة انتشاء وحالة من التميز لما تقرا جملة (انت بالذات)&lt;/p&gt;

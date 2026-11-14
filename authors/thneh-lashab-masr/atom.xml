@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - thneh-lashab-masr</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/thneh-lashab-masr/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/thneh-lashab-masr/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2005-12-28T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/thneh-lashab-masr/atom.xml</id>
+    <id>https://el20at.com/authors/thneh-lashab-masr/atom.xml</id>
     <entry xml:lang="ar">
         <title>الفهد الصاحى :</title>
         <published>2005-12-28T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/egyvote-0/"/>
-        <id>https://20at.mosab.me/articles/egyvote-0/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/egyvote-0/"/>
+        <id>https://el20at.com/articles/egyvote-0/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/egyvote-0/">&lt;p&gt;... &lt;strong&gt;&lt;span style=&quot;color:#666666&quot;&gt;أبن بورسعيد :&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/egyvote-0/">&lt;p&gt;... &lt;strong&gt;&lt;span style=&quot;color:#666666&quot;&gt;أبن بورسعيد :&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#000066&quot;&gt;&lt;a href=&quot;https://web.archive.org/web/20060615190013/http://egyvote.20at.com/marquee/view.php?mid=539&quot;&gt; الى الجحيم يا أبا مصعب الزرقاوى &lt;/a&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;... &lt;strong&gt;&lt;span style=&quot;color:#666666&quot;&gt;أبن بورسعيد :&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&lt;span style=&quot;color:#000066&quot;&gt;&lt;a href=&quot;https://web.archive.org/web/20060615190013/http://egyvote.20at.com/marquee/view.php?mid=538&quot;&gt; الى الجحيم يا أبا مصعب الزرقاوى &lt;/a&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -49,9 +49,7 @@
 &lt;p&gt;مدير التحرير&lt;/p&gt;
 &lt;p&gt;سكرتير التحرير&lt;/p&gt;
 &lt;p&gt;ديسك&lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;color:#FF0000&quot;&gt;محمد أبو زيد&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;تحقيقات&lt;/p&gt;
-&lt;h3&gt;&lt;span style=&quot;color:#FF0000&quot;&gt;مروة صلاح&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;صوتيات&lt;/p&gt;
 &lt;p&gt;فلاش&lt;/p&gt;
 &lt;h3&gt;&lt;span style=&quot;color:#FF0000&quot;&gt;محمد المعنصم&lt;/span&gt;&lt;/h3&gt;

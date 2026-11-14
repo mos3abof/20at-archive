@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="ar">
     <title>أرشيف عشرينات - hussein-aoda</title>
     <subtitle>في الفترة ٨٥٧٨ مقالًا، كما حفظها أرشيف الإنترنت.</subtitle>
-    <link rel="self" type="application/atom+xml" href="https://20at.mosab.me/authors/hussein-aoda/atom.xml"/>
-    <link rel="alternate" type="text/html" href="https://20at.mosab.me"/>
+    <link rel="self" type="application/atom+xml" href="https://el20at.com/authors/hussein-aoda/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://el20at.com"/>
     <generator uri="https://www.getzola.org/">Zola</generator>
     <updated>2007-05-07T00:00:00+00:00</updated>
-    <id>https://20at.mosab.me/authors/hussein-aoda/atom.xml</id>
+    <id>https://el20at.com/authors/hussein-aoda/atom.xml</id>
     <entry xml:lang="ar">
         <title>علم مصر شبشب</title>
         <published>2007-05-07T00:00:00+00:00</published>
@@ -18,10 +18,10 @@
           </name>
         </author>
         
-        <link rel="alternate" type="text/html" href="https://20at.mosab.me/articles/masr-egyptian-newspapers-5765/"/>
-        <id>https://20at.mosab.me/articles/masr-egyptian-newspapers-5765/</id>
+        <link rel="alternate" type="text/html" href="https://el20at.com/articles/masr-egyptian-newspapers-5765/"/>
+        <id>https://el20at.com/articles/masr-egyptian-newspapers-5765/</id>
         
-        <content type="html" xml:base="https://20at.mosab.me/articles/masr-egyptian-newspapers-5765/">&lt;p&gt;شهدت أسواق ومحلات الملابس الرياضية مؤخرًا، ظاهرة أثارت استفزاز روادها من المصريين، تمثلت في عرضها &quot;شباشب&quot; مطبوع عليها العلم المصري تباع بأسعار تختلف بحسب المنطقة التي تباع فيها، وتنتشر بشكل خاص في الأحياء الراقية .&lt;/p&gt;
+        <content type="html" xml:base="https://el20at.com/articles/masr-egyptian-newspapers-5765/">&lt;p&gt;شهدت أسواق ومحلات الملابس الرياضية مؤخرًا، ظاهرة أثارت استفزاز روادها من المصريين، تمثلت في عرضها &quot;شباشب&quot; مطبوع عليها العلم المصري تباع بأسعار تختلف بحسب المنطقة التي تباع فيها، وتنتشر بشكل خاص في الأحياء الراقية .&lt;/p&gt;
 &lt;p&gt;ويباع هذا النوع من &quot;الشباشب&quot; في أحياء مصر الجديدة ومدينة نصر والنزهة الجديدة بسعر ثلاثين جنيهًا، بينما يباع بأقل من نصف هذا المبلغ بمنطقة عين شمس وسوق الخميس بالمطرية.&lt;/p&gt;
 &lt;p&gt;وأفاد بعض أصحاب المحلات في مصر الجديدة، &quot;المصريون&quot; أن هذه النوعية من الشباشب يشترونها من بائعي الجملة في منطقة العتبة، لكنهم لا يعلمون ما إذا كانت تصنع تحت إشرافهم أم أنها تأتي مهربة من الخارج.&lt;/p&gt;
 &lt;p&gt;وأكدوا أن العلم المصري ليس وحده المصنوع علي هيئة &quot;شبشب&quot;، لكن هناك أيضًا شبشب مطبوع عليها العلم البرازيلي والسويدي والفرنسي والألماني والإنجليزي وجميعها تباع بسعر واحد.&lt;/p&gt;
